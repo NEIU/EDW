@@ -1,0 +1,13 @@
+Transformer(8.4.6018.0)  Wed Jun 30 08:30:18 2010
+
+LogFileDirectory=c:\edw80101u\cognos\edw\logs\
+ModelSaveDirectory=c:\edw80101u\cognos\edw\transformer_models\win\
+DataSourceDirectory=..\data\
+CubeSaveDirectory=c:\edw80101u\cognos\edw\cubes\
+DataWorkDirectory=..\temp\
+ModelWorkDirectory=..\temp\
+MaxTransactionNum=500000
+Product locale: English (en)
+Run locale: English (United States) (en-us)
+
+Transformer  Wed Jun 30 08:30:44 2010

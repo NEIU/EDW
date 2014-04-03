@@ -1,0 +1,1657 @@
+
+Name "WFT_EMPLOYEE_POSITION" ModelCodePage "windows-1252" AutoAccess False 
+SynchroCycle 0 SynchroStamp 0 UpdateCycle 68 ModelStamp 1079637569 ClientStamp 1079637570 
+ServerStamp 0 Version "8.4.6018.0" ModelCategoryOrderDefault OrderUsePreference 
+ModelOrderedByDefault False 
+
+CognosSource 69651 "EDW Employee Position" SourceType Package SourcePath "/content/folder[@name='EDW Packages']/package[@name='EDW Employee Position']" 
+PackageTimeStamp "/content/folder[@name='EDW Packages']/package[@name='EDW Employee Position']/model[@name='model']" 
+
+
+DataSource 69653 "EDW Employee Position~1" Separator "," SourceType CognosSourceQuery 
+CharacterSet Default DecimalSep "." Thousandsep "," Columns True Timing PopYesCreateDefault 
+PackageReportSource 69651 "EDW Employee Position" AutoSummary True SetCurrent True 
+ServerSource False Speed False Presummarized False StreamExtractSize 0 
+
+
+OrgName 69655 "[EDW Snapshot Star Schemas].[Multi Source].[Multi Source]" 
+Origin Source Offset 0 Column "Multi Source" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69659 "[EDW Snapshot Star Schemas].[Multi Source].[Multi Source Long Description]" 
+Origin Source Offset 1 Column "Multi Source Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69661 "[EDW Snapshot Star Schemas].[Time].[Time Key]" Origin Source 
+Offset 2 Column "Time Key" Storage Float64 Scale 0 Size 8 Decimals 0 InputScale 0 
+TimeArray Off Rollup CountAll ColSrcType None 
+
+OrgName 69663 "[EDW Snapshot Star Schemas].[Time].[Event]" Origin Source 
+Offset 3 Column "Event" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 69667 "[EDW Snapshot Star Schemas].[Time].[Event Long Description]" 
+Origin Source Offset 4 Column "Event Long Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69685 "[EDW Snapshot Star Schemas].[Time].[Calendar Year]" Origin Source 
+Offset 5 Column "Calendar Year" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 69691 "[EDW Snapshot Star Schemas].[Time].[Calendar Month]" Origin Source 
+Offset 6 Column "Calendar Month" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 69695 "[EDW Snapshot Star Schemas].[Time].[Calendar Month Long Description]" 
+Origin Source Offset 7 Column "Calendar Month Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69697 "[EDW Snapshot Star Schemas].[Time].[Calendar Month Last Event Ind]" 
+Origin Source Offset 8 Column "Calendar Month Last Event Ind" Storage Text 
+Scale 0 Size 14 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69699 "[EDW Snapshot Star Schemas].[Administration].[Employer Code]" 
+Origin Source Offset 9 Column "Employer Code" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69703 "[EDW Snapshot Star Schemas].[Administration].[Employer Code Long Description]" 
+Origin Source Offset 10 Column "Employer Code Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69705 "[EDW Snapshot Star Schemas].[Administration].[Home Organization]" 
+Origin Source Offset 11 Column "Home Organization" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69709 "[EDW Snapshot Star Schemas].[Administration].[Home Organization Long Description]" 
+Origin Source Offset 12 Column "Home Organization Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69711 "[EDW Snapshot Star Schemas].[Administration].[Home Organization Chart]" 
+Origin Source Offset 13 Column "Home Organization Chart" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69715 "[EDW Snapshot Star Schemas].[Administration].[Home Organization Chart Long Description]" 
+Origin Source Offset 14 Column "Home Organization Chart Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None 
+
+OrgName 69719 "[EDW Snapshot Star Schemas].[Demographic].[Ethnicity Category]" 
+Origin Source Offset 15 Column "Ethnicity Category" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69723 "[EDW Snapshot Star Schemas].[Demographic].[Ethnicity Category Long Description]" 
+Origin Source Offset 16 Column "Ethnicity Category Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69729 "[EDW Snapshot Star Schemas].[Demographic].[Ethnicity Long Description]" 
+Origin Source Offset 17 Column "Ethnicity Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69743 "[EDW Snapshot Star Schemas].[Demographic].[Gender]" Origin Source 
+Offset 18 Column "Gender" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 69747 "[EDW Snapshot Star Schemas].[Demographic].[Gender Long Description]" 
+Origin Source Offset 19 Column "Gender Long Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69769 "[EDW Snapshot Star Schemas].[Demographic].[Nation Of Citizenship]" 
+Origin Source Offset 20 Column "Nation Of Citizenship" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69773 "[EDW Snapshot Star Schemas].[Demographic].[Nation Of Citizenship Long Description]" 
+Origin Source Offset 21 Column "Nation Of Citizenship Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None 
+
+OrgName 69781 "[EDW Snapshot Star Schemas].[Demographic].[Visa Type]" Origin Source 
+Offset 22 Column "Visa Type" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 69785 "[EDW Snapshot Star Schemas].[Demographic].[Visa Type Long Description]" 
+Origin Source Offset 23 Column "Visa Type Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69793 "[EDW Snapshot Star Schemas].[Demographic].[Primary Disability]" 
+Origin Source Offset 24 Column "Primary Disability" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69797 "[EDW Snapshot Star Schemas].[Demographic].[Primary Disability Long Description]" 
+Origin Source Offset 25 Column "Primary Disability Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69805 "[EDW Snapshot Star Schemas].[Demographic].[Veteran Type]" 
+Origin Source Offset 26 Column "Veteran Type" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69809 "[EDW Snapshot Star Schemas].[Demographic].[Veteran Type Long Description]" 
+Origin Source Offset 27 Column "Veteran Type Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69813 "[EDW Snapshot Star Schemas].[Employee].[Active Position Ind]" 
+Origin Source Offset 28 Column "Active Position Ind" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69815 "[EDW Snapshot Star Schemas].[Employee].[Employee Status]" 
+Origin Source Offset 29 Column "Employee Status" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69819 "[EDW Snapshot Star Schemas].[Employee].[Employee Status Long Description]" 
+Origin Source Offset 30 Column "Employee Status Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69821 "[EDW Snapshot Star Schemas].[Employee].[Employee Class]" 
+Origin Source Offset 31 Column "Employee Class" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69825 "[EDW Snapshot Star Schemas].[Employee].[Employee Class Long Description]" 
+Origin Source Offset 32 Column "Employee Class Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69827 "[EDW Snapshot Star Schemas].[Employee].[Employee EEO Skill]" 
+Origin Source Offset 33 Column "Employee EEO Skill" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69831 "[EDW Snapshot Star Schemas].[Employee].[Employee EEO Skill Long Description]" 
+Origin Source Offset 34 Column "Employee EEO Skill Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69833 "[EDW Snapshot Star Schemas].[Employee].[Employee Grouping]" 
+Origin Source Offset 35 Column "Employee Grouping" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69837 "[EDW Snapshot Star Schemas].[Employee].[Employee Grouping Long Description]" 
+Origin Source Offset 36 Column "Employee Grouping Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69839 "[EDW Snapshot Star Schemas].[Employee].[Employee Time Status]" 
+Origin Source Offset 37 Column "Employee Time Status" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69843 "[EDW Snapshot Star Schemas].[Employee].[Employee Time Status Long Description]" 
+Origin Source Offset 38 Column "Employee Time Status Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None 
+
+OrgName 69845 "[EDW Snapshot Star Schemas].[Employee].[Years Of Service Range]" 
+Origin Source Offset 39 Column "Years Of Service Range" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69849 "[EDW Snapshot Star Schemas].[Employee].[Years Of Service Range Long Description]" 
+Origin Source Offset 40 Column "Years Of Service Range Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None 
+
+OrgName 69851 "[EDW Snapshot Star Schemas].[Employee].[Annual Salary Range]" 
+Origin Source Offset 41 Column "Annual Salary Range" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69855 "[EDW Snapshot Star Schemas].[Employee].[Annual Salary Range Long Description]" 
+Origin Source Offset 42 Column "Annual Salary Range Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69857 "[EDW Snapshot Star Schemas].[Employee].[Tenure]" Origin Source 
+Offset 43 Column "Tenure" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 69861 "[EDW Snapshot Star Schemas].[Employee].[Tenure Long Description]" 
+Origin Source Offset 44 Column "Tenure Long Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69863 "[EDW Snapshot Star Schemas].[Employee].[Faculty Member Category]" 
+Origin Source Offset 45 Column "Faculty Member Category" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69867 "[EDW Snapshot Star Schemas].[Employee].[Faculty Member Category Long Description]" 
+Origin Source Offset 46 Column "Faculty Member Category Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None 
+
+OrgName 69875 "[EDW Snapshot Star Schemas].[Position].[Position]" Origin Source 
+Offset 47 Column "Position" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 69879 "[EDW Snapshot Star Schemas].[Position].[Position Long Description]" 
+Origin Source Offset 48 Column "Position Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69881 "[EDW Snapshot Star Schemas].[Position].[Position Status]" 
+Origin Source Offset 49 Column "Position Status" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69885 "[EDW Snapshot Star Schemas].[Position].[Position Status Long Description]" 
+Origin Source Offset 50 Column "Position Status Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69887 "[EDW Snapshot Star Schemas].[Position].[Position Class]" 
+Origin Source Offset 51 Column "Position Class" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69891 "[EDW Snapshot Star Schemas].[Position].[Position Class Long Description]" 
+Origin Source Offset 52 Column "Position Class Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69893 "[EDW Snapshot Star Schemas].[Position].[Position Contract Type]" 
+Origin Source Offset 53 Column "Position Contract Type" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69897 "[EDW Snapshot Star Schemas].[Position].[Position Contract Type Long Description]" 
+Origin Source Offset 54 Column "Position Contract Type Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None 
+
+OrgName 69899 "[EDW Snapshot Star Schemas].[Position].[Position Campus]" 
+Origin Source Offset 55 Column "Position Campus" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69903 "[EDW Snapshot Star Schemas].[Position].[Position Campus Long Description]" 
+Origin Source Offset 56 Column "Position Campus Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69905 "[EDW Snapshot Star Schemas].[Position].[Position EEO Skill]" 
+Origin Source Offset 57 Column "Position EEO Skill" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69909 "[EDW Snapshot Star Schemas].[Position].[Position EEO Skill Long Description]" 
+Origin Source Offset 58 Column "Position EEO Skill Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 69911 "[EDW Snapshot Star Schemas].[Position].[Program Classification]" 
+Origin Source Offset 59 Column "Program Classification" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69915 "[EDW Snapshot Star Schemas].[Position].[Program Classification Long Description]" 
+Origin Source Offset 60 Column "Program Classification Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None 
+
+OrgName 69919 "[EDW Snapshot Star Schemas].[Employee Position Measure].[Person UID]" 
+Origin Source Offset 61 Column "Person UID" Storage Float64 Scale 0 Size 8 
+Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup CountAll ColSrcType None 
+
+
+OrgName 69923 "[EDW Snapshot Star Schemas].[Employee Position Measure].[Age Range]" 
+Origin Source Offset 62 Column "Age Range" Storage Text Scale 0 Size 30 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 69925 "[EDW Snapshot Star Schemas].[Employee Position Measure].[Years Of Service]" 
+Origin Source Offset 63 Column "Years Of Service" Storage Float64 Scale 0 
+Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Average 
+ColSrcType None 
+
+OrgName 69927 "[EDW Snapshot Star Schemas].[Employee Position Measure].[Annual Salary]" 
+Origin Source Offset 64 Column "Annual Salary" Storage Float64 Scale 0 
+Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Average 
+ColSrcType None 
+
+OrgName 69929 "[EDW Snapshot Star Schemas].[Employee Position Measure].[Hourly FTE]" 
+Origin Source Offset 65 Column "Hourly FTE" Storage Float64 Scale 0 Size 8 
+Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Average ColSrcType None 
+
+
+OrgName 69931 "[EDW Snapshot Star Schemas].[Employee Position Measure].[Salaried FTE]" 
+Origin Source Offset 66 Column "Salaried FTE" Storage Float64 Scale 0 Size 8 
+Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Average ColSrcType None 
+
+
+OrgName 69945 "[EDW Snapshot Star Schemas].[Employee Position Measure].[YTD Total Earnings]" 
+Origin Source Offset 67 Column "YTD Total Earnings" Storage Float64 Scale 0 
+Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+ColSrcType None 
+
+OrgName 69947 "[EDW Snapshot Star Schemas].[Employee Position Measure].[YTD Regular Earnings]" 
+Origin Source Offset 68 Column "YTD Regular Earnings" Storage Float64 Scale 0 
+Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+ColSrcType None 
+
+OrgName 69949 "[EDW Snapshot Star Schemas].[Employee Position Measure].[YTD Overtime Earnings]" 
+Origin Source Offset 69 Column "YTD Overtime Earnings" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+ColSrcType None 
+
+OrgName 69951 "[EDW Snapshot Star Schemas].[Employee Position Measure].[YTD Other Earnings]" 
+Origin Source Offset 70 Column "YTD Other Earnings" Storage Float64 Scale 0 
+Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+ColSrcType None 
+
+OrgName 69953 "[EDW Snapshot Star Schemas].[Employee Position Measure].[YTD Employer Deduction Amount]" 
+Origin Source Offset 71 Column "YTD Employer Deduction Amount" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+ColSrcType None 
+
+OrgName 69955 "[EDW Snapshot Star Schemas].[Employee Position Measure].[YTD Employee Deduction Amount]" 
+Origin Source Offset 72 Column "YTD Employee Deduction Amount" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+ColSrcType None 
+
+OrgName 69957 "[EDW Snapshot Star Schemas].[Employee Position Measure].[Encumbrance Amount]" 
+Origin Source Offset 73 Column "Encumbrance Amount" Storage Float64 Scale 0 
+Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+ColSrcType None 
+
+OrgName 71397 "Calendar Month and Year" Origin Calculated Offset 74 Column "Calendar Month and Year" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None Calc "Calendar Year@69685" + ' ' + substring ( "Calendar Month Long Description@69695" , 1 , 3 )  
+
+OrgName 69961 "Position Level 1" Origin Calculated Offset 74 Column "Position Count Level 1" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Description InputScale 0 
+TimeArray Off ColSrcType None Calc substring ( "Position@69875" , 1 , 2 )  
+
+OrgName 69967 "Person UID Level 1" Origin Calculated Offset 74 Column "Person UID Count Level 1" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Quantity InputScale 0 TimeArray Off 
+ColSrcType None Calc floor ( "Person UID@69919" * 0.001 )  
+
+OrgName 71401 "[EDW Snapshot Star Schemas].[Job].[Job Suffix]" Origin Source 
+Offset 74 Column "Job Suffix" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 71403 "[EDW Snapshot Star Schemas].[Job].[Job Suffix Description]" 
+Origin Source Offset 75 Column "Job Suffix Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 71405 "[EDW Snapshot Star Schemas].[Job].[Job Suffix Long Description]" 
+Origin Source Offset 76 Column "Job Suffix Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+Dimension 67487 "Multi Source" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 67489 "Multi Source" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67491 "By Multi Source" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67497 "Multi Source" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 67499 "Multi Source" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Multi Source" 
+
+Associations 67501 "Multi Source Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Multi Source Long Description" 
+
+Associations 67503 "Multi Source Long Description" AssociationContext 67491 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Multi Source Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67491 
+
+ViewName 67493 "All Categories" Type All ViewCustomView 0 
+ViewName 67495 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 7265 "Calendar Year" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 7269 "Calendar Date" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 7271 "By Calendar Date" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 7277 "Year" Blanks "( blank )" Inclusion Generate DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories True UniqueMove False Associations 7279 
+"Calendar Year" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Calendar Year" 
+Associations 7281 "Calendar Year" AssociationContext 7271 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Calendar Year" SortOrder Text 
+SortAs Ascending 
+
+
+Levels 7289 "Month" Blanks "( blank )" Inclusion Generate DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 7291 
+"Calendar Month" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Calendar Month" 
+Associations 7293 "Calendar Month" AssociationContext 7271 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Calendar Month" SortOrder Text 
+SortAs Ascending 
+Associations 70543 "Calendar Month and Year" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Calendar Month and Year" 
+
+
+
+Levels 7311 "Event" Blanks "( Blank )" Inclusion Suppress DateFunction None 
+Generate Need RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 7313 
+"Event" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Event" 
+
+Associations 7319 "Event Long Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Event Long Description" 
+Associations 7321 "Event Long Description" AssociationContext 7271 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Event Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 7315 "Time Key" Blanks "( Blank )" DateFunction None Generate Need 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Suppressed True Timerank 0 UniqueCategories True UniqueMove False Associations 7317 
+"Time Key" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Time Key" 
+
+
+
+
+MapDrills 
+MapDrill 7271 
+
+ViewName 7273 "All Categories" Type All ViewCustomView 0 
+ViewName 7275 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 54143 "Calendar Month" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 54145 "Calendar Month" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 54147 "By Calendar Month" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 54153 "Calendar Month" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 54155 "Calendar Month" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Calendar Month" 
+
+Associations 54161 "Calendar Month Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Calendar Month Long Description" 
+
+Associations 54163 "Calendar Month" AssociationContext 54147 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Calendar Month" SortOrder Text 
+SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 54147 
+
+ViewName 54149 "All Categories" Type All ViewCustomView 0 
+ViewName 54151 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 68565 "Latest Event Ind" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 68567 "Cal Mm Last Event Ind" Inclusion Generate Lastuse 20090105 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 68569 "By Cal Mm Last Event Ind" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 68575 "Latest Event Ind" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 68577 "Calendar Month Last Event Ind" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Calendar Month Last Event Ind" 
+
+Associations 68581 "Calendar Month Last Event Ind" AssociationContext 68569 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Calendar Month Last Event Ind" 
+SortOrder Text SortAs Descending 
+
+
+
+MapDrills 
+MapDrill 68569 
+
+ViewName 68571 "All Categories" Type All ViewCustomView 0 
+ViewName 68573 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 415 "Event" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 417 "Event" Inclusion Generate Lastuse 20090105 Filtered False Suppressed False 
+Sign False HideValue False IsKeyOrphanage False IsTruncated False Blanks False 
+
+Drill 419 "By Event" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 425 "Event" Blanks "( Blank )" DateFunction None Generate None RefreshLabel False 
+RefreshDescription False RefreshShortName False NewCatsLock False Timerank 0 
+UniqueCategories False UniqueMove False Associations 427 "Event" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Event" 
+Associations 431 "Event Long Description" AssociationContext 419 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Event Long Description" 
+SortOrder Text SortAs Ascending 
+Associations 1999 "Event Long Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Event Long Description" 
+
+
+
+MapDrills 
+MapDrill 419 
+
+ViewName 421 "All Categories" Type All ViewCustomView 0 
+ViewName 423 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67279 "Active Position Ind" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 67281 "Active Position Ind" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67283 "By Active Position Ind" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 67289 "Active Position Ind" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 67291 
+"Active Position Ind" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Active Position Ind" 
+Associations 67293 "Active Position Ind" AssociationContext 67283 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Active Position Ind" 
+SortOrder Text SortAs Descending 
+
+
+
+MapDrills 
+MapDrill 67283 
+
+ViewName 67285 "All Categories" Type All ViewCustomView 0 
+ViewName 67287 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 68665 "Age Range" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 68667 "Age Range" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 68669 "By Age Range" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 68675 "Age Range" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 68677 "Age Range" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Age Range" 
+
+Associations 68679 "Age Range" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Age Range" 
+Associations 68681 "Age Range" AssociationContext 68669 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Age Range" SortOrder Text 
+SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 68669 
+
+ViewName 68671 "All Categories" Type All ViewCustomView 0 
+ViewName 68673 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 7103 "Annual Salary Range" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 7105 "Annual Salary Range" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 7107 "By Annual Salary Range" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 7113 "Annual Salary Range" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 7115 
+"Annual Salary Range" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Annual Salary Range" 
+Associations 7117 "Annual Salary Range Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Annual Salary Range Long Description" 
+
+Associations 7119 "Annual Salary" AssociationContext 7107 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Annual Salary" SortOrder Int16 
+SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 7107 
+
+ViewName 7109 "All Categories" Type All ViewCustomView 0 
+ViewName 7111 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 6993 "Employee Class" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 6995 "Employee Class" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 6997 "By Employee Class" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 7003 "Employee Class" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 7005 "Employee Class" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Employee Class" 
+
+Associations 7007 "Employee Class Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Employee Class Long Description" 
+
+Associations 7009 "Employee Class Long Description" AssociationContext 6997 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Employee Class Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 6997 
+
+ViewName 6999 "All Categories" Type All ViewCustomView 0 
+ViewName 7001 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 7015 "Employee EEO Skill" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 7017 "Employee Eeo Skill" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 7019 "By Employee Eeo Skill" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 7025 "Employee EEO Skill" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 7027 "Employee EEO Skill" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Employee EEO Skill" 
+
+Associations 7029 "Employee EEO Skill Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Employee EEO Skill Long Description" 
+
+Associations 7031 "Employee EEO Skill Long Description" AssociationContext 7019 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Employee EEO Skill Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 7019 
+
+ViewName 7021 "All Categories" Type All ViewCustomView 0 
+ViewName 7023 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 7059 "Employee Grouping" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 7061 "Employee Grouping" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 7063 "By Employee Grouping" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 7069 "Employee Grouping" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 7071 "Employee Grouping" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Employee Grouping" 
+
+Associations 7073 "Employee Grouping Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Employee Grouping Long Description" 
+
+Associations 7075 "Employee Grouping Long Description" AssociationContext 7063 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Employee Grouping Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 7063 
+
+ViewName 7065 "All Categories" Type All ViewCustomView 0 
+ViewName 7067 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 6971 "Employee Status" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 6973 "Employee Status" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 6975 "By Employee Status" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 6981 "Employee Status" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 6983 "Employee Status" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Employee Status" 
+
+Associations 6985 "Employee Status Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Employee Status Long Description" 
+
+Associations 6987 "Employee Status Long Description" AssociationContext 6975 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Employee Status Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 6975 
+
+ViewName 6977 "All Categories" Type All ViewCustomView 0 
+ViewName 6979 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 7037 "Employee Time Status" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 7039 "Employee Time Status" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 7041 "By Employee Time Status" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 7047 "Employee Time Status" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 7049 
+"Employee Time Status" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Employee Time Status" 
+Associations 7051 "Employee Time Status Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Employee Time Status Long Description" 
+
+Associations 7053 "Employee Time Status Long Description" AssociationContext 7041 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Employee Time Status Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 7041 
+
+ViewName 7043 "All Categories" Type All ViewCustomView 0 
+ViewName 7045 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 6905 "Employer Code" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 6907 "Employer Code" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 6909 "By Employer Code" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 6915 "Employer Name" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 6917 "Employer Code" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Employer Code" 
+
+Associations 6919 "Employer Code Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Employer Code Long Description" 
+
+Associations 6921 "Employer Code Long Description" AssociationContext 6909 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Employer Code Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 6909 
+
+ViewName 6911 "All Categories" Type All ViewCustomView 0 
+ViewName 6913 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 6847 "Ethnicity Category" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 6849 "Ethnicity Category" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 6851 "By Ethnicity Category" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 6857 "Ethnicity Category" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 6859 "Ethnicity Category" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Ethnicity Category" 
+
+Associations 6865 "Ethnicity Category Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Ethnicity Category Long Description" 
+
+Associations 6867 "Ethnicity Category Long Description" AssociationContext 6851 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Ethnicity Category Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 66643 "Ethnicity" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 66645 "Ethnicity Long Description" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Ethnicity Long Description" 
+
+Associations 66647 "Ethnicity Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Ethnicity Long Description" 
+
+Associations 66649 "Ethnicity Long Description" AssociationContext 6851 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Ethnicity Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 6851 
+
+ViewName 6853 "All Categories" Type All ViewCustomView 0 
+ViewName 6855 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 68545 "Ethnicity" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 68547 "Ethnicity" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 68549 "By Ethnicity" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 68555 "Ethnicity" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 68557 "Ethnicity Long Description" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Ethnicity Long Description" 
+
+Associations 68559 "Ethnicity Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Ethnicity Long Description" 
+
+Associations 68561 "Ethnicity Long Description" AssociationContext 68549 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Ethnicity Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 68549 
+
+ViewName 68551 "All Categories" Type All ViewCustomView 0 
+ViewName 68553 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67261 "Faculty Member Category" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 67263 "Faculty Member Category" Inclusion Generate Lastuse 20090105 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 67265 "By Faculty Member Category" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 67271 "Faculty Member Category" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 67273 
+"Faculty Member Category" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Faculty Member Category" 
+Associations 67275 "Faculty Member Category Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Faculty Member Category Long Description" 
+
+Associations 67277 "Faculty Member Category Long Description" AssociationContext 67265 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Faculty Member Category Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67265 
+
+ViewName 67267 "All Categories" Type All ViewCustomView 0 
+ViewName 67269 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 781 "Gender" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 783 "Gender" Inclusion Generate Lastuse 20090105 Filtered False Suppressed False 
+Sign False HideValue False IsKeyOrphanage False IsTruncated False Blanks False 
+
+Drill 785 "By Gender" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 791 "Gender" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 793 "Gender" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Gender" 
+
+Associations 795 "Gender Long Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Gender Long Description" 
+Associations 797 "Gender Long Description" AssociationContext 785 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Gender Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 785 
+
+ViewName 787 "All Categories" Type All ViewCustomView 0 
+ViewName 789 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 6927 "Home Organization" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 6929 "Home Organization" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 6931 "By Home Organization" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 6937 "Home Organization" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 6939 "Home Organization" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Home Organization" 
+
+Associations 6945 "Home Organization Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Home Organization Long Description" 
+
+Associations 6947 "Home Organization Long Description" AssociationContext 6931 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Home Organization Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 6931 
+
+ViewName 6933 "All Categories" Type All ViewCustomView 0 
+ViewName 6935 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 6949 "Home Organization Chart" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 6951 "Home Organization Chart" Inclusion Generate Lastuse 20090105 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 6953 "By Home Organization Chart" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 6959 "Home Organization Chart" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 6961 
+"Home Organization Chart" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Home Organization Chart" 
+Associations 6963 "Home Organization Chart Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Home Organization Chart Long Description" 
+
+Associations 6965 "Home Organization Chart Long Description" AssociationContext 6953 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Home Organization Chart Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 6953 
+
+ViewName 6955 "All Categories" Type All ViewCustomView 0 
+ViewName 6957 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67207 "Nation Of Citizenship" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 67209 "Nation Of Citizenship" Inclusion Generate Lastuse 20090105 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 67211 "By Nation Of Citizenship" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 67217 "Nation Of Citizenship" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 67219 
+"Nation Of Citizenship" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Nation Of Citizenship" 
+Associations 67221 "Nation Of Citizenship Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Nation Of Citizenship Long Description" 
+
+Associations 67223 "Nation Of Citizenship Long Description" AssociationContext 67211 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Nation Of Citizenship Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67211 
+
+ViewName 67213 "All Categories" Type All ViewCustomView 0 
+ViewName 67215 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67295 "Position" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 67297 "Position" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67299 "By Position" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67305 "Position" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 67307 "Position" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Position" 
+
+Associations 67309 "Position Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Position Long Description" 
+
+Associations 67311 "Position Long Description" AssociationContext 67299 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Position Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67299 
+
+ViewName 67301 "All Categories" Type All ViewCustomView 0 
+ViewName 67303 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67331 "Position Campus" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 67333 "Position Campus" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67335 "By Position Campus" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67341 "Position Campus" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 67343 "Position Campus" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Position Campus" 
+
+Associations 67345 "Position Campus Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Position Campus Long Description" 
+
+Associations 67347 "Position Campus Long Description" AssociationContext 67335 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Position Campus Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67335 
+
+ViewName 67337 "All Categories" Type All ViewCustomView 0 
+ViewName 67339 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 54097 "Position Class" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 54099 "Position Class" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 54101 "By Position Class" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 54107 "Position Class" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 54109 "Position Class" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Position Class" 
+
+Associations 54123 "Position Class Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Position Class Long Description" 
+
+Associations 54125 "Position Class Long Description" AssociationContext 54101 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Position Class Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 54101 
+
+ViewName 54103 "All Categories" Type All ViewCustomView 0 
+ViewName 54105 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67313 "Position Contract Type" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 67315 "Position Contract Type" Inclusion Generate Lastuse 20090105 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 67317 "By Position Contract Type" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 67323 "Position Contract Type" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 67325 
+"Position Contract Type" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Position Contract Type" 
+Associations 67327 "Position Contract Type Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Position Contract Type Long Description" 
+
+Associations 67329 "Position Contract Type Long Description" AssociationContext 67317 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Position Contract Type Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67317 
+
+ViewName 67319 "All Categories" Type All ViewCustomView 0 
+ViewName 67321 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67349 "Position EEO Skill" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 67351 "Position Eeo Skill" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67353 "By Position Eeo Skill" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67359 "Position EEO Skill" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 67361 
+"Position EEO Skill" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Position EEO Skill" 
+Associations 67363 "Position EEO Skill Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Position EEO Skill Long Description" 
+
+Associations 67365 "Position EEO Skill Long Description" AssociationContext 67353 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Position EEO Skill Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67353 
+
+ViewName 67355 "All Categories" Type All ViewCustomView 0 
+ViewName 67357 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 54083 "Position Status" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 54085 "Position Status" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 54087 "By Position Status" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 54093 "Position Status" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 54095 "Position Status" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Position Status" 
+
+Associations 54119 "Position Status Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Position Status Long Description" 
+
+Associations 54121 "Position Status Long Description" AssociationContext 54087 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Position Status Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 54087 
+
+ViewName 54089 "All Categories" Type All ViewCustomView 0 
+ViewName 54091 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67171 "Primary Disability" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 67173 "Primary Disability" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67175 "By Primary Disability" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67181 "Primary Disability" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 67183 
+"Primary Disability" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Primary Disability" 
+Associations 67185 "Primary Disability Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Primary Disability Long Description" 
+
+Associations 67187 "Primary Disability Long Description" AssociationContext 67175 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Primary Disability Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67175 
+
+ViewName 67177 "All Categories" Type All ViewCustomView 0 
+ViewName 67179 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67367 "Program Classification" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 67369 "Program Classification" Inclusion Generate Lastuse 20090105 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 67371 "By Program Classification" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 67377 "Program Classification" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 67379 
+"Program Classification" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Program Classification" 
+Associations 67381 "Program Classification Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Program Classification Long Description" 
+
+Associations 67383 "Program Classification Long Description" AssociationContext 67371 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Program Classification Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67371 
+
+ViewName 67373 "All Categories" Type All ViewCustomView 0 
+ViewName 67375 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67243 "Tenure" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 67245 "Tenure" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67247 "By Tenure" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67253 "Tenure" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 67255 "Tenure" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Tenure" 
+
+Associations 67257 "Tenure Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Tenure Long Description" 
+
+Associations 67259 "Tenure Long Description" AssociationContext 67247 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Tenure Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67247 
+
+ViewName 67249 "All Categories" Type All ViewCustomView 0 
+ViewName 67251 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 7081 "Years Of Service Range" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 7083 "Years Of Service Range" Inclusion Generate Lastuse 20090105 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 7085 "By Years Of Service Range" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 7091 "Years Of Service Range" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 7093 
+"Years Of Service Range" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Years Of Service Range" 
+Associations 7095 "Years Of Service Range Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Years Of Service Range Long Description" 
+
+Associations 7097 "Years Of Service" AssociationContext 7085 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Years Of Service" SortOrder Int16 
+SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 7085 
+
+ViewName 7087 "All Categories" Type All ViewCustomView 0 
+ViewName 7089 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67189 "Veteran Type" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 67191 "Veteran Type" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67193 "By Veteran Type" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67199 "Veteran Type" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 67201 "Veteran Type" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Veteran Type" 
+
+Associations 67203 "Veteran Type Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Veteran Type Long Description" 
+
+Associations 67205 "Veteran Type Long Description" AssociationContext 67193 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Veteran Type Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67193 
+
+ViewName 67195 "All Categories" Type All ViewCustomView 0 
+ViewName 67197 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 67225 "Visa Type" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 67227 "Visa Type" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 67229 "By Visa Type" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 67235 "Visa Type" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 67237 "Visa Type" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Visa Type" 
+
+Associations 67239 "Visa Type Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Visa Type Long Description" 
+
+Associations 67241 "Visa Type Long Description" AssociationContext 67229 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Visa Type Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 67229 
+
+ViewName 67231 "All Categories" Type All ViewCustomView 0 
+ViewName 67233 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 66845 "Not for use 1" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 66847 "Person Uid" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 66849 "By Person Uid" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 69969 "Person UID Count Level 1" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Suppressed True Timerank 0 UniqueCategories False UniqueMove False 
+Associations 69971 "Person UID Count Level 1" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Person UID Count Level 1" 
+
+
+
+Levels 66855 "Person UID" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Suppressed True Timerank 0 UniqueCategories True UniqueMove False Associations 66857 
+"Person UID" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Person UID" 
+
+
+
+
+MapDrills 
+MapDrill 66849 
+
+ViewName 66851 "All Categories" Type All ViewCustomView 0 
+ViewName 66853 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 54165 "Not for use 2" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 54167 "Position Key" Inclusion Generate Lastuse 20090105 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 54169 "By Position Key" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 70537 "Position Count Level 1" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Suppressed True Timerank 0 UniqueCategories False UniqueMove False 
+Associations 70539 "Position Count Level 1" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Position Count Level 1" 
+
+
+
+Levels 54175 "Position" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Suppressed True Timerank 0 UniqueCategories True UniqueMove False Associations 54177 
+"Position" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Position" 
+
+
+
+
+MapDrills 
+MapDrill 54169 
+
+ViewName 54171 "All Categories" Type All ViewCustomView 0 
+ViewName 54173 "Omit Dimension" Type Omit ViewCustomView 0 
+Measure 66863 "Employee Count" Levels 66855 ActivityMeasure "Person UID Count Weight" 
+Rollup CategoryCount IgnoreMissingValue False Storage Default OutPutScale 0 
+Decimals 0 ReverseSign False IsCurrency False IsFolder False DrillThrough False 
+EndList 
+
+Measure 54179 "Position Count" Levels 54175 ActivityMeasure "Position Count Weight" 
+Rollup CategoryCount IgnoreMissingValue False Storage Default OutPutScale 0 
+Decimals 0 ReverseSign False IsCurrency False IsFolder False DrillThrough False 
+EndList 
+
+Measure 66993 "Total Years Of Service" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "0~2" DrillThrough False EndList Associations 66995 "Years Of Service" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Years Of Service" 
+
+
+
+Measure 67005 "Annual Salary" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 67007 "Annual Salary" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Annual Salary" 
+
+
+
+Measure 66965 "Hourly FTE" IgnoreMissingValue False Storage Float64 OutPutScale 0 
+Decimals 3 ReverseSign False IsCurrency False IsFolder False Format "0~3" 
+DrillThrough False EndList Associations 66967 "Hourly FTE" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Hourly FTE" 
+
+
+Measure 66969 "Salaried FTE" IgnoreMissingValue False Storage Float64 OutPutScale 0 
+Decimals 3 ReverseSign False IsCurrency False IsFolder False Format "0~3" 
+DrillThrough False EndList Associations 66971 "Salaried FTE" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Salaried FTE" 
+
+
+Measure 66979 "YTD Total Earnings" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 66981 "YTD Total Earnings" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "YTD Total Earnings" 
+
+
+
+Measure 67403 "YTD Regular Earnings" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 67405 "YTD Regular Earnings" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "YTD Regular Earnings" 
+
+
+
+Measure 67407 "YTD Overtime Earnings" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 67409 "YTD Overtime Earnings" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "YTD Overtime Earnings" 
+
+
+
+Measure 67411 "YTD Other Earnings" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 67413 "YTD Other Earnings" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "YTD Other Earnings" 
+
+
+
+Measure 67427 "YTD Employer Deduction Amount" IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" DrillThrough False EndList Associations 67429 
+"YTD Employer Deduction Amount" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "YTD Employer Deduction Amount" 
+
+
+Measure 67431 "YTD Employee Deduction Amount" IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" DrillThrough False EndList Associations 67433 
+"YTD Employee Deduction Amount" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "YTD Employee Deduction Amount" 
+
+
+Measure 66989 "Encumbrance Amount" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 66991 "Encumbrance Amount" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Encumbrance Amount" 
+
+
+
+Measure 66997 "Average Total Years Of Service" Calc "Total Years Of Service@66993" / "Employee Count@66863"  Timing After_Rollup 
+IgnoreMissingValue False Storage Default OutPutScale 0 Decimals 2 ReverseSign False 
+IsCurrency False IsFolder False Format "0~2" DrillThrough False EndList 
+
+Measure 66999 "Average Annual Salary" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 67003 AverageCalcId 67435 DrillThrough False 
+EndList Associations 67001 "Annual Salary" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Annual Salary" 
+
+
+Measure 66973 "Average YTD Total Earnings" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 66977 AverageCalcId 67437 DrillThrough False 
+EndList Associations 66975 "YTD Total Earnings" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "YTD Total Earnings" 
+
+
+
+Measure 67385 "Average YTD Regular Earnings" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 67393 AverageCalcId 67439 DrillThrough False 
+EndList Associations 67387 "YTD Regular Earnings" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "YTD Regular Earnings" 
+
+
+
+Measure 67389 "Average YTD Overtime Earnings" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 67395 AverageCalcId 67441 DrillThrough False 
+EndList Associations 67391 "YTD Overtime Earnings" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "YTD Overtime Earnings" 
+
+
+
+Measure 67397 "Average YTD Other Earnings" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 67401 AverageCalcId 67443 DrillThrough False 
+EndList Associations 67399 "YTD Other Earnings" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "YTD Other Earnings" 
+
+
+
+Measure 67415 "Average YTD Employer Deduction Amount" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 67419 AverageCalcId 67445 DrillThrough False 
+EndList Associations 67417 "YTD Employer Deduction Amount" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "YTD Employer Deduction Amount" 
+
+
+
+Measure 67421 "Average YTD Employee Deduction Amount" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 67425 AverageCalcId 67447 DrillThrough False 
+EndList Associations 67423 "YTD Employee Deduction Amount" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "YTD Employee Deduction Amount" 
+
+
+
+Measure 66983 "Average Encumbrance Amount" Rollup Average IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" WeightId 66987 AverageCalcId 67449 DrillThrough False 
+EndList Associations 66985 "Encumbrance Amount" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Encumbrance Amount" 
+
+
+
+Measure 69975 "Concealed Measures" IgnoreMissingValue False Storage Default 
+OutPutScale 0 Decimals 0 ReverseSign False IsCurrency False IsFolder True 
+DrillThrough False EndList 
+
+Measure 66737 "Position Count Weight" Missing Zero Rollup Count IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 0 ReverseSign False IsCurrency False 
+IsFolder False Parent 69975 DrillThrough False EndList Associations 66739 
+"Position" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Position" 
+
+
+
+Measure 66859 "Person UID Count Weight" Missing Zero Rollup Count IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 0 ReverseSign False IsCurrency False 
+IsFolder False Parent 69975 DrillThrough False EndList Associations 66861 
+"Person UID" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Person UID" 
+
+
+
+
+
+Cube 505 "WFT_EMPLOYEE_POSITION" MdcFile "WFT_EMPLOYEE_POSITION_BUILD.mdc" 
+EncryptedPW "" Status OK CubeCreation On Optimize Default ConsolidatedRecords 10000000 
+PartitionSize 500000 PassesNumber 5 Compress False IncrementalUpdate False 
+ServerCube False CubeStamp 1231183123 CubeCycle 67 BlockParentTotals False 
+Caching False UseAlternateFileName False DeployType DeployNone DeployLocations EndList DrillThrough False 
+EndList DataSourceWindowsLocation "C:\edw80101u\cognos\edw\cubes\WFT_EMPLOYEE_POSITION.mdc" 
+DataSourceSignon False Packagelocation "/content/folder[@name='EDW Packages']" 
+PublishEnable True PublishStatus None PublishAllowNullSuppression True 
+PublishAllowMultiEdgeSuppression True PublishAllowAccessToSuppressionOptions True 
+
+DimensionView 67487 "All Categories" DimensionView 7265 "All Categories" 
+DimensionView 54143 "All Categories" DimensionView 68565 "All Categories" 
+DimensionView 415 "All Categories" DimensionView 67279 "All Categories" 
+DimensionView 68665 "All Categories" DimensionView 7103 "All Categories" 
+DimensionView 6993 "All Categories" DimensionView 7015 "All Categories" 
+DimensionView 7059 "All Categories" DimensionView 6971 "All Categories" 
+DimensionView 7037 "All Categories" DimensionView 6905 "All Categories" 
+DimensionView 6847 "All Categories" DimensionView 68545 "All Categories" 
+DimensionView 67261 "All Categories" DimensionView 781 "All Categories" 
+DimensionView 6927 "All Categories" DimensionView 6949 "All Categories" 
+DimensionView 67207 "All Categories" DimensionView 67295 "All Categories" 
+DimensionView 67331 "All Categories" DimensionView 54097 "All Categories" 
+DimensionView 67313 "All Categories" DimensionView 67349 "All Categories" 
+DimensionView 54083 "All Categories" DimensionView 67171 "All Categories" 
+DimensionView 67367 "All Categories" DimensionView 67243 "All Categories" 
+DimensionView 7081 "All Categories" DimensionView 67189 "All Categories" 
+DimensionView 67225 "All Categories" DimensionView 66845 "All Categories" 
+DimensionView 54165 "All Categories" 
+MeasureInclude 66863 Yes MeasureInclude 54179 Yes MeasureInclude 66993 
+Yes MeasureInclude 67005 Yes MeasureInclude 66965 Yes MeasureInclude 66969 
+Yes MeasureInclude 66979 Yes MeasureInclude 67403 Yes MeasureInclude 67407 
+Yes MeasureInclude 67411 Yes MeasureInclude 67427 Yes MeasureInclude 67431 
+Yes MeasureInclude 66989 Yes MeasureInclude 66997 Yes MeasureInclude 66999 
+Yes MeasureInclude 66973 Yes MeasureInclude 67385 Yes MeasureInclude 67389 
+Yes MeasureInclude 67397 Yes MeasureInclude 67415 Yes MeasureInclude 67421 
+Yes MeasureInclude 66983 Yes MeasureInclude 69975 No MeasureInclude 66737 
+No MeasureInclude 66859 No 
+
+
+AllocationAdd Measure 66863 Type Default 
+AllocationAdd Measure 54179 Type Default 
+AllocationAdd Measure 66993 Type Default 
+AllocationAdd Measure 67005 Type Default 
+AllocationAdd Measure 66965 Type Default 
+AllocationAdd Measure 66969 Type Default 
+AllocationAdd Measure 66979 Type Default 
+AllocationAdd Measure 67403 Type Default 
+AllocationAdd Measure 67407 Type Default 
+AllocationAdd Measure 67411 Type Default 
+AllocationAdd Measure 67427 Type Default 
+AllocationAdd Measure 67431 Type Default 
+AllocationAdd Measure 66989 Type Default 
+AllocationAdd Measure 66997 Type Default 
+AllocationAdd Measure 66999 Type Default 
+AllocationAdd Measure 66973 Type Default 
+AllocationAdd Measure 67385 Type Default 
+AllocationAdd Measure 67389 Type Default 
+AllocationAdd Measure 67397 Type Default 
+AllocationAdd Measure 67415 Type Default 
+AllocationAdd Measure 67421 Type Default 
+AllocationAdd Measure 66983 Type Default 
+AllocationAdd Measure 69975 Type Default 
+AllocationAdd Measure 66737 Type Default 
+AllocationAdd Measure 66859 Type Default 
+

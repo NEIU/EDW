@@ -1,0 +1,102 @@
+connect localhost:9300
+-ns sunds -uid cognos -pwd Bright*989
+set WFT_ACADEMIC_PROGRAM_COURSE
+C:\edw80101u\cognos\edw\cubes\WFT_ACADEMIC_PROGRAM_COURSE.mdc
+
+set WFT_ADVANCEMENT_GIFT
+C:\edw80101u\cognos\edw\cubes\WFT_ADVANCEMENT_GIFT.mdc
+
+set WFT_COURSE_REGISTRATION
+C:\edw80101u\cognos\edw\cubes\WFT_COURSE_REGISTRATION.mdc
+
+set WFT_EMPLOYEE
+C:\edw80101u\cognos\edw\cubes\WFT_EMPLOYEE.mdc
+
+set WFT_EMPLOYEE_DEGREE
+C:\edw80101u\cognos\edw\cubes\WFT_EMPLOYEE_DEGREE.mdc
+
+set WFT_EMPLOYEE_POSITION
+C:\edw80101u\cognos\edw\cubes\WFT_EMPLOYEE_POSITION.mdc
+
+set WFT_EMPLOYMENT_APPLICATION
+C:\edw80101u\cognos\edw\cubes\WFT_EMPLOYMENT_APPLICATION.mdc
+
+set WFT_ENROLLMENT
+C:\edw80101u\cognos\edw\cubes\WFT_ENROLLMENT.mdc
+
+set WFT_FINANCIAL_AID_PRE_STUDENT
+C:\edw80101u\cognos\edw\cubes\WFT_FINANCIAL_AID_PRE_STUDENT.mdc
+
+set WFT_FINANCIAL_AID_STUDENT
+C:\edw80101u\cognos\edw\cubes\WFT_FINANCIAL_AID_STUDENT.mdc
+
+set WFT_GENERAL_LEDGER
+C:\edw80101u\cognos\edw\cubes\WFT_GENERAL_LEDGER.mdc
+
+set WFT_GENERAL_LEDGER_EVENT
+C:\edw80101u\cognos\edw\cubes\WFT_GENERAL_LEDGER_EVENT.mdc
+
+set WFT_GRADUATION_COMPLETION
+C:\edw80101u\cognos\edw\cubes\WFT_GRADUATION_COMPLETION.mdc
+
+set WFT_GRANT_AND_PROJECT
+C:\edw80101u\cognos\edw\cubes\WFT_GRANT_AND_PROJECT.mdc
+
+set WFT_OPERATING_LEDGER
+C:\edw80101u\cognos\edw\cubes\WFT_OPERATING_LEDGER.mdc
+
+set WFT_RECEIVABLE_CUSTOMER
+C:\edw80101u\cognos\edw\cubes\WFT_RECEIVABLE_CUSTOMER.mdc
+
+set WFT_RECEIVABLE_REVENUE
+c:\edw80101u\cognos\edw\cubes\WFT_RECEIVABLE_REVENUE.mdc
+
+set WFT_RECRUITING_AND_ADMISSION
+C:\edw80101u\cognos\edw\cubes\WFT_RECRUITING_AND_ADMISSION.mdc
+
+set PM Admissions Counselor Cube
+C:\edw80101u\cognos\edw\cubes\PM_Admissions_Counselor_Cube.mdc
+
+set PM Admissions Counselor Cube - Current Academic Period
+c:\edw80101u\cognos\edw\cubes\PM_Admissions_Counselor_Cube_Current_Academic_Period.mdc
+
+set PM Aid Impact Analysis Cube
+C:\edw80101u\cognos\edw\cubes\PM_Aid_Impact_Analysis_Cube.mdc
+
+set PM Aid Impact Analysis Cube - Current Academic Period
+C:\edw80101u\cognos\edw\cubes\PM_Aid_Impact_Analysis_Cube_Current_Academic_Period.mdc
+
+set PM Award Analysis Cube
+C:\edw80101u\cognos\edw\cubes\PM_Award_Analysis_Cube.mdc
+
+set PM Award Analysis Cube - Current Academic Period
+C:\edw80101u\cognos\edw\cubes\PM_Award_Analysis_Cube_Current_Academic_Period.mdc
+
+test WFT_ACADEMIC_PROGRAM_COURSE
+test WFT_ADVANCEMENT_GIFT
+test WFT_COURSE_REGISTRATION
+test WFT_EMPLOYEE
+test WFT_EMPLOYEE_DEGREE
+test WFT_EMPLOYEE_POSITION
+test WFT_EMPLOYMENT_APPLICATION
+test WFT_ENROLLMENT
+test WFT_FINANCIAL_AID_PRE_STUDENT
+test WFT_FINANCIAL_AID_STUDENT
+test WFT_GENERAL_LEDGER
+test WFT_GENERAL_LEDGER_EVENT
+test WFT_GRADUATION_COMPLETION
+test WFT_GRANT_AND_PROJECT
+test WFT_OPERATING_LEDGER
+test WFT_RECEIVABLE_CUSTOMER
+test WFT_RECEIVABLE_REVENUE
+test WFT_RECRUITING_AND_ADMISSION
+test PM Admissions Counselor Cube
+test PM Admissions Counselor Cube - Current Academic Period
+test PM Aid Impact Analysis Cube
+test PM Aid Impact Analysis Cube - Current Academic Period
+test PM Award Analysis Cube
+test PM Award Analysis Cube - Current Academic Period
+
+test EDW
+
+exit

@@ -1,0 +1,56 @@
+#!/bin/sh
+#
+# AUDIT TRAIL: 1.0
+# 1. RLZ     06/12/2006      Initial Verison
+#
+# AUDIT TRAIL END
+#
+# FILE NAME..: updateCognosCube
+# PRODUCT....: INFORMATION ACCESS
+# USAGE......: Script for deploying EDW cubes
+#
+# COPYRIGHT..: Copyright (c) SCT Corporation 2004.  All rights reserved.
+#
+#-----------------------------------------------------------
+# Parameters:
+#    1 - cube name
+# - NOTE: Cube name and description MUST be wrapped in DOUBLE QUOTES
+#-----------------------------------------------------------
+
+CUBE_FILE_NAME=$1
+
+#-----------------------------------------------------------
+# Check inputs...
+#-----------------------------------------------------------
+
+### - Check user inputs...
+
+if [ "$CUBE_FILE_NAME" = "" ]; then
+    echo "---  No Cube File Name supplied - please try again."
+    exit 1
+fi
+
+#-----------------------------------------------------------
+# Set up Cognos Transformer env vars.
+#-----------------------------------------------------------
+
+. ./setUpCognosEnv
+
+
+#--------------------------------------------------------------------------
+# backup, delete and update cube
+#--------------------------------------------------------------------------
+
+if [ -f $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME\_BACKUP.mdc ]; then
+    rm $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME\_BACKUP.mdc
+fi
+
+if [ -f $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME\_BUILD.mdc -a -f $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME.mdc ]; then
+    mv $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME.mdc $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME\_BACKUP.mdc
+fi
+
+if [ -f $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME\_BUILD.mdc ]; then
+    mv $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME\_BUILD.mdc $TRANSFORMER_CUBE_DIR/$CUBE_FILE_NAME.mdc
+fi
+
+echo --- Cube  \"$CUBE_FILE_NAME\" has been updated

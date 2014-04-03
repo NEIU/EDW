@@ -1,0 +1,1393 @@
+
+Name "WFT_OPERATING_LEDGER" ModelCodePage "windows-1252" AutoAccess False 
+SynchroCycle 0 SynchroStamp 0 UpdateCycle 37 ModelStamp 1081884196 ClientStamp 1081884196 
+ServerStamp 0 Version "8.3.818.0" ModelCategoryOrderDefault OrderUsePreference 
+ModelOrderedByDefault False 
+
+CognosSource 16781 "EDW Operating Ledger" SourceType Package SourcePath "/content/folder[@name='EDW Packages']/package[@name='EDW Operating Ledger']" 
+PackageTimeStamp "/content/folder[@name='EDW Packages']/package[@name='EDW Operating Ledger']/model[@name='model']" 
+
+
+DataSource 16783 "EDW Operating Ledger~1" Separator "," SourceType CognosSourceQuery 
+CharacterSet Default DecimalSep "." Thousandsep "," Columns True Timing PopYesCreateDefault 
+PackageReportSource 16781 "EDW Operating Ledger" AutoSummary True SetCurrent True 
+ServerSource True Speed False Presummarized False 
+
+OrgName 16785 "[EDW Snapshot Star Schemas].[Multi Source].[Multi Source]" 
+Origin Source Offset 0 Column "Multi Source" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16789 "[EDW Snapshot Star Schemas].[Multi Source].[Multi Source Long Description]" 
+Origin Source Offset 1 Column "Multi Source Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16791 "[EDW Snapshot Star Schemas].[Time].[Time Key]" Origin Source 
+Offset 2 Column "Time Key" Storage Float64 Scale 0 Size 8 Decimals 0 InputScale 0 
+TimeArray Off Rollup CountAll 
+
+OrgName 16793 "[EDW Snapshot Star Schemas].[Time].[Event]" Origin Source 
+Offset 3 Column "Event" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off 
+
+OrgName 16797 "[EDW Snapshot Star Schemas].[Time].[Event Long Description]" 
+Origin Source Offset 4 Column "Event Long Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16809 "[EDW Snapshot Star Schemas].[Time].[Fiscal Year]" Origin Source 
+Offset 5 Column "Fiscal Year" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16813 "[EDW Snapshot Star Schemas].[Time].[Fiscal Year Long Description]" 
+Origin Source Offset 6 Column "Fiscal Year Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16815 "[EDW Snapshot Star Schemas].[Time].[Fiscal Quarter]" Origin Source 
+Offset 7 Column "Fiscal Quarter" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16819 "[EDW Snapshot Star Schemas].[Time].[Fiscal Quarter Long Description]" 
+Origin Source Offset 8 Column "Fiscal Quarter Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16821 "[EDW Snapshot Star Schemas].[Time].[Fiscal Period]" Origin Source 
+Offset 9 Column "Fiscal Period" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16825 "[EDW Snapshot Star Schemas].[Time].[Fiscal Period Long Description]" 
+Origin Source Offset 10 Column "Fiscal Period Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16831 "[EDW Snapshot Star Schemas].[Time].[Fiscal Period Last Event Ind]" 
+Origin Source Offset 11 Column "Fiscal Period Last Event Ind" Storage Text 
+Scale 0 Size 14 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16833 "[EDW Snapshot Star Schemas].[Account].[Account]" Origin Source 
+Offset 12 Column "Account" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off 
+
+OrgName 16837 "[EDW Snapshot Star Schemas].[Account].[Account Long Description]" 
+Origin Source Offset 13 Column "Account Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16839 "[EDW Snapshot Star Schemas].[Account].[Account Pool]" Origin Source 
+Offset 14 Column "Account Pool" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16843 "[EDW Snapshot Star Schemas].[Account].[Account Pool Long Description]" 
+Origin Source Offset 15 Column "Account Pool Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16851 "[EDW Snapshot Star Schemas].[Account].[Account Type Level 1]" 
+Origin Source Offset 16 Column "Account Type Level 1" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16855 "[EDW Snapshot Star Schemas].[Account].[Account Type Level 1 Long Description]" 
+Origin Source Offset 17 Column "Account Type Level 1 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 16857 "[EDW Snapshot Star Schemas].[Account].[Account Type Level 2]" 
+Origin Source Offset 18 Column "Account Type Level 2" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16861 "[EDW Snapshot Star Schemas].[Account].[Account Type Level 2 Long Description]" 
+Origin Source Offset 19 Column "Account Type Level 2 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 16863 "[EDW Snapshot Star Schemas].[Account].[Account Level 1]" 
+Origin Source Offset 20 Column "Account Level 1" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16867 "[EDW Snapshot Star Schemas].[Account].[Account Level 1 Long Description]" 
+Origin Source Offset 21 Column "Account Level 1 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16869 "[EDW Snapshot Star Schemas].[Account].[Account Level 2]" 
+Origin Source Offset 22 Column "Account Level 2" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16873 "[EDW Snapshot Star Schemas].[Account].[Account Level 2 Long Description]" 
+Origin Source Offset 23 Column "Account Level 2 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16875 "[EDW Snapshot Star Schemas].[Account].[Account Level 3]" 
+Origin Source Offset 24 Column "Account Level 3" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16879 "[EDW Snapshot Star Schemas].[Account].[Account Level 3 Long Description]" 
+Origin Source Offset 25 Column "Account Level 3 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16881 "[EDW Snapshot Star Schemas].[Account].[Account Level 4]" 
+Origin Source Offset 26 Column "Account Level 4" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16885 "[EDW Snapshot Star Schemas].[Account].[Account Level 4 Long Description]" 
+Origin Source Offset 27 Column "Account Level 4 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16887 "[EDW Snapshot Star Schemas].[Account].[Internal Account Type]" 
+Origin Source Offset 28 Column "Internal Account Type" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16891 "[EDW Snapshot Star Schemas].[Account].[Internal Account Type Long Description]" 
+Origin Source Offset 29 Column "Internal Account Type Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 16893 "[EDW Snapshot Star Schemas].[Chart].[Chart Of Accounts]" 
+Origin Source Offset 30 Column "Chart Of Accounts" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16897 "[EDW Snapshot Star Schemas].[Chart].[Chart Of Accounts Long Description]" 
+Origin Source Offset 31 Column "Chart Of Accounts Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16899 "[EDW Snapshot Star Schemas].[Fund].[Fund]" Origin Source 
+Offset 32 Column "Fund" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off 
+
+OrgName 16903 "[EDW Snapshot Star Schemas].[Fund].[Fund Long Description]" 
+Origin Source Offset 33 Column "Fund Long Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16905 "[EDW Snapshot Star Schemas].[Fund].[Fund Pool]" Origin Source 
+Offset 34 Column "Fund Pool" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off 
+
+OrgName 16909 "[EDW Snapshot Star Schemas].[Fund].[Fund Pool Long Description]" 
+Origin Source Offset 35 Column "Fund Pool Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16917 "[EDW Snapshot Star Schemas].[Fund].[Fund Type Level 1]" 
+Origin Source Offset 36 Column "Fund Type Level 1" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16921 "[EDW Snapshot Star Schemas].[Fund].[Fund Type Level 1 Long Description]" 
+Origin Source Offset 37 Column "Fund Type Level 1 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16923 "[EDW Snapshot Star Schemas].[Fund].[Fund Type Level 2]" 
+Origin Source Offset 38 Column "Fund Type Level 2" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16927 "[EDW Snapshot Star Schemas].[Fund].[Fund Type Level 2 Long Description]" 
+Origin Source Offset 39 Column "Fund Type Level 2 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16929 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 1]" Origin Source 
+Offset 40 Column "Fund Level 1" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16933 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 1 Long Description]" 
+Origin Source Offset 41 Column "Fund Level 1 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16935 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 2]" Origin Source 
+Offset 42 Column "Fund Level 2" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16939 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 2 Long Description]" 
+Origin Source Offset 43 Column "Fund Level 2 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16941 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 3]" Origin Source 
+Offset 44 Column "Fund Level 3" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16945 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 3 Long Description]" 
+Origin Source Offset 45 Column "Fund Level 3 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16947 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 4]" Origin Source 
+Offset 46 Column "Fund Level 4" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16951 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 4 Long Description]" 
+Origin Source Offset 47 Column "Fund Level 4 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16953 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 5]" Origin Source 
+Offset 48 Column "Fund Level 5" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off 
+
+OrgName 16957 "[EDW Snapshot Star Schemas].[Fund].[Fund Level 5 Long Description]" 
+Origin Source Offset 49 Column "Fund Level 5 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16959 "[EDW Snapshot Star Schemas].[Organization].[Organization Code]" 
+Origin Source Offset 50 Column "Organization Code" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16963 "[EDW Snapshot Star Schemas].[Organization].[Organization Code Long Description]" 
+Origin Source Offset 51 Column "Organization Code Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16965 "[EDW Snapshot Star Schemas].[Organization].[Organization Pool]" 
+Origin Source Offset 52 Column "Organization Pool" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16969 "[EDW Snapshot Star Schemas].[Organization].[Organization Pool Long Description]" 
+Origin Source Offset 53 Column "Organization Pool Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 16971 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 1]" 
+Origin Source Offset 54 Column "Organization Level 1" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16975 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 1 Long Description]" 
+Origin Source Offset 55 Column "Organization Level 1 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 16977 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 2]" 
+Origin Source Offset 56 Column "Organization Level 2" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16981 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 2 Long Description]" 
+Origin Source Offset 57 Column "Organization Level 2 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 16983 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 3]" 
+Origin Source Offset 58 Column "Organization Level 3" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16987 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 3 Long Description]" 
+Origin Source Offset 59 Column "Organization Level 3 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 16989 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 4]" 
+Origin Source Offset 60 Column "Organization Level 4" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16993 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 4 Long Description]" 
+Origin Source Offset 61 Column "Organization Level 4 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 16995 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 5]" 
+Origin Source Offset 62 Column "Organization Level 5" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 16999 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 5 Long Description]" 
+Origin Source Offset 63 Column "Organization Level 5 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 17001 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 6]" 
+Origin Source Offset 64 Column "Organization Level 6" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17005 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 6 Long Description]" 
+Origin Source Offset 65 Column "Organization Level 6 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 17007 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 7]" 
+Origin Source Offset 66 Column "Organization Level 7" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17011 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 7 Long Description]" 
+Origin Source Offset 67 Column "Organization Level 7 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 17013 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 8]" 
+Origin Source Offset 68 Column "Organization Level 8" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17017 "[EDW Snapshot Star Schemas].[Organization].[Organization Level 8 Long Description]" 
+Origin Source Offset 69 Column "Organization Level 8 Long Description" 
+Storage Text Scale 0 Size 512 Decimals 0 Class Description InputScale 0 
+TimeArray Off 
+
+OrgName 17019 "[EDW Snapshot Star Schemas].[Program].[Program]" Origin Source 
+Offset 70 Column "Program" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off 
+
+OrgName 17023 "[EDW Snapshot Star Schemas].[Program].[Program Long Description]" 
+Origin Source Offset 71 Column "Program Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 17025 "[EDW Snapshot Star Schemas].[Program].[Program Level 1]" 
+Origin Source Offset 72 Column "Program Level 1" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17029 "[EDW Snapshot Star Schemas].[Program].[Program Level 1 Long Description]" 
+Origin Source Offset 73 Column "Program Level 1 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 17031 "[EDW Snapshot Star Schemas].[Program].[Program Level 2]" 
+Origin Source Offset 74 Column "Program Level 2" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17035 "[EDW Snapshot Star Schemas].[Program].[Program Level 2 Long Description]" 
+Origin Source Offset 75 Column "Program Level 2 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 17037 "[EDW Snapshot Star Schemas].[Program].[Program Level 3]" 
+Origin Source Offset 76 Column "Program Level 3" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17041 "[EDW Snapshot Star Schemas].[Program].[Program Level 3 Long Description]" 
+Origin Source Offset 77 Column "Program Level 3 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 17043 "[EDW Snapshot Star Schemas].[Program].[Program Level 4]" 
+Origin Source Offset 78 Column "Program Level 4" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17047 "[EDW Snapshot Star Schemas].[Program].[Program Level 4 Long Description]" 
+Origin Source Offset 79 Column "Program Level 4 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 17049 "[EDW Snapshot Star Schemas].[Program].[Program Level 5]" 
+Origin Source Offset 80 Column "Program Level 5" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+OrgName 17053 "[EDW Snapshot Star Schemas].[Program].[Program Level 5 Long Description]" 
+Origin Source Offset 81 Column "Program Level 5 Long Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+
+
+OrgName 17055 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Fiscal Year Adopted Budget]" 
+Origin Source Offset 82 Column "Fiscal Year Adopted Budget" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Average 
+
+
+OrgName 17057 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Fiscal Year Budget Adjustments]" 
+Origin Source Offset 83 Column "Fiscal Year Budget Adjustments" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Average 
+
+
+OrgName 17059 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Fiscal Year Total Budget]" 
+Origin Source Offset 84 Column "Fiscal Year Total Budget" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Average 
+
+
+OrgName 17081 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Current Period Adopted Budget]" 
+Origin Source Offset 85 Column "Current Period Adopted Budget" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+
+
+OrgName 17083 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Current Period Budget Adjustments]" 
+Origin Source Offset 86 Column "Current Period Budget Adjustments" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+
+
+OrgName 17085 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Current Period Reservations]" 
+Origin Source Offset 87 Column "Current Period Reservations" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+
+
+OrgName 17087 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Current Period Encumbrances]" 
+Origin Source Offset 88 Column "Current Period Encumbrances" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+
+
+OrgName 17089 "[EDW Snapshot Star Schemas].[Operating Ledger Measure].[Current Period Activity]" 
+Origin Source Offset 89 Column "Current Period Activity" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup Sum 
+
+
+OrgName 21067 "Fiscal Year and Quarter" Origin Calculated Offset 90 Column "Fiscal Year and Quarter" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Description InputScale 0 
+TimeArray Off Calc "Fiscal Year Long Description@16813" + ' ' + "Fiscal Quarter Long Description@16819"  
+
+OrgName 21069 "Fiscal Year and Period" Origin Calculated Offset 90 Column "Fiscal Year and Period" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Description InputScale 0 
+TimeArray Off Calc "Fiscal Year Long Description@16813" + ' ' + "Fiscal Period Long Description@16825"  
+
+Dimension 11399 "Multi Source" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 11401 "Multi Source" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 11403 "By Multi Source" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 11409 "Multi Source" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 11411 "Multi Source" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Multi Source" 
+
+Associations 11413 "Multi Source Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Multi Source Long Description" 
+
+Associations 11415 "Multi Source Long Description" AssociationContext 11403 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Multi Source Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 11403 
+
+ViewName 11405 "All Categories" Type All ViewCustomView 0 
+ViewName 11407 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 503 "Fiscal Year" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 507 "Fiscal Date" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 509 "By Fiscal Date" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 515 "Year" Blanks "( blank )" Inclusion Generate DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories True UniqueMove False Associations 517 
+"Fiscal Year" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fiscal Year" 
+
+Associations 519 "Fiscal Year" AssociationContext 509 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Fiscal Year" SortOrder Text 
+SortAs Ascending 
+Associations 11347 "Fiscal Year Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fiscal Year Long Description" 
+
+
+
+Levels 521 "Quarter" Blanks "( blank )" Inclusion Generate DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 523 
+"Fiscal Quarter" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Fiscal Quarter" 
+Associations 525 "Fiscal Quarter" AssociationContext 509 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Fiscal Quarter" SortOrder Text 
+SortAs Ascending 
+Associations 11349 "Fiscal Year and Quarter" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fiscal Year and Quarter" 
+
+
+
+Levels 527 "Period" Blanks "( blank )" Inclusion Generate DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 529 
+"Fiscal Period" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Fiscal Period" 
+Associations 531 "Fiscal Period" AssociationContext 509 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Fiscal Period" SortOrder Text 
+SortAs Ascending 
+Associations 11351 "Fiscal Year and Period" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fiscal Year and Period" 
+
+
+
+Levels 1377 "Event" Blanks "( Blank )" Inclusion Suppress DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1379 
+"Event" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Event" 
+
+Associations 1399 "Event Long Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Event Long Description" 
+Associations 1401 "Event Long Description" AssociationContext 509 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Event Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 645 "Time Key" Blanks "( Blank )" DateFunction None Generate Need 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Suppressed True Timerank 0 UniqueCategories True UniqueMove False Associations 647 
+"Time Key" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Time Key" 
+
+
+
+
+MapDrills 
+MapDrill 509 
+
+ViewName 511 "All Categories" Type All ViewCustomView 0 
+ViewName 513 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 10967 "Fiscal Period" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 10969 "Fiscal Period" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 10971 "By Fiscal Period" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 10977 "Fiscal Period" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 10979 "Fiscal Period" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fiscal Period" 
+
+Associations 10985 "Fiscal Period Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fiscal Period Long Description" 
+
+Associations 10987 "Fiscal Period" AssociationContext 10971 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Fiscal Period" SortOrder Text 
+SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 10971 
+
+ViewName 10973 "All Categories" Type All ViewCustomView 0 
+ViewName 10975 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 16761 "Latest Event Ind" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 16763 "Fiscal Per Last Event Ind" Inclusion Generate Lastuse 20090107 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 16765 "By Fiscal Per Last Event Ind" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 16771 "Latest Event Ind" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 16773 "Fiscal Period Last Event Ind" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fiscal Period Last Event Ind" 
+
+Associations 16777 "Fiscal Period Last Event Ind" AssociationContext 16765 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fiscal Period Last Event Ind" 
+SortOrder Text SortAs Descending 
+
+
+
+MapDrills 
+MapDrill 16765 
+
+ViewName 16767 "All Categories" Type All ViewCustomView 0 
+ViewName 16769 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1381 "Event" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1383 "Event Code" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1385 "By Event Code" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1391 "Event" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1393 "Event" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Event" 
+
+Associations 1403 "Event Long Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Event Long Description" 
+Associations 1405 "Event Long Description" AssociationContext 1385 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Event Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1385 
+
+ViewName 1387 "All Categories" Type All ViewCustomView 0 
+ViewName 1389 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 549 "Account" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 551 "Account" Inclusion Generate Lastuse 20090107 Filtered False Suppressed False 
+Sign False HideValue False IsKeyOrphanage False IsTruncated False Blanks False 
+
+Drill 553 "By Account" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 559 "Account" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 561 "Account" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Account" 
+
+Associations 567 "Account Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Long Description" 
+
+Associations 569 "Account Long Description" AssociationContext 553 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Account Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 553 
+
+ViewName 555 "All Categories" Type All ViewCustomView 0 
+ViewName 557 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1495 "Account Level" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1497 "Account Level 1" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1499 "By Account Level 1" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1505 "Account Level 1" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1507 "Account Level 1" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Account Level 1" 
+
+Associations 1525 "Account Level 1 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Level 1 Long Description" 
+
+Associations 1527 "Account Level 1 Long Description" AssociationContext 1499 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Account Level 1 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1509 "Account Level 2" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1511 "Account Level 2" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Account Level 2" 
+
+Associations 1529 "Account Level 2 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Level 2 Long Description" 
+
+Associations 11337 "Account Level 2 Long Description" AssociationContext 1499 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Account Level 2 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1513 "Account Level 3" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1515 "Account Level 3" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Account Level 3" 
+
+Associations 1531 "Account Level 3 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Level 3 Long Description" 
+
+Associations 1533 "Account Level 3 Long Description" AssociationContext 1499 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Account Level 3 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1517 "Account Level 4" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1519 "Account Level 4" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Account Level 4" 
+
+Associations 1535 "Account Level 4 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Level 4 Long Description" 
+
+Associations 1537 "Account Level 4 Long Description" AssociationContext 1499 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Account Level 4 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1499 
+
+ViewName 1501 "All Categories" Type All ViewCustomView 0 
+ViewName 1503 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 11417 "Internal Account Type" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 11419 "Internal Account Type" Inclusion Generate Lastuse 20090107 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 11421 "By Internal Account Type" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 11427 "Internal Account Type" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 11429 
+"Internal Account Type" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Internal Account Type" 
+Associations 11433 "Internal Account Type Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Internal Account Type Long Description" 
+
+Associations 11435 "Internal Account Type Long Description" AssociationContext 11421 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Internal Account Type Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 11421 
+
+ViewName 11423 "All Categories" Type All ViewCustomView 0 
+ViewName 11425 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 571 "Account Pool" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 573 "Account Pool" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 575 "By Account Pool" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 581 "Account Pool" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 583 "Account Pool" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Account Pool" 
+
+Associations 589 "Account Pool Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Pool Long Description" 
+
+Associations 591 "Account Pool Long Description" AssociationContext 575 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Account Pool Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 575 
+
+ViewName 577 "All Categories" Type All ViewCustomView 0 
+ViewName 579 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 593 "Account Type" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 595 "Account Type Level 1" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 597 "By Account Type Level 1" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 603 "Account Type Level 1" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 605 
+"Account Type Level 1" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Account Type Level 1" 
+Associations 607 "Account Type Level 1 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Type Level 1 Long Description" 
+
+Associations 609 "Account Type Level 1 Long Description" AssociationContext 597 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Account Type Level 1 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 611 "Account Type Level 2" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 613 
+"Account Type Level 2" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Account Type Level 2" 
+Associations 615 "Account Type Level 2 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Account Type Level 2 Long Description" 
+
+Associations 617 "Account Type Level 2 Long Description" AssociationContext 597 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Account Type Level 2 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 597 
+
+ViewName 599 "All Categories" Type All ViewCustomView 0 
+ViewName 601 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1677 "Chart Of Accounts" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1679 "Chart Of Accounts" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1681 "By Chart Of Accounts" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1687 "Chart Of Accounts" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1689 "Chart Of Accounts" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Chart Of Accounts" 
+
+Associations 1691 "Chart Of Accounts Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Chart Of Accounts Long Description" 
+
+Associations 1693 "Chart Of Accounts Long Description" AssociationContext 1681 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Chart Of Accounts Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1681 
+
+ViewName 1683 "All Categories" Type All ViewCustomView 0 
+ViewName 1685 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1539 "Fund" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1541 "Fund" Inclusion Generate Lastuse 20090107 Filtered False Suppressed False 
+Sign False HideValue False IsKeyOrphanage False IsTruncated False Blanks False 
+
+Drill 1543 "By Fund" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1549 "Fund" Blanks "( Blank )" DateFunction None Generate None RefreshLabel False 
+RefreshDescription False RefreshShortName False NewCatsLock False Timerank 0 
+UniqueCategories False UniqueMove False Associations 1551 "Fund" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Fund" 
+Associations 1557 "Fund Long Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Fund Long Description" 
+Associations 1559 "Fund Long Description" AssociationContext 1543 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Fund Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1543 
+
+ViewName 1545 "All Categories" Type All ViewCustomView 0 
+ViewName 1547 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1613 "Fund Level" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1615 "Fund Level 1" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1617 "By Fund Level 1" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1623 "Fund Level 1" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1625 "Fund Level 1" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Level 1" 
+
+Associations 1627 "Fund Level 1 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Level 1 Long Description" 
+
+Associations 1629 "Fund Level 1 Long Description" AssociationContext 1617 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Level 1 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1631 "Fund Level 2" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1633 "Fund Level 2" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Level 2" 
+
+Associations 1637 "Fund Level 2 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Level 2 Long Description" 
+
+Associations 1639 "Fund Level 2 Long Description" AssociationContext 1617 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Level 2 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1641 "Fund Level 3" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1643 "Fund Level 3" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Level 3" 
+
+Associations 1645 "Fund Level 3 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Level 3 Long Description" 
+
+Associations 1647 "Fund Level 3 Long Description" AssociationContext 1617 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Level 3 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1649 "Fund Level 4" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1651 "Fund Level 4" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Level 4" 
+
+Associations 1653 "Fund Level 4 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Level 4 Long Description" 
+
+Associations 1655 "Fund Level 4 Long Description" AssociationContext 1617 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Level 4 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1657 "Fund Level 5" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1659 "Fund Level 5" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Level 5" 
+
+Associations 1661 "Fund Level 5 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Level 5 Long Description" 
+
+Associations 1663 "Fund Level 5 Long Description" AssociationContext 1617 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Level 5 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1617 
+
+ViewName 1619 "All Categories" Type All ViewCustomView 0 
+ViewName 1621 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1561 "Fund Pool" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1563 "Fund Pool" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1565 "By Fund Pool" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1571 "Fund Pool" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1573 "Fund Pool" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Pool" 
+
+Associations 1575 "Fund Pool Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Pool Long Description" 
+
+Associations 1577 "Fund Pool Long Description" AssociationContext 1565 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Pool Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1565 
+
+ViewName 1567 "All Categories" Type All ViewCustomView 0 
+ViewName 1569 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1583 "Fund Type" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1585 "Fund Type Level 1" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1587 "By Fund Type Level 1" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1593 "Fund Type Level 1" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1595 "Fund Type Level 1" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Type Level 1" 
+
+Associations 1597 "Fund Type Level 1 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Type Level 1 Long Description" 
+
+Associations 1599 "Fund Type Level 1 Long Description" AssociationContext 1587 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Type Level 1 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1601 "Fund Type Level 2" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1603 "Fund Type Level 2" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fund Type Level 2" 
+
+Associations 1605 "Fund Type Level 2 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Fund Type Level 2 Long Description" 
+
+Associations 1607 "Fund Type Level 2 Long Description" AssociationContext 1587 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Fund Type Level 2 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1587 
+
+ViewName 1589 "All Categories" Type All ViewCustomView 0 
+ViewName 1591 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 4563 "Organization" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 4565 "Organization Code" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 4567 "By Organization Code" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 4573 "Organization" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4575 "Organization Code" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Organization Code" 
+
+Associations 4577 "Organization Code Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Code Long Description" 
+
+Associations 4579 "Organization Code Long Description" AssociationContext 4567 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Code Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 4567 
+
+ViewName 4569 "All Categories" Type All ViewCustomView 0 
+ViewName 4571 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 4607 "Organization Level" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 4609 "Organization Level 1" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 4611 "By Organization Level 1" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 4617 "Organization Level 1" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4619 
+"Organization Level 1" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 1" 
+Associations 4621 "Organization Level 1 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 1 Long Description" 
+
+Associations 4623 "Organization Level 1 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 1 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4625 "Organization Level 2" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4627 
+"Organization Level 2" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 2" 
+Associations 4657 "Organization Level 2 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 2 Long Description" 
+
+Associations 4659 "Organization Level 2 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 2 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4629 "Organization Level 3" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4631 
+"Organization Level 3" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 3" 
+Associations 4661 "Organization Level 3 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 3 Long Description" 
+
+Associations 4663 "Organization Level 3 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 3 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4633 "Organization Level 4" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4635 
+"Organization Level 4" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 4" 
+Associations 4665 "Organization Level 4 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 4 Long Description" 
+
+Associations 4667 "Organization Level 4 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 4 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4637 "Organization Level 5" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4639 
+"Organization Level 5" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 5" 
+Associations 4669 "Organization Level 5 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 5 Long Description" 
+
+Associations 4671 "Organization Level 5 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 5 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4641 "Organization Level 6" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4643 
+"Organization Level 6" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 6" 
+Associations 4673 "Organization Level 6 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 6 Long Description" 
+
+Associations 4675 "Organization Level 6 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 6 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4645 "Organization Level 7" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4647 
+"Organization Level 7" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 7" 
+Associations 4677 "Organization Level 7 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 7 Long Description" 
+
+Associations 4679 "Organization Level 7 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 7 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4649 "Organization Level 8" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 4651 
+"Organization Level 8" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Organization Level 8" 
+Associations 4681 "Organization Level 8 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Level 8 Long Description" 
+
+Associations 4683 "Organization Level 8 Long Description" AssociationContext 4611 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Level 8 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 4611 
+
+ViewName 4613 "All Categories" Type All ViewCustomView 0 
+ViewName 4615 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 4585 "Organization Pool" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 4587 "Organization Pool" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 4589 "By Organization Pool" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 4595 "Organization Pool" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4597 "Organization Pool" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Organization Pool" 
+
+Associations 4599 "Organization Pool Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Organization Pool Long Description" 
+
+Associations 4601 "Organization Pool Long Description" AssociationContext 4589 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Organization Pool Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 4589 
+
+ViewName 4591 "All Categories" Type All ViewCustomView 0 
+ViewName 4593 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 4487 "Program" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 4489 "Program" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 4491 "By Program" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 4497 "Program" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4499 "Program" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Program" 
+
+Associations 4501 "Program Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Program Long Description" 
+
+Associations 4503 "Program Long Description" AssociationContext 4491 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Program Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 4491 
+
+ViewName 4493 "All Categories" Type All ViewCustomView 0 
+ViewName 4495 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 4509 "Program Level" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 4511 "Program Level 1" Inclusion Generate Lastuse 20090107 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 4513 "By Program Level 1" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 4519 "Program Level 1" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4521 "Program Level 1" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Program Level 1" 
+
+Associations 4523 "Program Level 1 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Program Level 1 Long Description" 
+
+Associations 4525 "Program Level 1 Long Description" AssociationContext 4513 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Program Level 1 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4527 "Program Level 2" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4529 "Program Level 2" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Program Level 2" 
+
+Associations 4531 "Program Level 2 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Program Level 2 Long Description" 
+
+Associations 4533 "Program Level 2 Long Description" AssociationContext 4513 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Program Level 2 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4535 "Program Level 3" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4537 "Program Level 3" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Program Level 3" 
+
+Associations 4539 "Program Level 3 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Program Level 3 Long Description" 
+
+Associations 4541 "Program Level 3 Long Description" AssociationContext 4513 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Program Level 3 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 4543 "Program Level 4" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4545 "Program Level 4" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Program Level 4" 
+
+Associations 4547 "Program Level 4 Long Description" AssociationContext 4513 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Program Level 4 Long Description" 
+SortOrder Text SortAs Ascending 
+Associations 4549 "Program Level 4 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Program Level 4 Long Description" 
+
+
+
+Levels 4551 "Program Level 5" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 4553 "Program Level 5" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Program Level 5" 
+
+Associations 4555 "Program Level 5 Long Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Program Level 5 Long Description" 
+
+Associations 4557 "Program Level 5 Long Description" AssociationContext 4513 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Program Level 5 Long Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 4513 
+
+ViewName 4515 "All Categories" Type All ViewCustomView 0 
+ViewName 4517 "Omit Dimension" Type Omit ViewCustomView 0 
+Measure 11323 "Fiscal Year Adopted Budget" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 11325 "Fiscal Year Adopted Budget" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fiscal Year Adopted Budget" 
+
+
+
+Measure 11327 "Fiscal Year Budget Adjustments" IgnoreMissingValue False 
+Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False 
+IsFolder False Format "$#,##0~2" DrillThrough False EndList Associations 11329 
+"Fiscal Year Budget Adjustments" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Fiscal Year Budget Adjustments" 
+
+
+Measure 11331 "Fiscal Year Total Budget" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 11333 "Fiscal Year Total Budget" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Fiscal Year Total Budget" 
+
+
+
+Measure 11369 "Adopted Budget" IgnoreMissingValue False Storage Float64 
+OutPutScale 0 Decimals 2 ReverseSign False IsCurrency False IsFolder False 
+Format "$#,##0~2" DrillThrough False EndList Associations 11371 "Current Period Adopted Budget" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Current Period Adopted Budget" 
+
+
+
+Measure 11243 "Adjustments" IgnoreMissingValue False Storage Float64 OutPutScale 0 
+Decimals 2 ReverseSign False IsCurrency False IsFolder False Format "$#,##0~2" 
+DrillThrough False EndList Associations 11245 "Current Period Budget Adjustments" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Current Period Budget Adjustments" 
+
+
+
+Measure 11253 "Reservations" IgnoreMissingValue False Storage Float64 OutPutScale 0 
+Decimals 2 ReverseSign False IsCurrency False IsFolder False Format "$#,##0~2" 
+DrillThrough False EndList Associations 11255 "Current Period Reservations" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Current Period Reservations" 
+
+
+
+Measure 11263 "Encumbrances" IgnoreMissingValue False Storage Float64 OutPutScale 0 
+Decimals 2 ReverseSign False IsCurrency False IsFolder False Format "$#,##0~2" 
+DrillThrough False EndList Associations 11265 "Current Period Encumbrances" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Current Period Encumbrances" 
+
+
+
+Measure 11273 "Activity" IgnoreMissingValue False Storage Float64 OutPutScale 0 
+Decimals 2 ReverseSign False IsCurrency False IsFolder False Format "$#,##0~2" 
+DrillThrough False EndList Associations 11275 "Current Period Activity" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Current Period Activity" 
+
+
+
+Measure 16733 "Remaining Balance" Calc ( "Adopted Budget@11369" + "Adjustments@11243" ) - ( "Reservations@11253" + "Encumbrances@11263" + "Activity@11273" )  Timing After_Rollup 
+IgnoreMissingValue False Storage Float64 OutPutScale 0 Decimals 2 ReverseSign False 
+IsCurrency False IsFolder False Format "$#,##0~2" DrillThrough False EndList 
+
+
+
+Cube 643 "WFT_OPERATING_LEDGER" MdcFile "WFT_OPERATING_LEDGER_BUILD.mdc" 
+EncryptedPW "9AF6CCF75911DAE910EC455175E3D8F69AF6CCF75911DAE910EC455175E3D8F69AF6CCF" 
+"75911DAE910EC455175E3D8F69AF6CCF75911DAE910EC455175E3D8F69AF6CCF75911DA" 
+"E910EC455175E3D8F69AF6CCF75911DAE910EC455175E3D8F69AF6CCF75911DAE910EC4" 
+"55175E3D8F69AF6CCF75911DAE910EC455175E3D8F69AF6CCF75911DAE910EC455175E3" 
+"D8F69AF6CCF75911DAE910EC455175E3D8F69AF6CCF75911DAE910EC455175E3D8F69AF" 
+"6CCF75911DAE910EC455175E3D8F69AF6CCF75911DAE910EC455175E3D8F69AF6CCF759" 
+"11DAE910EC455175E3D8F69AF6CCF75911DAE910EC455175E3D8F69AF6CCF75911DAE91" 
+"0EC455175E3D8" Status OK CubeCreation On Optimize Default ConsolidatedRecords 10000000 
+PartitionSize 500000 PassesNumber 5 Compress False DatabaseInfo "Local;" 
+IncrementalUpdate False ServerCube True CubeStamp 1231362473 CubeCycle 36 
+BlockParentTotals False Caching False UseAlternateFileName False DrillThrough False 
+EndList DataSourceWindowsLocation "E:\edw80101u\cognos\edw\cubes\WFT_OPERATING_LEDGER.mdc" 
+DataSourceUnixLinuxLocation "/u01/edw80101u/cognos/edw/cubes/WFT_OPERATING_LEDGER.mdc" 
+DataSourceSignon False Packagelocation "/content/folder[@name='EDW Packages']" 
+PublisheEnable True PublishStatus None 
+DimensionView 11399 "All Categories" DimensionView 503 "All Categories" 
+DimensionView 10967 "All Categories" DimensionView 16761 "All Categories" 
+DimensionView 1381 "All Categories" DimensionView 549 "All Categories" 
+DimensionView 1495 "All Categories" DimensionView 11417 "All Categories" 
+DimensionView 571 "All Categories" DimensionView 593 "All Categories" DimensionView 1677 
+"All Categories" DimensionView 1539 "All Categories" DimensionView 1613 
+"All Categories" DimensionView 1561 "All Categories" DimensionView 1583 
+"All Categories" DimensionView 4563 "All Categories" DimensionView 4607 
+"All Categories" DimensionView 4585 "All Categories" DimensionView 4487 
+"All Categories" DimensionView 4509 "All Categories" 
+MeasureInclude 11323 Yes MeasureInclude 11327 Yes MeasureInclude 11331 
+Yes MeasureInclude 11369 Yes MeasureInclude 11243 Yes MeasureInclude 11253 
+Yes MeasureInclude 11263 Yes MeasureInclude 11273 Yes MeasureInclude 16733 
+Yes 
+
+
+AllocationAdd Measure 11323 Type Default 
+AllocationAdd Measure 11327 Type Default 
+AllocationAdd Measure 11331 Type Default 
+AllocationAdd Measure 11369 Type Default 
+AllocationAdd Measure 11243 Type Default 
+AllocationAdd Measure 11253 Type Default 
+AllocationAdd Measure 11263 Type Default 
+AllocationAdd Measure 11273 Type Default 
+AllocationAdd Measure 16733 Type Default 
+

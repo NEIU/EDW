@@ -1,0 +1,22 @@
+#
+# AUDIT TRAIL: 1.0
+# 1. JEH  06/01/2008      
+#
+# AUDIT TRAIL END
+#
+# FILE NAME..: Chg_EDW_conn
+# PRODUCT....: INFORMATION ACCESS
+# USAGE......: General script for altering Cognos cubes Connectors
+#
+# COPYRIGHT..: Copyright (c) SCT Corporation 2004.  All rights reserved.
+#   
+
+# -----------------------------------------------------------
+#  Set up Cognos Transformer env vars.
+# -----------------------------------------------------------
+
+. ./setUpCognosEnv
+
+cd $COGNOS_ROOT_DIR/webapps/utilities/PCConn
+
+./PCConn.sh -f $TRANSFORMER_SCRIPTS_DIR/changeEDWcube_connectors.txt > $TRANSFORMER_LOG_DIR/changeEDWcube_connectors.log

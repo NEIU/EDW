@@ -1,0 +1,13 @@
+Transformer(8.4.6018.0)  Mon Jun 28 14:59:28 2010
+
+LogFileDirectory=c:\edw80101u\cognos\edw\logs\
+ModelSaveDirectory=c:\edw80101u\cognos\edw\transformer_models\win\
+DataSourceDirectory=C:\Program Files\cognos\c841\data\
+CubeSaveDirectory=c:\edw80101u\cognos\edw\cubes\
+DataWorkDirectory=C:\Program Files\cognos\c841\temp\
+ModelWorkDirectory=C:\Program Files\cognos\c841\temp\
+MaxTransactionNum=500000
+Product locale: English (en)
+Run locale: English (United States) (en-us)
+
+Mon 28 Jun 2010 2:59:32 PM	2	00000000	(TR1100) The import file C:\edw80101u\cognos\edw\cubes\WFT_ACADEMIC_PROGRAM_COURSE_BUILD.mdc has an invalid keyword on line 0. [->OK]

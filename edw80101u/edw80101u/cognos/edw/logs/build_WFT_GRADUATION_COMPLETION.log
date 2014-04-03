@@ -1,0 +1,39 @@
+Transformer(8.4.6024.0)  Thu Jun 23 08:38:18 2011
+
+LogFileDirectory=C:\edw80101u\cognos\edw\logs\
+ModelSaveDirectory=C:\edw80101u\cognos\edw\transformer_models\win\
+DataSourceDirectory=..\data\
+CubeSaveDirectory=C:\edw80101u\cognos\edw\cubes\
+DataWorkDirectory=..\temp\
+ModelWorkDirectory=C:\edw80101u\cognos\edw\work\
+MaxTransactionNum=2000000
+Product locale: English (en)
+Run locale: English (United States) (en-us)
+
+Thu 23 Jun 2011 8:38:20 AM	4	00001171	Start cube update.
+Thu 23 Jun 2011 8:38:20 AM	4	00001171	Initializing categories.
+Thu 23 Jun 2011 8:38:20 AM	4	00001171	Timing, INITIALIZING CATEGORIES,00:00:00
+Thu 23 Jun 2011 8:38:20 AM	4	00001171	Start processing data source 'EDW Graduation Completion~1'.
+Thu 23 Jun 2011 8:38:20 AM	4	00001171	Reading source data.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Timing, OPEN DATA SOURCE,00:00:04
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	End processing 787 records from data source 'EDW Graduation Completion~1'.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Timing, READ DATA SOURCE,00:00:04
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Marking categories used.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Timing, MARKING CATEGORIES USED,00:00:00
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Updating category status.
+Thu 23 Jun 2011 8:38:24 AM	4	000001F9	Processing cube 'WFT_GRADUATION_COMPLETION' at location C:\edw80101u\cognos\edw\cubes\WFT_GRADUATION_COMPLETION_BUILD.mdc
+Thu 23 Jun 2011 8:38:24 AM	4	000001F9	Start metadata update of cube 'WFT_GRADUATION_COMPLETION' and data source ''.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Processing the work file.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Marking categories needed.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Updating the PowerCube metadata.
+Thu 23 Jun 2011 8:38:24 AM	4	000001F9	End metadata update of cube 'WFT_GRADUATION_COMPLETION' and data source ''.  2067 categories were added to the cube.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Timing, METADATA,00:00:00
+Thu 23 Jun 2011 8:38:24 AM	4	000001F9	Start data update of cube 'WFT_GRADUATION_COMPLETION' and data source ''.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Preparing to add the PowerCube data.
+Thu 23 Jun 2011 8:38:24 AM	4	00001171	Updating the PowerCube data.
+Thu 23 Jun 2011 8:38:24 AM	4	000001F9	End data update of cube 'WFT_GRADUATION_COMPLETION' and data source  ''.  87 [consolidated] records were written to the cube.
+Thu 23 Jun 2011 8:38:24 AM	4	000001F9	(TR3201) Update of cube 'WFT_GRADUATION_COMPLETION' is complete.
+Thu 23 Jun 2011 8:38:25 AM	4	00001171	End cube update.
+Thu 23 Jun 2011 8:38:25 AM	4	00001171	Timing, TOTAL TIME (CREATE CUBE),00:00:05
+Thu 23 Jun 2011 8:38:25 AM	2	00001171	(TR1901) PDS-PPE-0104 A record was rejected. An arithmetic overflow occurred. (Data) in C:\edw80101u\cognos\edw\cubes\WFT_GRADUATION_COMPLETION_BUILD.mdc. [->OK]
+Transformer  Thu Jun 23 08:38:28 2011

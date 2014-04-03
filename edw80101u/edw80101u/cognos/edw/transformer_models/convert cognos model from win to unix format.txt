@@ -1,0 +1,13 @@
+#steps to convert Cognos model file from window to unix
+
+Copy all model files under win directory and overwrite files in unix directory.
+
+open all files in slickedit or other text editor.
+
+1) Replace "ServerSource False" with "ServerSource True"  
+
+2) Replace "ServerCube False" with "ServerCube True"
+
+3) Save as unix format
+
+

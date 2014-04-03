@@ -1,0 +1,22 @@
+# condition Cognos 
+EDW_ROOT_DIR=/u01/install/edw80100u
+# if you have a script to condition
+. /root/.bash_profile
+# uncomment and update the following lines 
+# if you want to condition via this script
+#PATH=$PATH:/u01/app/oracle/product/102cl/bin
+#JAVA_HOME=/usr/java/jre1.5.0_13
+#LD_LIBRARY_PATH=/u01/app/oracle/product/102cl/lib:/u01/cognos/c83/bin
+#ORACLE_HOME=/u01/app/oracle/product/102cl
+#export LD_LIBRARY_PATH
+#export PATH
+#export ORACLE_HOME
+#export JAVA_HOME
+# 
+# Calls to SGHE scripts
+cd $EDW_ROOT_DIR/cognos/edw/scripts/unix/
+./buildEDWCubes
+./deployEDWCubes
+
+
+

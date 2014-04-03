@@ -1,0 +1,53 @@
+Transformer(8.4.6018.0)  Wed Jun 30 08:17:52 2010
+
+LogFileDirectory=c:\edw80101u\cognos\edw\logs\
+ModelSaveDirectory=c:\edw80101u\cognos\edw\transformer_models\win\
+DataSourceDirectory=..\data\
+CubeSaveDirectory=c:\edw80101u\cognos\edw\cubes\
+DataWorkDirectory=..\temp\
+ModelWorkDirectory=..\temp\
+MaxTransactionNum=500000
+Product locale: English (en)
+Run locale: English (United States) (en-us)
+
+Wed 30 Jun 2010 8:17:54 AM	4	00000685	(TR0646) Column or filter 'Academic Year' is based on reference '[Manage Applicants].[Academic Time].[Academic Year]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:54 AM	4	00000685	(TR0646) Column or filter 'Academic Year Description' is based on reference '[Manage Applicants].[Academic Time].[Academic Year Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:55 AM	4	00000685	(TR0646) Column or filter 'Academic Period Type' is based on reference '[Manage Applicants].[Academic Time].[Academic Period Type]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:55 AM	4	00000685	(TR0646) Column or filter 'Academic Period' is based on reference '[Manage Applicants].[Academic Time].[Academic Period]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:55 AM	4	00000685	(TR0646) Column or filter 'Academic Period Description' is based on reference '[Manage Applicants].[Academic Time].[Academic Period Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:56 AM	4	00000685	(TR0646) Column or filter 'Student Level' is based on reference '[Manage Applicants].[Academic Study].[Student Level]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:56 AM	4	00000685	(TR0646) Column or filter 'Student Level Description' is based on reference '[Manage Applicants].[Academic Study].[Student Level Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:57 AM	4	00000685	(TR0646) Column or filter 'Program Description' is based on reference '[Manage Applicants].[Academic Study].[Program Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:57 AM	4	00000685	(TR0646) Column or filter 'College' is based on reference '[Manage Applicants].[Academic Study].[College]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:58 AM	4	00000685	(TR0646) Column or filter 'College Description' is based on reference '[Manage Applicants].[Academic Study].[College Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:58 AM	4	00000685	(TR0646) Column or filter 'Major' is based on reference '[Manage Applicants].[Academic Study].[Major]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:58 AM	4	00000685	(TR0646) Column or filter 'Major Description' is based on reference '[Manage Applicants].[Academic Study].[Major Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:59 AM	4	00000685	(TR0646) Column or filter 'Department' is based on reference '[Manage Applicants].[Academic Study].[Department]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:17:59 AM	4	00000685	(TR0646) Column or filter 'Department Description' is based on reference '[Manage Applicants].[Academic Study].[Department Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:00 AM	4	00000685	(TR0646) Column or filter 'Application Rating Type' is based on reference '[Manage Applicants].[Admissions Application].[Application Rating Type]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:00 AM	4	00000685	(TR0646) Column or filter 'Application Rating Type Description' is based on reference '[Manage Applicants].[Admissions Application].[Application Rating Type Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:01 AM	4	00000685	(TR0646) Column or filter 'ID' is based on reference '[Manage Applicants].[Admissions Application].[ID]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:01 AM	4	00000685	(TR0646) Column or filter 'Name' is based on reference '[Manage Applicants].[Admissions Application].[Name]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:01 AM	4	00000685	(TR0646) Column or filter 'Administrator Role' is based on reference '[Manage Applicants].[Admissions Application].[Administrator Role]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:02 AM	4	00000685	(TR0646) Column or filter 'Administrator Role Description' is based on reference '[Manage Applicants].[Admissions Application].[Administrator Role Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:02 AM	4	00000685	(TR0646) Column or filter 'Secondary GPA Range' is based on reference '[Manage Applicants].[Secondary School].[Secondary GPA Range]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:03 AM	4	00000685	(TR0646) Column or filter 'Secondary Percentile Range' is based on reference '[Manage Applicants].[Secondary School].[Secondary Percentile Range]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:03 AM	4	00000685	(TR0646) Column or filter 'Secondary School Subject' is based on reference '[Manage Applicants].[Secondary School].[Secondary School Subject]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:03 AM	4	00000685	(TR0646) Column or filter 'Secondary School Subject Description' is based on reference '[Manage Applicants].[Secondary School].[Secondary School Subject Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:04 AM	4	00000685	(TR0646) Column or filter 'Secondary School Subject Grade' is based on reference '[Manage Applicants].[Secondary School].[Secondary School Subject Grade]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:05 AM	4	00000685	(TR0646) Column or filter 'Admissions Population' is based on reference '[Manage Applicants].[Student].[Admissions Population]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:05 AM	4	00000685	(TR0646) Column or filter 'Admissions Population Description' is based on reference '[Manage Applicants].[Student].[Admissions Population Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:05 AM	4	00000685	(TR0646) Column or filter 'Student Population' is based on reference '[Manage Applicants].[Student].[Student Population]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:06 AM	4	00000685	(TR0646) Column or filter 'Student Population Description' is based on reference '[Manage Applicants].[Student].[Student Population Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:06 AM	4	00000685	(TR0646) Column or filter 'Test' is based on reference '[Manage Applicants].[Test].[Test]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:07 AM	4	00000685	(TR0646) Column or filter 'Test Description' is based on reference '[Manage Applicants].[Test].[Test Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:07 AM	4	00000685	(TR0646) Column or filter 'Test Score Range Description' is based on reference '[Manage Applicants].[Test].[Test Score Range Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:08 AM	4	00000685	(TR0646) Column or filter 'Secondary GPA Range Description' is based on reference '[Manage Applicants].[Secondary School].[Secondary GPA Range Description]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:08 AM	4	00000685	(TR0646) Column or filter 'Application Rating Range' is based on reference '[Manage Applicants].[Admissions Application].[Application Rating Range]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:08 AM	4	00000685	(TR0646) Column or filter 'Application Rating Range Order' is based on reference '[Manage Applicants].[Admissions Application].[Application Rating Range Order]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:09 AM	4	00000685	(TR0646) Column or filter 'Secondary School Subject Years Taken' is based on reference '[Manage Applicants].[Secondary School].[Secondary School Subject Years Taken]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:09 AM	4	00000685	(TR0646) Column or filter 'APPLICATION_UNIQUE_KEY' is based on reference '[Manage Applicants].[Internal Keys].[APPLICATION_UNIQUE_KEY]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:10 AM	4	00000685	(TR0646) Column or filter 'PERSON_UID' is based on reference '[Manage Applicants].[Internal Keys].[PERSON_UID]' which cannot be found in package or report 'PM Manage Applicants'.
+Wed 30 Jun 2010 8:18:10 AM	2	00000685	Error:  (TR0649) One or more columns or filters cannot be found in datasource 'Manage Applicants'. [->OK]
+Wed 30 Jun 2010 8:18:10 AM	2	00000685	Check model is finished.  1 error(s), 0 warning(s) found. [->OK]
+Transformer  Wed Jun 30 08:21:38 2010

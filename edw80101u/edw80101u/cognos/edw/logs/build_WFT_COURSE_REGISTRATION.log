@@ -1,0 +1,47 @@
+Transformer(8.4.6024.0)  Thu Jun 23 08:37:32 2011
+
+LogFileDirectory=C:\edw80101u\cognos\edw\logs\
+ModelSaveDirectory=C:\edw80101u\cognos\edw\transformer_models\win\
+DataSourceDirectory=..\data\
+CubeSaveDirectory=C:\edw80101u\cognos\edw\cubes\
+DataWorkDirectory=..\temp\
+ModelWorkDirectory=C:\edw80101u\cognos\edw\work\
+MaxTransactionNum=2000000
+Product locale: English (en)
+Run locale: English (United States) (en-us)
+
+Thu 23 Jun 2011 8:37:34 AM	4	00006AE3	Start cube update.
+Thu 23 Jun 2011 8:37:34 AM	4	00006AE3	Initializing categories.
+Thu 23 Jun 2011 8:37:34 AM	4	00006AE3	Timing, INITIALIZING CATEGORIES,00:00:00
+Thu 23 Jun 2011 8:37:34 AM	4	00006AE3	Start processing data source 'EDW Course Registration~1'.
+Thu 23 Jun 2011 8:37:34 AM	4	00006AE3	Reading source data.
+Thu 23 Jun 2011 8:37:42 AM	4	00006AE3	Timing, OPEN DATA SOURCE,00:00:08
+Thu 23 Jun 2011 8:38:03 AM	4	00006AE3	End processing 83928 records from data source 'EDW Course Registration~1'.
+Thu 23 Jun 2011 8:38:03 AM	4	00006AE3	Timing, READ DATA SOURCE,00:00:29
+Thu 23 Jun 2011 8:38:03 AM	4	00006AE3	Marking categories used.
+Thu 23 Jun 2011 8:38:03 AM	4	00006AE3	Timing, MARKING CATEGORIES USED,00:00:00
+Thu 23 Jun 2011 8:38:03 AM	4	00006AE3	Updating category status.
+Thu 23 Jun 2011 8:38:03 AM	4	00006AE3	Processing the work file.
+Thu 23 Jun 2011 8:38:05 AM	4	000001F9	Processing cube 'WFT_COURSE_REGISTRATION' at location C:\edw80101u\cognos\edw\cubes\WFT_COURSE_REGISTRATION_BUILD.mdc
+Thu 23 Jun 2011 8:38:05 AM	4	00006AE3	Timing, UPDATE CATEGORY AND PROCESS WORK FILE,00:00:02
+Thu 23 Jun 2011 8:38:05 AM	4	000001F9	Start metadata update of cube 'WFT_COURSE_REGISTRATION'.
+Thu 23 Jun 2011 8:38:05 AM	4	00006AE3	Marking categories needed.
+Thu 23 Jun 2011 8:38:05 AM	4	00006AE3	Updating the PowerCube metadata.
+Thu 23 Jun 2011 8:38:06 AM	4	000001F9	End metadata update of cube 'WFT_COURSE_REGISTRATION'.  8446 categories were added to the cube.
+Thu 23 Jun 2011 8:38:06 AM	4	00006AE3	Timing, METADATA,00:00:01
+Thu 23 Jun 2011 8:38:06 AM	4	000001F9	Start update of cube 'WFT_COURSE_REGISTRATION'.
+Thu 23 Jun 2011 8:38:06 AM	4	000001F9	--- Performing Pass 0 with 83928 rows and 8476 categories remaining.
+Thu 23 Jun 2011 8:38:06 AM	4	000001F9	Start Write leaving 8476 categories remaining.
+Thu 23 Jun 2011 8:38:06 AM	4	00006AE3	Updating the PowerCube data.
+Thu 23 Jun 2011 8:38:06 AM	4	00006AE3	Updating the PowerCube data.
+Thu 23 Jun 2011 8:38:09 AM	4	00006AE3	Performing DataBase Commit at record number 83929.
+Thu 23 Jun 2011 8:38:09 AM	4	000001F9	End Write leaving 8476 categories remaining..
+Thu 23 Jun 2011 8:38:09 AM	4	00006AE3	Timing, CUBE UPDATE,00:00:03
+Thu 23 Jun 2011 8:38:09 AM	4	00006AE3	Committing PowerCube(s).
+Thu 23 Jun 2011 8:38:10 AM	4	00006AE3	Timing, CUBE COMMIT,00:00:01
+Thu 23 Jun 2011 8:38:10 AM	4	00006AE3	Updating the PowerCube with optimized metadata.
+Thu 23 Jun 2011 8:38:10 AM	4	00006AE3	Start update of cube 'C:\edw80101u\cognos\edw\cubes\WFT_COURSE_REGISTRATION_BUILD.mdc' with optimized metadata.
+Thu 23 Jun 2011 8:38:10 AM	4	00006AE3	End update of cube 'C:\edw80101u\cognos\edw\cubes\WFT_COURSE_REGISTRATION_BUILD.mdc' with optimized metadata.
+Thu 23 Jun 2011 8:38:11 AM	4	00006AE3	End cube update.
+Thu 23 Jun 2011 8:38:11 AM	4	00006AE3	Timing, TOTAL TIME (CREATE CUBE),00:00:37
+Transformer  Thu Jun 23 08:38:15 2011

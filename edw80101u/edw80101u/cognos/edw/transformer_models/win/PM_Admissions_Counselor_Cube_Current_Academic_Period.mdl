@@ -1,0 +1,851 @@
+
+Name "PM_Admissions_Counselor_Cube" ModelCodePage "windows-1252" AutoAccess False 
+SynchroCycle 0 SynchroStamp 0 UpdateCycle 3 ModelStamp 1205262125 ClientStamp 1205262125 
+ServerStamp 0 Version "8.4.6018.0" ModelCategoryOrderDefault OrderUsePreference 
+ModelOrderedByDefault False 
+
+CognosSource 891 "PM Manage Applicants" SourceType Package SourcePath "/content/folder[@name='Performance Management Packages']/package[@name='PM Manage Applicants']" 
+PackageTimeStamp "/content/folder[@name='Performance Management Packages']/package[@name='PM Manage Applicants']/model[@name='model']" 
+
+
+DataSource 893 "Manage Applicants" Separator " " SourceType CognosSourceQuery 
+CharacterSet Default DecimalSep "." Thousandsep "," Columns True Timing PopYesCreateDefault 
+PackageReportSource 891 "PM Manage Applicants" AutoSummary True SetCurrent True 
+ServerSource False Speed False Presummarized False StreamExtractSize 0 
+
+
+OrgName 895 "[Manage Applicants].[Academic Time].[Academic Year]" Origin Source 
+Offset 0 Column "Academic Year" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 897 "[Manage Applicants].[Academic Time].[Academic Year Description]" 
+Origin Source Offset 1 Column "Academic Year Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 899 "[Manage Applicants].[Academic Time].[Academic Period Type]" 
+Origin Source Offset 2 Column "Academic Period Type" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 901 "[Manage Applicants].[Academic Time].[Academic Period]" Origin Source 
+Offset 3 Column "Academic Period" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 903 "[Manage Applicants].[Academic Time].[Academic Period Description]" 
+Origin Source Offset 4 Column "Academic Period Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 905 "[Manage Applicants].[Academic Study].[Student Level]" Origin Source 
+Offset 5 Column "Student Level" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 907 "[Manage Applicants].[Academic Study].[Student Level Description]" 
+Origin Source Offset 6 Column "Student Level Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 909 "[Manage Applicants].[Academic Study].[Program Description]" 
+Origin Source Offset 7 Column "Program Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 911 "[Manage Applicants].[Academic Study].[College]" Origin Source 
+Offset 8 Column "College" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 913 "[Manage Applicants].[Academic Study].[College Description]" 
+Origin Source Offset 9 Column "College Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 915 "[Manage Applicants].[Academic Study].[Major]" Origin Source 
+Offset 10 Column "Major" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 917 "[Manage Applicants].[Academic Study].[Major Description]" 
+Origin Source Offset 11 Column "Major Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 919 "[Manage Applicants].[Academic Study].[Department]" Origin Source 
+Offset 12 Column "Department" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 921 "[Manage Applicants].[Academic Study].[Department Description]" 
+Origin Source Offset 13 Column "Department Description" Storage Text Scale 0 
+Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 923 "[Manage Applicants].[Admissions Application].[Application Rating Type]" 
+Origin Source Offset 14 Column "Application Rating Type" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 925 "[Manage Applicants].[Admissions Application].[Application Rating Type Description]" 
+Origin Source Offset 15 Column "Application Rating Type Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 927 "[Manage Applicants].[Admissions Application].[ID]" Origin Source 
+Offset 16 Column "ID" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 929 "[Manage Applicants].[Admissions Application].[Name]" Origin Source 
+Offset 17 Column "Name" Storage Text Scale 0 Size 512 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 931 "[Manage Applicants].[Admissions Application].[Administrator Role]" 
+Origin Source Offset 18 Column "Administrator Role" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 933 "[Manage Applicants].[Admissions Application].[Administrator Role Description]" 
+Origin Source Offset 19 Column "Administrator Role Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 939 "[Manage Applicants].[Secondary School].[Secondary GPA Range]" 
+Origin Source Offset 20 Column "Secondary GPA Range" Storage Text Scale 0 
+Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 941 "[Manage Applicants].[Secondary School].[Secondary Percentile Range]" 
+Origin Source Offset 21 Column "Secondary Percentile Range" Storage Text 
+Scale 0 Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 943 "[Manage Applicants].[Secondary School].[Secondary School Subject]" 
+Origin Source Offset 22 Column "Secondary School Subject" Storage Text 
+Scale 0 Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 945 "[Manage Applicants].[Secondary School].[Secondary School Subject Description]" 
+Origin Source Offset 23 Column "Secondary School Subject Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 947 "[Manage Applicants].[Secondary School].[Secondary School Subject Grade]" 
+Origin Source Offset 24 Column "Secondary School Subject Grade" Storage Text 
+Scale 0 Size 128 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 949 "[Manage Applicants].[Student].[Admissions Population]" Origin Source 
+Offset 25 Column "Admissions Population" Storage Text Scale 0 Size 128 
+Decimals 0 Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+
+OrgName 951 "[Manage Applicants].[Student].[Admissions Population Description]" 
+Origin Source Offset 26 Column "Admissions Population Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 953 "[Manage Applicants].[Student].[Student Population]" Origin Source 
+Offset 27 Column "Student Population" Storage Text Scale 0 Size 128 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 955 "[Manage Applicants].[Student].[Student Population Description]" 
+Origin Source Offset 28 Column "Student Population Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 957 "[Manage Applicants].[Test].[Test]" Origin Source Offset 29 
+Column "Test" Storage Text Scale 0 Size 128 Decimals 0 Class Description 
+InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 959 "[Manage Applicants].[Test].[Test Description]" Origin Source 
+Offset 30 Column "Test Description" Storage Text Scale 0 Size 512 Decimals 0 
+Class Description InputScale 0 TimeArray Off ColSrcType None 
+
+OrgName 961 "[Manage Applicants].[Test].[Test Score Range Description]" 
+Origin Source Offset 31 Column "Test Score Range Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 1295 "[Manage Applicants].[Secondary School].[Secondary GPA Range Description]" 
+Origin Source Offset 32 Column "Secondary GPA Range Description" Storage Text 
+Scale 0 Size 512 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 1421 "[Manage Applicants].[Admissions Application].[Application Rating Range]" 
+Origin Source Offset 33 Column "Application Rating Range" Storage Text 
+Scale 0 Size 22 Decimals 0 Class Description InputScale 0 TimeArray Off 
+ColSrcType None 
+
+OrgName 1423 "[Manage Applicants].[Admissions Application].[Application Rating Range Order]" 
+Origin Source Offset 34 Column "Application Rating Range Order" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup CountAll 
+ColSrcType None 
+
+OrgName 1425 "[Manage Applicants].[Secondary School].[Secondary School Subject Years Taken]" 
+Origin Source Offset 35 Column "Secondary School Subject Years Taken" Storage Float64 
+Scale 0 Size 8 Decimals 0 InputScale 0 TimeArray Off Rollup CountAll ColSrcType None 
+
+
+OrgName 1691 "APPLICATION_UNIQUE_KEY_LEVEL1" Origin Calculated Offset 36 
+Column "APPLICATION_UNIQUE_KEY_LEVEL1" Storage Default Scale 0 Size 1 Decimals 0 
+Class Quantity InputScale 0 TimeArray Off ColSrcType None Calc floor ( "APPLICATION_UNIQUE_KEY@1629" * 0.0001 )  
+
+OrgName 1629 "[Manage Applicants].[Internal Keys].[APPLICATION_UNIQUE_KEY]" 
+Origin Source Offset 36 Column "APPLICATION_UNIQUE_KEY" Storage Float64 
+Scale 0 Size 8 Decimals 0 Class Quantity InputScale 0 TimeArray Off Rollup CountAll 
+ColSrcType None 
+
+OrgName 1633 "PERSON_UID_LEVEL1" Origin Calculated Offset 37 Column "PERSON_UID_LEVEL1" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Quantity InputScale 0 TimeArray Off 
+ColSrcType None Calc floor ( "PERSON_UID@1627" * 0.01 )  
+
+OrgName 1627 "[Manage Applicants].[Internal Keys].[PERSON_UID]" Origin Source 
+Offset 37 Column "PERSON_UID" Storage Float64 Scale 0 Size 8 Decimals 0 
+Class Quantity InputScale 0 TimeArray Off Rollup CountAll ColSrcType None 
+
+
+OrgName 1453 "Application Count Measure" Origin Calculated Offset 38 Column "Application Count Measure" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Quantity InputScale 0 TimeArray Off 
+ColSrcType None Calc "APPLICATION_UNIQUE_KEY@1629"  
+
+OrgName 1631 "Applicant Count Weight" Origin Calculated Offset 38 Column "Applicant Count Measure" 
+Storage Default Scale 0 Size 1 Decimals 0 Class Quantity InputScale 0 TimeArray Off 
+ColSrcType None Calc "PERSON_UID@1627"  
+
+CognosPackageFilter  1687 "Current Academic Period" CognosPackageFilterRef "[Manage Applicants].[Current Academic Period]" 
+
+
+Dimension 967 "All Academic Time" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 969 "Academic Year" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 971 "By Academic Year" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 977 "Academic Year" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 979 "Academic Year" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Academic Year" 
+
+Associations 981 "Academic Year Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Academic Year Description" 
+
+Associations 1111 "Academic Year" AssociationContext 971 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Academic Year" SortOrder Text 
+SortAs Descending 
+
+
+Levels 983 "Academic Period Description" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 985 
+"Academic Period" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Academic Period" 
+Associations 987 "Academic Period Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Academic Period Description" 
+
+Associations 1415 "Academic Period" AssociationContext 971 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Academic Period" SortOrder Text 
+SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 971 
+
+ViewName 973 "All Categories" Type All ViewCustomView 0 
+ViewName 975 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1113 "All Academic Period Type" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1115 "Academic Period Type" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1117 "By Academic Period Type" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 1123 "Academic Period Type" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1125 
+"Academic Period Type" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Academic Period Type" 
+Associations 1127 "Academic Period Type" AssociationContext 1117 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Academic Period Type" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1117 
+
+ViewName 1119 "All Categories" Type All ViewCustomView 0 
+ViewName 1121 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1129 "All Student Level" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1131 "Student Level" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1133 "By Student Level" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1139 "Student Level" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1141 "Student Level Description" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Student Level Description" 
+
+Associations 1143 "Student Level Description" AssociationContext 1133 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Student Level Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1133 
+
+ViewName 1135 "All Categories" Type All ViewCustomView 0 
+ViewName 1137 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1145 "All Student Population" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1147 "Student Population" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1149 "By Student Population" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1155 "Student Population" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1157 "Student Population" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Student Population" 
+
+Associations 1159 "Student Population Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Student Population Description" 
+
+Associations 1391 "Student Population Description" AssociationContext 1149 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Student Population Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1149 
+
+ViewName 1151 "All Categories" Type All ViewCustomView 0 
+ViewName 1153 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1161 "All Admissions Population" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1163 "Admissions Population" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1165 "By Admissions Population" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 1171 "Admissions Population" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1173 
+"Admissions Population" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Admissions Population" 
+Associations 1175 "Admissions Population Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Admissions Population Description" 
+
+Associations 1177 "Admissions Population Description" AssociationContext 1165 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Admissions Population Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1165 
+
+ViewName 1167 "All Categories" Type All ViewCustomView 0 
+ViewName 1169 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1179 "All Program" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1181 "Program Description" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1183 "By Program Description" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1189 "Program" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1191 "Program Description" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Program Description" 
+
+Associations 1193 "Program Description" AssociationContext 1183 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Program Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1195 "College" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1197 "College" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "College" 
+
+Associations 1199 "College Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "College Description" 
+Associations 1201 "College Description" AssociationContext 1183 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "College Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1203 "Department" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1205 "Department" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Department" 
+
+Associations 1207 "Department Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Department Description" 
+Associations 1209 "Department Description" AssociationContext 1183 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Department Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1211 "Major" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1213 "Major" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Major" 
+
+Associations 1215 "Major Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Major Description" 
+Associations 1217 "Major Description" AssociationContext 1183 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Major Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1183 
+
+ViewName 1185 "All Categories" Type All ViewCustomView 0 
+ViewName 1187 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1575 "All College" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1577 "College" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1579 "By College" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1585 "College" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1587 "College" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "College" 
+
+Associations 1599 "College Description" AssociationContext 1579 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "College Description" 
+SortOrder Text SortAs Ascending 
+Associations 1611 "College Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "College Description" 
+
+
+Levels 1589 "Department" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1591 "Department" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Department" 
+
+Associations 1603 "Department Description" AssociationContext 1579 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Department Description" 
+SortOrder Text SortAs Ascending 
+Associations 1613 "Department Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Department Description" 
+
+
+Levels 1593 "Major" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1595 "Major" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Major" 
+
+Associations 1607 "Major Description" AssociationContext 1579 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Major Description" 
+SortOrder Text SortAs Ascending 
+Associations 1615 "Major Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Major Description" 
+
+
+
+MapDrills 
+MapDrill 1579 
+
+ViewName 1581 "All Categories" Type All ViewCustomView 0 
+ViewName 1583 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1219 "All Rater" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1221 "Administrator Role" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1223 "By Administrator Role" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1229 "Administrator Role" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1231 "Administrator Role" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Administrator Role" 
+
+Associations 1233 "Administrator Role Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Administrator Role Description" 
+
+Associations 1235 "Administrator Role Description" AssociationContext 1223 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Administrator Role Description" 
+SortOrder Text SortAs Ascending 
+
+
+Levels 1237 "Name" Blanks "( Blank )" DateFunction None Generate None RefreshLabel False 
+RefreshDescription False RefreshShortName False NewCatsLock False Timerank 0 
+UniqueCategories False UniqueMove False Associations 1239 "ID" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "ID" 
+Associations 1241 "Name" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Name" 
+Associations 1243 "Name" AssociationContext 1223 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Name" SortOrder Text 
+SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1223 
+
+ViewName 1225 "All Categories" Type All ViewCustomView 0 
+ViewName 1227 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1247 "All Application Rating Type" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1249 "Application Rating Type" Inclusion Generate Lastuse 20080405 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 1251 "By Application Rating Type" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 1257 "Application Rating Type" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1259 
+"Application Rating Type" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Application Rating Type" 
+Associations 1261 "Application Rating Type Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Application Rating Type Description" 
+
+Associations 1263 "Application Rating Type Description" AssociationContext 1251 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Application Rating Type Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1251 
+
+ViewName 1253 "All Categories" Type All ViewCustomView 0 
+ViewName 1255 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1465 "All Application Rating Range" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1467 "Application Rating Range" Inclusion Generate Lastuse 20080405 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 1469 "By Application Rating Range" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 1475 "Application Rating Range" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1477 
+"Application Rating Range" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Application Rating Range" 
+Associations 1479 "Application Rating Range Order" AssociationContext 1469 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Application Rating Range Order" 
+SortOrder Int16 SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1469 
+
+ViewName 1471 "All Categories" Type All ViewCustomView 0 
+ViewName 1473 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1265 "All Secondary Percentile Range" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1267 "Secondary Percentile Range" Inclusion Generate Lastuse 20080405 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 1269 "By Secondary Percentile Range" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 1275 "Secondary Percentile Range" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1277 
+"Secondary Percentile Range" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Secondary Percentile Range" 
+Associations 1279 "Secondary Percentile Range" AssociationContext 1269 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Secondary Percentile Range" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1269 
+
+ViewName 1271 "All Categories" Type All ViewCustomView 0 
+ViewName 1273 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1281 "All Secondary GPA Range" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1283 "Secondary GPA Range" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1285 "By Secondary GPA Range" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1291 "Secondary GPA Range" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1293 
+"Secondary GPA Range" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Secondary GPA Range" 
+Associations 1297 "Secondary GPA Range Description" AssociationContext 1285 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Secondary GPA Range Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1285 
+
+ViewName 1287 "All Categories" Type All ViewCustomView 0 
+ViewName 1289 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1299 "All Secondary School Subject" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1301 "Secondary School Subject" Inclusion Generate Lastuse 20080405 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 1303 "By Secondary School Subject" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 1309 "Secondary School Subject" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1311 
+"Secondary School Subject" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Secondary School Subject" 
+Associations 1313 "Secondary School Subject Description" AssociationContext 1303 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Secondary School Subject Description" 
+SortOrder Text SortAs Ascending 
+Associations 1393 "Secondary School Subject Description" AssociationType Type_Query 
+AssociationRole Role_Label AssociationReferenced "Secondary School Subject Description" 
+
+
+
+
+MapDrills 
+MapDrill 1303 
+
+ViewName 1305 "All Categories" Type All ViewCustomView 0 
+ViewName 1307 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1315 "All Secondary School Subject Grade" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1317 "Secondary School Subject Grade" Inclusion Generate Lastuse 20080405 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 1319 "By Secondary School Subject Grade" Inclusion Suppress Filtered False 
+Suppressed True PrimaryDrill True HideValue False 
+Levels 1325 "Secondary School Subject Grade" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1327 
+"Secondary School Subject Grade" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Secondary School Subject Grade" 
+Associations 1329 "Secondary School Subject Grade" AssociationContext 1319 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Secondary School Subject Grade" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1319 
+
+ViewName 1321 "All Categories" Type All ViewCustomView 0 
+ViewName 1323 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1481 "All Secondary School Subject Years Taken" DimType Regular NewCatsLock False 
+ExcludeAutoPartitioning False DimDefaultCategory 0 
+
+Categories 
+Root 1483 "Secondary School Subject Years Taken" Inclusion Generate Lastuse 20080405 
+Filtered False Suppressed False Sign False HideValue False IsKeyOrphanage False 
+IsTruncated False Blanks False 
+Drill 1485 "By Secondary School Subject Years Taken" Inclusion Suppress 
+Filtered False Suppressed True PrimaryDrill True HideValue False 
+Levels 1491 "Secondary School Subject Years Taken" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1493 
+"Secondary School Subject Years Taken" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "Secondary School Subject Years Taken" 
+Associations 1495 "Secondary School Subject Years Taken" AssociationContext 1485 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Secondary School Subject Years Taken" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1485 
+
+ViewName 1487 "All Categories" Type All ViewCustomView 0 
+ViewName 1489 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1331 "Test Score Range" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1333 "Test" Inclusion Generate Lastuse 20080405 Filtered False Suppressed False 
+Sign False HideValue False IsKeyOrphanage False IsTruncated False Blanks False 
+
+Drill 1335 "By Test" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1341 "Test" Blanks "( Blank )" DateFunction None Generate None RefreshLabel False 
+RefreshDescription False RefreshShortName False NewCatsLock False Timerank 0 
+UniqueCategories False UniqueMove False Associations 1343 "Test" AssociationType Type_Query 
+AssociationRole Role_Source AssociationReferenced "Test" 
+Associations 1345 "Test Description" AssociationType Type_Query AssociationRole Role_Label 
+AssociationReferenced "Test Description" 
+Associations 1395 "Test Description" AssociationContext 1335 AssociationType Type_Query 
+AssociationRole Role_OrderBy AssociationReferenced "Test Description" SortOrder Text 
+SortAs Ascending 
+
+
+Levels 1347 "Test Score Range" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1349 "Test Score Range Description" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Test Score Range Description" 
+
+Associations 1351 "Test Score Range Description" AssociationContext 1335 
+AssociationType Type_Query AssociationRole Role_OrderBy AssociationReferenced "Test Score Range Description" 
+SortOrder Text SortAs Ascending 
+
+
+
+MapDrills 
+MapDrill 1335 
+
+ViewName 1337 "All Categories" Type All ViewCustomView 0 
+ViewName 1339 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1643 "Not For Use" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1645 "PERSON_UID_LEVEL1" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1647 "By PERSON_UID_LEVEL1" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1653 "PERSON_UID_LEVEL1" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1655 "PERSON_UID_LEVEL1" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "PERSON_UID_LEVEL1" 
+
+
+
+Levels 1657 "PERSON_UID" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Suppressed True Timerank 0 UniqueCategories True UniqueMove False Associations 1659 
+"PERSON_UID" AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "PERSON_UID" 
+
+
+
+
+MapDrills 
+MapDrill 1647 
+
+ViewName 1649 "All Categories" Type All ViewCustomView 0 
+ViewName 1651 "Omit Dimension" Type Omit ViewCustomView 0 
+Dimension 1661 "Not For Use 1" DimType Regular NewCatsLock False ExcludeAutoPartitioning False 
+DimDefaultCategory 0 
+
+Categories 
+Root 1663 "Academic Period" Inclusion Generate Lastuse 20080405 Filtered False 
+Suppressed False Sign False HideValue False IsKeyOrphanage False IsTruncated False 
+Blanks False 
+Drill 1665 "By Academic Period" Inclusion Suppress Filtered False Suppressed True 
+PrimaryDrill True HideValue False 
+Levels 1671 "Academic Period" Blanks "( Blank )" DateFunction None Generate None 
+RefreshLabel False RefreshDescription False RefreshShortName False NewCatsLock False 
+Timerank 0 UniqueCategories False UniqueMove False Associations 1673 "Academic Period" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Academic Period" 
+
+
+
+Levels 1693 "APPLICATION_UNIQUE_KEY_LEVEL1" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Timerank 0 UniqueCategories False UniqueMove False Associations 1695 
+"APPLICATION_UNIQUE_KEY_LEVEL1" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "APPLICATION_UNIQUE_KEY_LEVEL1" 
+
+
+Levels 1675 "APPLICATION_UNIQUE_KEY" Blanks "( Blank )" DateFunction None 
+Generate None RefreshLabel False RefreshDescription False RefreshShortName False 
+NewCatsLock False Suppressed True Timerank 0 UniqueCategories True UniqueMove False 
+Associations 1677 "APPLICATION_UNIQUE_KEY" AssociationType Type_Query AssociationRole Role_Source 
+AssociationReferenced "APPLICATION_UNIQUE_KEY" 
+
+
+
+MapDrills 
+MapDrill 1665 
+
+ViewName 1667 "All Categories" Type All ViewCustomView 0 
+ViewName 1669 "Omit Dimension" Type Omit ViewCustomView 0 
+Measure 1681 "Application Count" Levels 1675 ActivityMeasure "Application Count Weight" 
+Rollup CategoryCount IgnoreMissingValue False Storage Default OutPutScale 0 
+Decimals 0 ReverseSign False IsCurrency False IsFolder False DrillThrough False 
+EndList 
+
+Measure 1683 "Applicant Headcount" Levels 1657 ActivityMeasure "Applicant Count Weight" 
+Rollup CategoryCount IgnoreMissingValue False Storage Default OutPutScale 0 
+Decimals 0 ReverseSign False IsCurrency False IsFolder False DrillThrough False 
+EndList 
+
+Measure 1635 "Application Count Weight" Rollup Count IgnoreMissingValue False 
+Storage Default OutPutScale 0 Decimals 0 ReverseSign False IsCurrency False 
+IsFolder False DrillThrough False EndList Associations 1637 "Application Count Measure" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Application Count Measure" 
+
+
+
+Measure 1639 "Applicant Count Weight" Rollup Count IgnoreMissingValue False 
+Storage Default OutPutScale 0 Decimals 0 ReverseSign False IsCurrency False 
+IsFolder False DrillThrough False EndList Associations 1641 "Applicant Count Measure" 
+AssociationType Type_Query AssociationRole Role_Source AssociationReferenced "Applicant Count Measure" 
+
+
+
+
+
+Cube 1387 "pm_admissions_counselor_cube_current_academic_period" MdcFile "PM_Admissions_Counselor_Cube_Current_Academic_Period_BUILD.mdc" 
+EncryptedPW "" Status OK CubeCreation On Optimize Default ConsolidatedRecords 10000000 
+PartitionSize 500000 PassesNumber 5 Compress False IncrementalUpdate False 
+ServerCube False CubeStamp 1207453642 CubeCycle 2 BlockParentTotals False 
+Caching False UseAlternateFileName False DeployType DeployNone DeployLocations EndList DrillThrough False 
+EndList CognosConnectionDataSourceName "PM Admissions Counselor Cube - Current Academic Period" 
+DataSourceWindowsLocation "C:\edw80101u\cognos\edw\cubes\PM_Admissions_Counselor_Cube_Current_Academic_Period.mdc" 
+ReadCacheSize 10 DataSourceSignon False PackageName "PM Admissions Counselor Cube - Current Academic Period" 
+Packagelocation "/content/folder[@name='Performance Management Packages']" 
+PublishEnable True PublishStatus CognosSource PublishedDate 1209670704 
+PublishAllowNullSuppression True PublishAllowMultiEdgeSuppression True 
+PublishAllowAccessToSuppressionOptions True 
+DimensionView 967 "All Categories" DimensionView 1113 "All Categories" 
+DimensionView 1129 "All Categories" DimensionView 1145 "All Categories" 
+DimensionView 1161 "All Categories" DimensionView 1179 "All Categories" 
+DimensionView 1575 "All Categories" DimensionView 1219 "All Categories" 
+DimensionView 1247 "All Categories" DimensionView 1465 "All Categories" 
+DimensionView 1265 "All Categories" DimensionView 1281 "All Categories" 
+DimensionView 1299 "All Categories" DimensionView 1315 "All Categories" 
+DimensionView 1481 "All Categories" DimensionView 1331 "All Categories" 
+DimensionView 1643 "All Categories" DimensionView 1661 "All Categories" 
+
+MeasureInclude 1681 Yes MeasureInclude 1683 Yes MeasureInclude 1635 No 
+MeasureInclude 1639 No 
+
+
+AllocationAdd Measure 1681 Type Default 
+AllocationAdd Measure 1683 Type Default 
+AllocationAdd Measure 1635 Type Default 
+AllocationAdd Measure 1639 Type Default 
+

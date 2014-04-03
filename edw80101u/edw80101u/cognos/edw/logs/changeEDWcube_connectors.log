@@ -1,0 +1,62 @@
+Licensed Materials - Property of IBM
+
+BI and PM: pcconn
+
+© Copyright IBM Corp. 2007, 2009
+
+US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+
+
+===== IBM Cognos PowerCube Connection Admin Command Console =====
+Please type your credentials for authentication.
+Namespace:Secure Access - All Connections Logged
+Connected to http://localhost:9300/p2pd/servlet/dispatch
+Connections for WFT_ACADEMIC_PROGRAM_COURSE:
+    Windows path for WFT_ACADEMIC_PROGRAM_COURSE:     UNIX path: Connections for WFT_ADVANCEMENT_GIFT:
+    Windows path for WFT_ADVANCEMENT_GIFT:     UNIX path: Connections for WFT_COURSE_REGISTRATION:
+    Windows path for WFT_COURSE_REGISTRATION:     UNIX path: Connections for WFT_EMPLOYEE:
+    Windows path for WFT_EMPLOYEE:     UNIX path: Connections for WFT_EMPLOYEE_DEGREE:
+    Windows path for WFT_EMPLOYEE_DEGREE:     UNIX path: Connections for WFT_EMPLOYEE_POSITION:
+    Windows path for WFT_EMPLOYEE_POSITION:     UNIX path: Connections for WFT_EMPLOYMENT_APPLICATION:
+    Windows path for WFT_EMPLOYMENT_APPLICATION:     UNIX path: Connections for WFT_ENROLLMENT:
+    Windows path for WFT_ENROLLMENT:     UNIX path: Connections for WFT_FINANCIAL_AID_PRE_STUDENT:
+    Windows path for WFT_FINANCIAL_AID_PRE_STUDENT:     UNIX path: Connections for WFT_FINANCIAL_AID_STUDENT:
+    Windows path for WFT_FINANCIAL_AID_STUDENT:     UNIX path: Connections for WFT_GENERAL_LEDGER:
+    Windows path for WFT_GENERAL_LEDGER:     UNIX path: Connections for WFT_GENERAL_LEDGER_EVENT:
+    Windows path for WFT_GENERAL_LEDGER_EVENT:     UNIX path: Connections for WFT_GRADUATION_COMPLETION:
+    Windows path for WFT_GRADUATION_COMPLETION:     UNIX path: Connections for WFT_GRANT_AND_PROJECT:
+    Windows path for WFT_GRANT_AND_PROJECT:     UNIX path: Connections for WFT_OPERATING_LEDGER:
+    Windows path for WFT_OPERATING_LEDGER:     UNIX path: Connections for WFT_RECEIVABLE_CUSTOMER:
+    Windows path for WFT_RECEIVABLE_CUSTOMER:     UNIX path: Connections for WFT_RECEIVABLE_REVENUE:
+    Windows path for WFT_RECEIVABLE_REVENUE:     UNIX path: Connections for WFT_RECRUITING_AND_ADMISSION:
+    Windows path for WFT_RECRUITING_AND_ADMISSION:     UNIX path: Connections for PM Admissions Counselor Cube:
+    Windows path for PM Admissions Counselor Cube:     UNIX path: Connections for PM Admissions Counselor Cube - Current Academic Period:
+    Windows path for PM Admissions Counselor Cube - Current Academic Period:     UNIX path: Connections for PM Aid Impact Analysis Cube:
+    Windows path for PM Aid Impact Analysis Cube:     UNIX path: Connections for PM Aid Impact Analysis Cube - Current Academic Period:
+    Windows path for PM Aid Impact Analysis Cube - Current Academic Period:     UNIX path: Connections for PM Award Analysis Cube:
+    Windows path for PM Award Analysis Cube:     UNIX path: Connections for PM Award Analysis Cube - Current Academic Period:
+    Windows path for PM Award Analysis Cube - Current Academic Period:     UNIX path: Testing WFT_ACADEMIC_PROGRAM_COURSE on localhost:9300: succeeded.
+Testing WFT_ADVANCEMENT_GIFT on localhost:9300: failed.
+Testing WFT_COURSE_REGISTRATION on localhost:9300: failed.
+Testing WFT_EMPLOYEE on localhost:9300: failed.
+Testing WFT_EMPLOYEE_DEGREE on localhost:9300: failed.
+Testing WFT_EMPLOYEE_POSITION on localhost:9300: failed.
+Testing WFT_EMPLOYMENT_APPLICATION on localhost:9300: failed.
+Testing WFT_ENROLLMENT on localhost:9300: failed.
+Testing WFT_FINANCIAL_AID_PRE_STUDENT on localhost:9300: failed.
+Testing WFT_FINANCIAL_AID_STUDENT on localhost:9300: failed.
+Testing WFT_GENERAL_LEDGER on localhost:9300: succeeded.
+Testing WFT_GENERAL_LEDGER_EVENT on localhost:9300: succeeded.
+Testing WFT_GRADUATION_COMPLETION on localhost:9300: failed.
+Testing WFT_GRANT_AND_PROJECT on localhost:9300: succeeded.
+Testing WFT_OPERATING_LEDGER on localhost:9300: succeeded.
+Testing WFT_RECEIVABLE_CUSTOMER on localhost:9300: failed.
+Testing WFT_RECEIVABLE_REVENUE on localhost:9300: failed.
+Testing WFT_RECRUITING_AND_ADMISSION on localhost:9300: failed.
+Testing PM Admissions Counselor Cube on localhost:9300: failed.
+Testing PM Admissions Counselor Cube - Current Academic Period on localhost:9300: failed.
+Testing PM Aid Impact Analysis Cube on localhost:9300: failed.
+Testing PM Aid Impact Analysis Cube - Current Academic Period on localhost:9300: failed.
+Testing PM Award Analysis Cube on localhost:9300: failed.
+Testing PM Award Analysis Cube - Current Academic Period on localhost:9300: failed.
+Testing EDW with signon EDW on localhost:9300: succeeded.

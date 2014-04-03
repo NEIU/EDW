@@ -1,0 +1,75 @@
+#!/bin/sh
+#
+# AUDIT TRAIL: 1.0
+# 1. RLZ   06/12/2006        Initial Verison
+#
+# AUDIT TRAIL: 8.1.1
+# 1. Remove -l option which can cause issues with Cognos 8.4.     SPC 21-OCT-2009
+#
+# AUDIT TRAIL END
+#
+# FILE NAME..: buildCognosCube
+# PRODUCT....: INFORMATION ACCESS
+# USAGE......: Script for building Cognos PowerPlay cubes on UNIX
+#
+# COPYRIGHT..: Copyright (c) SCT Corporation 2004.  All rights reserved.
+#
+#-----------------------------------------------------------
+# Parameters:
+#    1 - model name
+# - NOTE: Cube name and description MUST be wrapped in DOUBLE QUOTES
+#-----------------------------------------------------------
+
+MODEL_NAME=$1
+
+#-----------------------------------------------------------
+# Check inputs...
+#-----------------------------------------------------------
+
+### - Check user inputs...
+
+if [ "$MODEL_NAME" = "" ]; then
+    echo "---  No Model Name to Build supplied - please try again."
+    exit 1
+fi
+
+#-----------------------------------------------------------
+# Set up Cognos Transformer env vars.
+#-----------------------------------------------------------
+
+. ./setUpCognosEnv
+
+#--------------------------------------------------------------------------
+# Check for old version of temporary version of CUBE.
+#--------------------------------------------------------------------------
+
+if [ -f $TRANSFORMER_CUBE_DIR/$MODEL_NAME\_BUILD.mdc ]; then
+    rm $TRANSFORMER_CUBE_DIR/$MODEL_NAME\_BUILD.mdc
+fi
+
+cd $COGNOS_ROOT_DIR/bin/
+echo Loading Cube: $MODEL_NAME ...
+
+./cogtr -r4 -DLogFileName=build_$MODEL_NAME.log -DLogFileDirectory=$TRANSFORMER_LOG_DIR -DModelSaveDirectory=$TRANSFORMER_MODEL_DIR -DCubeSaveDirectory=$TRANSFORMER_CUBE_DIR -DModelWorkDirectory=$TRANSFORMER_WORK_DIR -c -m $TRANSFORMER_MODEL_DIR/$MODEL_NAME.mdl
+
+#--------------------------------------------------------------------------
+# user pcoptimize tool to make cube compatable with Cognos 8
+#--------------------------------------------------------------------------
+cd $COGNOS_ROOT_DIR/bin/
+
+if [ -f $TRANSFORMER_CUBE_DIR/$MODEL_NAME\_BUILD.mdc ]; then
+    ./pcoptimizer $TRANSFORMER_CUBE_DIR/$MODEL_NAME\_BUILD.mdc
+fi
+
+cd $TRANSFORMER_SCRIPTS_DIR
+
+
+#--------------------------------------------------------------------------
+# Check whether the cube build was successful. If not, stop processing
+#--------------------------------------------------------------------------
+
+if [ ! -f $TRANSFORMER_CUBE_DIR/$MODEL_NAME\_BUILD.mdc ]; then
+    echo "---  Error building cube - cube not found..."
+else
+    echo "--- Cube build succesful for cube: $MODEL_NAME"
+fi

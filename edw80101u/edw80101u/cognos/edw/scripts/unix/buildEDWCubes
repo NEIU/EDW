@@ -1,0 +1,57 @@
+#!/bin/sh
+#
+# AUDIT TRAIL: 1.0
+# 1. RZ/JRC   06/20/2004        Initial Verison
+#
+#
+# AUDIT TRAIL: 1.2
+# 1. RLZ   10/06/2005           Changed file to UNIX format
+#
+# AUDIT TRAIL: 1.3
+# 1. RLZ   06/12/2006           updated for Cognos 8
+#
+# AUDIT TRAIL: 1.4
+# 1. RLZ   04/17/2007           Added new cube WFT_ACADEMIC_PROGRAM_COURSE
+#
+# AUDIT TRAIL: 8.1
+# 1. Added new Financial Aid cubes.                       SPC 02/10/2009
+#
+# AUDIT TRAIL END
+#
+# FILE NAME..: buildEDWCubes
+# PRODUCT....: INFROMATION ACCESS
+# USAGE......: Driver script for building and deploying EDW cubes
+#
+# COPYRIGHT..: Copyright (c) SCT Corporation 2004.  All rights reserved.
+#
+#-----------------------------------------------------------
+# Parameters:
+#    1 - model name
+#-----------------------------------------------------------
+
+# Uncomment the line for the cube(s) you want to rebuild.
+
+./buildCognosCube WFT_ENROLLMENT                 
+./buildCognosCube WFT_RECRUITING_AND_ADMISSION   
+./buildCognosCube WFT_COURSE_REGISTRATION        
+./buildCognosCube WFT_GRADUATION_COMPLETION      
+./buildCognosCube WFT_FINANCIAL_AID_STUDENT      
+./buildCognosCube WFT_FINANCIAL_AID_PRE_STUDENT  
+./buildCognosCube WFT_OPERATING_LEDGER           
+./buildCognosCube WFT_GENERAL_LEDGER             
+./buildCognosCube WFT_GENERAL_LEDGER_EVENT       
+./buildCognosCube WFT_RECEIVABLE_CUSTOMER        
+./buildCognosCube WFT_RECEIVABLE_REVENUE         
+./buildCognosCube WFT_GRANT_AND_PROJECT          
+./buildCognosCube WFT_EMPLOYEE                   
+./buildCognosCube WFT_EMPLOYEE_POSITION          
+./buildCognosCube WFT_EMPLOYEE_DEGREE            
+./buildCognosCube WFT_EMPLOYMENT_APPLICATION     
+./buildCognosCube WFT_ADVANCEMENT_GIFT           
+./buildCognosCube WFT_ACADEMIC_PROGRAM_COURSE
+./buildCognosCube PM_Admissions_Counselor_Cube
+./buildCognosCube PM_Admissions_Counselor_Cube_Current_Academic_Period
+./buildCognosCube PM_Aid_Impact_Analysis_Cube
+./buildCognosCube PM_Aid_Impact_Analysis_Cube_Current_Academic_Period
+./buildCognosCube PM_Award_Analysis_Cube
+./buildCognosCube PM_Award_Analysis_Cube_Current_Academic_Period

@@ -1,0 +1,2803 @@
+:2410
+[Database View].[Academic Program]
+	parent=Database View
+	x=1079,104
+[Database View].[Academic Study]
+	parent=Database View
+	x=470,18597
+[Database View].[Academic Time]
+	parent=Database View
+	x=10,18720
+[Database View].[Account]
+	parent=Database View
+	x=1109,134
+[Database View].[Accounts Receivable]
+	parent=Database View
+	x=1139,164
+[Database View].[Administration]
+	parent=Database View
+	x=1169,194
+[Database View].[Administrator Role]
+	parent=Database View
+	x=230,18720
+[Database View].[Advancement Campaign]
+	parent=Database View
+	x=1199,224
+[Database View].[Application Decision]
+	parent=Database View
+	x=450,18720
+[Database View].[Application Rating]
+	parent=Database View
+	x=10,18776
+[Database View].[Application Requirement]
+	parent=Database View
+	x=230,18776
+[Database View].[Attribute]
+	parent=Database View
+	x=450,18776
+[Database View].[Attribute Group]
+	parent=Database View
+	x=1229,254
+[Database View].[Financial Aid Status]
+	parent=Database View
+	x=230,18944
+[Database View].[Financial Aid Year]
+	parent=Database View
+	x=1619,644
+[Database View].[Fund]
+	parent=Database View
+	x=1649,674
+[Database View].[Geographic Region]
+	parent=Database View
+	x=450,19000
+[Database View].[Gift]
+	parent=Database View
+	x=1679,704
+[Database View].[Graduation]
+	parent=Database View
+	x=1709,734
+[Database View].[Employee]
+	parent=Database View
+	x=1469,494
+[Database View].[Employment History]
+	parent=Database View
+	x=1499,524
+[Database View].[Enrollment Status]
+	parent=Database View
+	x=1529,554
+[Database View].[Event]
+	parent=Database View
+	x=0,3152
+[Database View].[Financial Aid Budget Group]
+	parent=Database View
+	x=70,44
+[Database View].[Financial Aid Fund]
+	parent=Database View
+	x=1559,584
+[Database View].[Financial Aid Fund Status]
+	parent=Database View
+	x=100,74
+[Database View].[Financial Aid Packaging Group]
+	parent=Database View
+	x=130,104
+[Database View].[Financial Aid Period]
+	parent=Database View
+	x=1589,614
+[Database View].[Grant Demographic]
+	parent=Database View
+	x=1739,764
+[Database View].[Grant Type]
+	parent=Database View
+	x=1769,794
+[Database View].[Hold]
+	parent=Database View
+	x=10,19056
+[Database View].[HR Applicant]
+	parent=Database View
+	x=1799,824
+[Database View].[HR Applicant Status]
+	parent=Database View
+	x=1829,854
+[Database View].[HR Requisition]
+	parent=Database View
+	x=1859,884
+[Database View].[Indicator]
+	parent=Database View
+	x=230,19056
+[Database View].[Institution]
+	parent=Database View
+	x=450,19056
+[Database View].[Instructor]
+	parent=Database View
+	x=1889,914
+[Database View].[Interest]
+	parent=Database View
+	x=10,19112
+[Database View].[Job]
+	parent=Database View
+	x=1919,944
+[Database View].[Major]
+	parent=Database View
+	x=1949,974
+[Database View].[Minor]
+	parent=Database View
+	x=1979,1004
+[Database View].[Multi Source]
+	parent=Database View
+	x=230,19112
+[Database View].[Calendar Date]
+	parent=Database View
+	x=10,18832
+[Database View].[Campaign]
+	parent=Database View
+	x=230,18832
+[Database View].[Campaign Activity]
+	parent=Database View
+	x=450,18832
+[Database View].[Campaign Status]
+	parent=Database View
+	x=10,18888
+[Database View].[Chart]
+	parent=Database View
+	x=1259,284
+[Database View].[Cohort]
+	parent=Database View
+	x=230,18888
+[Database View].[Cohort Group]
+	parent=Database View
+	x=1289,314
+[Database View].[Concentration]
+	parent=Database View
+	x=1319,344
+[Database View].[Constituent]
+	parent=Database View
+	x=1349,374
+[Database View].[Contact]
+	parent=Database View
+	x=450,18888
+[Database View].[Course]
+	parent=Database View
+	x=1379,404
+[Database View].[Customer]
+	parent=Database View
+	x=1409,434
+[Database View].[Demographic]
+	parent=Database View
+	x=10,18944
+[Database View].[Designation]
+	parent=Database View
+	x=1439,464
+[Database View].[Organization]
+	parent=Database View
+	x=2009,1034
+[Database View].[Person]
+	parent=Database View
+	x=450,19112
+[Database View].[Pledge]
+	parent=Database View
+	x=2039,1064
+[Database View].[Position]
+	parent=Database View
+	x=2069,1094
+[Database View].[Postal]
+	parent=Database View
+	x=10,19168
+[Database View].[Post Secondary School]
+	parent=Database View
+	x=230,19168
+[Database View].[Pre Student]
+	parent=Database View
+	x=2099,1124
+[Database View].[Pre Student Status]
+	parent=Database View
+	x=450,19168
+[Database View].[Program]
+	parent=Database View
+	x=2129,1154
+[Database View].[Record Type]
+	parent=Database View
+	x=10,19224
+[Database View].[Registration]
+	parent=Database View
+	x=2189,1214
+[Database View].[Secondary School]
+	parent=Database View
+	x=230,19224
+[Database View].[Secondary School Subject]
+	parent=Database View
+	x=450,19224
+[Database View].[Sequence]
+	parent=Database View
+	x=10,19280
+[Database View].[Street Address]
+	parent=Database View
+	x=230,19280
+[Database View].[Student]
+	parent=Database View
+	x=450,19280
+[Database View].[Student Application]
+	parent=Database View
+	x=10,19336
+[Database View].[Student Recruitment]
+	parent=Database View
+	x=230,19336
+[Database View].[Test]
+	parent=Database View
+	x=450,19336
+[Database View].[Test Group]
+	parent=Database View
+	x=2219,1244
+[Database View].[Time]
+	parent=Database View
+	x=2249,1274
+[Database View].[Academic Program Course Measure]
+	parent=Database View
+	x=2279,1304
+[Database View].[Admissions Application Measure]
+	parent=Database View
+	x=10,19392
+[Database View].[Admissions Financial Aid Measure]
+	parent=Database View
+	x=2309,1334
+[Database View].[Admission Recruitment Measure]
+	parent=Database View
+	x=450,19392
+[Database View].[Advancement Gift Measure]
+	parent=Database View
+	x=2339,1364
+[Database View].[Application Attribute Measure]
+	parent=Database View
+	x=10,19448
+[Database View].[Application Cohort Measure]
+	parent=Database View
+	x=230,19448
+[Database View].[Application Decision Measure]
+	parent=Database View
+	x=450,19448
+[Database View].[Application Rating Measure]
+	parent=Database View
+	x=10,19504
+[Database View].[Application Requirement Measure]
+	parent=Database View
+	x=230,19504
+[Database View].[Campaign Activity Measure]
+	parent=Database View
+	x=10,19560
+[Database View].[Contact Measure]
+	parent=Database View
+	x=10,19616
+[Database View].[Course Registration Measure]
+	parent=Database View
+	x=2369,1394
+[Database View].[Employee Measure]
+	parent=Database View
+	x=2399,1424
+[Database View].[Employee Degree Measure]
+	parent=Database View
+	x=2429,1454
+[Database View].[Employee Position Measure]
+	parent=Database View
+	x=2459,1484
+[Database View].[Employment Application Measure]
+	parent=Database View
+	x=2489,1514
+[Database View].[Enrollment Measure]
+	parent=Database View
+	x=2519,1544
+[Database View].[Financial Aid Application Measure]
+	parent=Database View
+	x=160,134
+[Database View].[Financial Aid Award Academic Period Measure]
+	parent=Database View
+	x=2549,1574
+[Database View].[Financial Aid Award Aid Year Measure]
+	parent=Database View
+	x=2579,1604
+[Database View].[Financial Aid Pre Student Measure]
+	parent=Database View
+	x=2609,1634
+[Database View].[Financial Aid Student Measure]
+	parent=Database View
+	x=2639,1664
+[Database View].[General Ledger Measure]
+	parent=Database View
+	x=2669,1694
+[Database View].[Graduation Completion Measure]
+	parent=Database View
+	x=2699,1724
+[Database View].[Grant And Project Measure]
+	parent=Database View
+	x=2729,1754
+[Database View].[Hold Measure]
+	parent=Database View
+	x=450,19616
+[Database View].[Institution Measure]
+	parent=Database View
+	x=10,19672
+[Database View].[Interest Measure]
+	parent=Database View
+	x=230,19672
+[Database View].[Operating Ledger Measure]
+	parent=Database View
+	x=2759,1784
+[Database View].[Post Secondary School Measure]
+	parent=Database View
+	x=450,19672
+[Database View].[Prospective Student Measure]
+	parent=Database View
+	x=10,19728
+[Database View].[Receivable Customer Measure]
+	parent=Database View
+	x=2789,1814
+[Database View].[Receivable Revenue Measure]
+	parent=Database View
+	x=2819,1844
+[Database View].[Recruiter Assignment Measure]
+	parent=Database View
+	x=0,14726
+[Database View].[Recruiting And Admission Measure]
+	parent=Database View
+	x=2849,1874
+[Database View].[Recruitment Attribute Measure]
+	parent=Database View
+	x=230,19728
+[Database View].[Recruitment Cohort Measure]
+	parent=Database View
+	x=450,19728
+[Database View].[Secondary School Subject Measure]
+	parent=Database View
+	x=10,19784
+[Database View].[Test Measure]
+	parent=Database View
+	x=230,19784
+[Designed Facts Area].[Highest Test Score]
+	parent=Designed Facts Area
+	x=251,3972
+[Designed Facts Area].[Latest Test Score]
+	parent=Designed Facts Area
+	x=31,3972
+[Designed Facts Area]
+	c=d8a77d
+	dx=441,4011
+	expanded=t
+	parent=Database View
+	x=10,18597
+[Recruiting and Admissions Performance].[Communication]
+	parent=Recruiting and Admissions Performance
+	x=10,14707
+[Recruiting and Admissions Performance].[Communication Template]
+	parent=Recruiting and Admissions Performance
+	x=230,14707
+[Recruiting and Admissions Performance].[Creator]
+	parent=Recruiting and Admissions Performance
+	x=190,44
+[Recruiting and Admissions Performance].[EM Campaign]
+	parent=Recruiting and Admissions Performance
+	x=450,14707
+[Recruiting and Admissions Performance].[EM Campaign Status]
+	parent=Recruiting and Admissions Performance
+	x=230,14763
+[Recruiting and Admissions Performance].[Funnel]
+	parent=Recruiting and Admissions Performance
+	x=450,14763
+[Recruiting and Admissions Performance].[Funnel Status]
+	parent=Recruiting and Admissions Performance
+	x=10,14819
+[Recruiting and Admissions Performance].[Funnel Student Level]
+	parent=Recruiting and Admissions Performance
+	x=230,14819
+[Recruiting and Admissions Performance].[Interaction]
+	parent=Recruiting and Admissions Performance
+	x=220,74
+[Recruiting and Admissions Performance].[Combined Admissions Record Measure]
+	parent=Recruiting and Admissions Performance
+	x=450,14819
+[Recruiting and Admissions Performance].[Combined Attribute Measure]
+	parent=Recruiting and Admissions Performance
+	x=10,14875
+[Recruiting and Admissions Performance].[Combined Cohort Measure]
+	parent=Recruiting and Admissions Performance
+	x=230,14875
+[Recruiting and Admissions Performance].[Communication Measure]
+	parent=Recruiting and Admissions Performance
+	x=450,14875
+[Recruiting and Admissions Performance].[EM Campaign Measure]
+	parent=Recruiting and Admissions Performance
+	x=10,14931
+[Recruiting and Admissions Performance].[Funnel History Measure]
+	parent=Recruiting and Admissions Performance
+	x=230,14931
+[Recruiting and Admissions Performance].[Interaction Measure]
+	parent=Recruiting and Admissions Performance
+	x=250,104
+[Snapshot - Recruiting and Admissions Performance].[Combined Admissions Record Measure]
+	parent=Snapshot - Recruiting and Admissions Performance
+	x=10,6901
+[Snapshot - Recruiting and Admissions Performance].[Combined Cohort Measure]
+	parent=Snapshot - Recruiting and Admissions Performance
+	x=230,6901
+[Snapshot - Recruiting and Admissions Performance].[Combined Attribute Measure]
+	parent=Snapshot - Recruiting and Admissions Performance
+	x=10,6957
+[Snapshot - Recruiting and Admissions Performance].[Communication Measure]
+	parent=Snapshot - Recruiting and Admissions Performance
+	x=230,6957
+[Snapshot - Recruiting and Admissions Performance].[EM Campaign Measure]
+	parent=Snapshot - Recruiting and Admissions Performance
+	x=10,7013
+[Snapshot - Recruiting and Admissions Performance].[Funnel History Measure]
+	parent=Snapshot - Recruiting and Admissions Performance
+	x=230,7013
+[Snapshot - Recruiting and Admissions Performance].[Interaction Measure]
+	parent=Snapshot - Recruiting and Admissions Performance
+	x=280,44
+[Snapshot - Recruiting and Admissions Performance]
+	c=9bdfc4
+	dx=470,7052
+	expanded=t
+	parent=Recruiting and Admissions Performance
+	x=0,6934
+[Recruiting and Admissions Performance]
+	c=9bdfc4
+	dx=640,14970
+	expanded=t
+	parent=Database View
+	x=0,7010
+[Snapshot - Facts Area].[Admissions Application Measure]
+	parent=Snapshot - Facts Area
+	x=1082,11629
+[Snapshot - Facts Area].[Admissions Financial Aid Measure]
+	parent=Snapshot - Facts Area
+	x=11,44
+[Snapshot - Facts Area].[Application Attribute Measure]
+	parent=Snapshot - Facts Area
+	x=622,11808
+[Snapshot - Facts Area].[Application Cohort Measure]
+	parent=Snapshot - Facts Area
+	x=842,11808
+[Snapshot - Facts Area].[Application Decision Measure]
+	parent=Snapshot - Facts Area
+	x=1062,11808
+[Snapshot - Facts Area].[Contact Measure]
+	parent=Snapshot - Facts Area
+	x=622,11864
+[Snapshot - Facts Area].[Financial Aid Application Measure]
+	parent=Snapshot - Facts Area
+	x=41,74
+[Snapshot - Facts Area].[Financial Aid Award Academic Period Measure]
+	parent=Snapshot - Facts Area
+	x=71,104
+[Snapshot - Facts Area].[Financial Aid Award Aid Year Measure]
+	parent=Snapshot - Facts Area
+	x=101,134
+[Snapshot - Facts Area].[Prospective Student Measure]
+	parent=Snapshot - Facts Area
+	x=622,12032
+[Snapshot - Facts Area].[Recruiter Assignment Measure]
+	parent=Snapshot - Facts Area
+	x=622,11976
+[Snapshot - Facts Area].[Test Measure]
+	parent=Snapshot - Facts Area
+	x=842,11864
+[Snapshot - Designed Facts Area].[Highest Test Score]
+	parent=Snapshot - Designed Facts Area
+	x=230,57
+[Snapshot - Designed Facts Area].[Latest Test Score]
+	parent=Snapshot - Designed Facts Area
+	x=10,57
+[Snapshot - Designed Facts Area]
+	c=89c6fd
+	dx=420,96
+	expanded=t
+	parent=Snapshot - Facts Area
+	x=622,11629
+[Snapshot - Facts Area]
+	c=d8a77d
+	dx=1272,12071
+	expanded=t
+	parent=Database View
+	x=450,7460
+[Database View]
+	c=9bdfc4
+	dx=3039,22618
+	expanded=t
+	parent=Performance Management
+	view=0,0
+	x=10,3838
+	zoom=409
+[Building Blocks].[Institution]
+	parent=Building Blocks
+	x=230,30
+[Building Blocks].[Institution Postal]
+	parent=Building Blocks
+	x=230,86
+[Building Blocks].[Institution Geo Region]
+	parent=Building Blocks
+	x=230,142
+[Building Blocks].[Institution Street Address]
+	parent=Building Blocks
+	x=230,198
+[Building Blocks].[Institution Measure]
+	parent=Building Blocks
+	x=10,114
+[Building Blocks]
+	c=bf8cbc
+	dx=420,237
+	expanded=t
+	parent=Business View
+	view=0,83
+	x=280,216
+	zoom=6852
+[EDW Snapshot Star Schemas BV].[Multi Source]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,57
+[EDW Snapshot Star Schemas BV].[Time]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,57
+[EDW Snapshot Star Schemas BV].[Academic Program]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,57
+[EDW Snapshot Star Schemas BV].[Academic Study]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,113
+[EDW Snapshot Star Schemas BV].[Account]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,113
+[EDW Snapshot Star Schemas BV].[Accounts Receivable]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,113
+[EDW Snapshot Star Schemas BV].[Administration]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,169
+[EDW Snapshot Star Schemas BV].[Advancement Campaign]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,169
+[EDW Snapshot Star Schemas BV].[Chart]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,169
+[EDW Snapshot Star Schemas BV].[Cohort]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,225
+[EDW Snapshot Star Schemas BV].[Concentration]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,225
+[EDW Snapshot Star Schemas BV].[Constituent]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,225
+[EDW Snapshot Star Schemas BV].[Contact]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,281
+[EDW Snapshot Star Schemas BV].[Course]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,281
+[EDW Snapshot Star Schemas BV].[Customer]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,281
+[EDW Snapshot Star Schemas BV].[Demographic]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,337
+[EDW Snapshot Star Schemas BV].[Designation]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,337
+[EDW Snapshot Star Schemas BV].[Employee]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,337
+[EDW Snapshot Star Schemas BV].[Employment History]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,393
+[EDW Snapshot Star Schemas BV].[Enrollment Status]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,393
+[EDW Snapshot Star Schemas BV].[Financial Aid Fund]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,393
+[EDW Snapshot Star Schemas BV].[Financial Aid Status]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,449
+[EDW Snapshot Star Schemas BV].[Fund]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,449
+[EDW Snapshot Star Schemas BV].[Gift]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,449
+[EDW Snapshot Star Schemas BV].[Graduation]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,505
+[EDW Snapshot Star Schemas BV].[Grant Demographic]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,505
+[EDW Snapshot Star Schemas BV].[Grant Type]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,505
+[EDW Snapshot Star Schemas BV].[HR Applicant]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,561
+[EDW Snapshot Star Schemas BV].[HR Applicant Status]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,561
+[EDW Snapshot Star Schemas BV].[HR Requisition]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,561
+[EDW Snapshot Star Schemas BV].[Instructor]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,617
+[EDW Snapshot Star Schemas BV].[Job]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,617
+[EDW Snapshot Star Schemas BV].[Major]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,617
+[EDW Snapshot Star Schemas BV].[Minor]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,673
+[EDW Snapshot Star Schemas BV].[Organization]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,673
+[EDW Snapshot Star Schemas BV].[Pledge]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,673
+[EDW Snapshot Star Schemas BV].[Position]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,729
+[EDW Snapshot Star Schemas BV].[Post Secondary Institution]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,729
+[EDW Snapshot Star Schemas BV].[Post Secondary School]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,729
+[EDW Snapshot Star Schemas BV].[Postal]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,785
+[EDW Snapshot Star Schemas BV].[Pre Student]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,785
+[EDW Snapshot Star Schemas BV].[Pre Student Status]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,785
+[EDW Snapshot Star Schemas BV].[Program]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,841
+[EDW Snapshot Star Schemas BV].[Registration]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,841
+[EDW Snapshot Star Schemas BV].[Secondary Institution]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,841
+[EDW Snapshot Star Schemas BV].[Secondary School]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,897
+[EDW Snapshot Star Schemas BV].[Student]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,897
+[EDW Snapshot Star Schemas BV].[Student Application]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,897
+[EDW Snapshot Star Schemas BV].[Academic Program Course Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,953
+[EDW Snapshot Star Schemas BV].[Advancement Gift Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,953
+[EDW Snapshot Star Schemas BV].[Course Registration Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,953
+[EDW Snapshot Star Schemas BV].[Employee Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,1009
+[EDW Snapshot Star Schemas BV].[Employee Degree Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,1009
+[EDW Snapshot Star Schemas BV].[Employee Position Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,1009
+[EDW Snapshot Star Schemas BV].[Employment Application Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,1065
+[EDW Snapshot Star Schemas BV].[Enrollment Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,1065
+[EDW Snapshot Star Schemas BV].[Financial Aid Pre Student Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,1065
+[EDW Snapshot Star Schemas BV].[Financial Aid Student Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,1121
+[EDW Snapshot Star Schemas BV].[General Ledger Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,1121
+[EDW Snapshot Star Schemas BV].[Graduation Completion Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,1121
+[EDW Snapshot Star Schemas BV].[Grant And Project Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,1177
+[EDW Snapshot Star Schemas BV].[Operating Ledger Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,1177
+[EDW Snapshot Star Schemas BV].[Receivable Customer Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=450,1177
+[EDW Snapshot Star Schemas BV].[Receivable Revenue Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=10,1233
+[EDW Snapshot Star Schemas BV].[Recruiting And Admission Measure]
+	parent=EDW Snapshot Star Schemas BV
+	x=230,1233
+[EDW Snapshot Star Schemas BV]
+	c=bf8cbc
+	dx=640,1272
+	expanded=t
+	parent=Business View
+	x=2849,2451
+[Impact Of Aid On New Enrollment BV].[Multi Source]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6265
+[Impact Of Aid On New Enrollment BV].[ACT Composite Test]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10159,6222
+[Impact Of Aid On New Enrollment BV].[Academic Period Award Status]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6265
+[Impact Of Aid On New Enrollment BV].[Academic Study]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6265
+[Impact Of Aid On New Enrollment BV].[Academic Time]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6321
+[Impact Of Aid On New Enrollment BV].[Admission Recruitment Application Date]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6321
+[Impact Of Aid On New Enrollment BV].[Attribute]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6321
+[Impact Of Aid On New Enrollment BV].[Attribute Group]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6377
+[Impact Of Aid On New Enrollment BV].[Award Academic Period]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6377
+[Impact Of Aid On New Enrollment BV].[Award Status]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6377
+[Impact Of Aid On New Enrollment BV].[Cohort]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6433
+[Impact Of Aid On New Enrollment BV].[Cohort Group]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6433
+[Impact Of Aid On New Enrollment BV].[Demographic]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6433
+[Impact Of Aid On New Enrollment BV].[Financial Aid Budget Group]
+	parent=Impact Of Aid On New Enrollment BV
+	x=11,44
+[Impact Of Aid On New Enrollment BV].[Financial Aid Fund]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6489
+[Impact Of Aid On New Enrollment BV].[Financial Aid Packaging Group]
+	parent=Impact Of Aid On New Enrollment BV
+	x=41,74
+[Impact Of Aid On New Enrollment BV].[Financial Aid Period]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6489
+[Impact Of Aid On New Enrollment BV].[Financial Aid Status]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6489
+[Impact Of Aid On New Enrollment BV].[Financial Aid Year]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6545
+[Impact Of Aid On New Enrollment BV].[Latest Application Decision]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6601
+[Impact Of Aid On New Enrollment BV].[Person]
+	parent=Impact Of Aid On New Enrollment BV
+	x=71,104
+[Impact Of Aid On New Enrollment BV].[Post Secondary Institution]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10129,6192
+[Impact Of Aid On New Enrollment BV].[Post Secondary School]
+	parent=Impact Of Aid On New Enrollment BV
+	x=5171,1240
+[Impact Of Aid On New Enrollment BV].[Pre Student Status]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6601
+[Impact Of Aid On New Enrollment BV].[Prospective Student Geographic Region]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6657
+[Impact Of Aid On New Enrollment BV].[Prospective Student Postal]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6657
+[Impact Of Aid On New Enrollment BV].[SAT Combined Test]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10129,6132
+[Impact Of Aid On New Enrollment BV].[Secondary School]
+	parent=Impact Of Aid On New Enrollment BV
+	x=5201,1270
+[Impact Of Aid On New Enrollment BV].[Secondary School Institution]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6545
+[Impact Of Aid On New Enrollment BV].[Secondary School Geographic Region]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6545
+[Impact Of Aid On New Enrollment BV].[Secondary School Postal]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6601
+[Impact Of Aid On New Enrollment BV].[Student]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6713
+[Impact Of Aid On New Enrollment BV].[Test]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6713
+[Impact Of Aid On New Enrollment BV].[Test Group]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6713
+[Impact Of Aid On New Enrollment BV].[Admissions Financial Aid Measure]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10069,6769
+[Impact Of Aid On New Enrollment BV].[Financial Aid Award Academic Period Measure]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10289,6769
+[Impact Of Aid On New Enrollment BV].[Financial Aid Award Aid Year Measure]
+	parent=Impact Of Aid On New Enrollment BV
+	x=10509,6769
+[Impact Of Aid On New Enrollment BV]
+	c=73d3ac
+	dx=10699,6808
+	expanded=t
+	parent=Business View
+	x=5549,5151
+[Manage Applicants BV].[Multi Source]
+	parent=Manage Applicants BV
+	x=10,57
+[Manage Applicants BV].[Academic Time]
+	parent=Manage Applicants BV
+	x=230,57
+[Manage Applicants BV].[Academic Study]
+	parent=Manage Applicants BV
+	x=450,57
+[Manage Applicants BV].[Administrator]
+	parent=Manage Applicants BV
+	x=10,113
+[Manage Applicants BV].[Administrator Role]
+	parent=Manage Applicants BV
+	x=230,113
+[Manage Applicants BV].[Application Date]
+	parent=Manage Applicants BV
+	x=450,113
+[Manage Applicants BV].[Application Decision]
+	parent=Manage Applicants BV
+	x=10,169
+[Manage Applicants BV].[Application Decision Date]
+	parent=Manage Applicants BV
+	x=230,169
+[Manage Applicants BV].[Application Fee Received Date]
+	parent=Manage Applicants BV
+	x=450,169
+[Manage Applicants BV].[Application Postal]
+	parent=Manage Applicants BV
+	x=10,225
+[Manage Applicants BV].[Application Rating]
+	parent=Manage Applicants BV
+	x=230,225
+[Manage Applicants BV].[Application Requirement]
+	parent=Manage Applicants BV
+	x=450,225
+[Manage Applicants BV].[Application Requirement First Request Date]
+	parent=Manage Applicants BV
+	x=10,281
+[Manage Applicants BV].[Application Requirement Most Recent Request Date]
+	parent=Manage Applicants BV
+	x=230,281
+[Manage Applicants BV].[Application Requirement Deadline Date]
+	parent=Manage Applicants BV
+	x=450,281
+[Manage Applicants BV].[Application Requirement Received Date]
+	parent=Manage Applicants BV
+	x=10,337
+[Manage Applicants BV].[Application Status Date]
+	parent=Manage Applicants BV
+	x=230,337
+[Manage Applicants BV].[Application Attribute]
+	parent=Manage Applicants BV
+	x=450,337
+[Manage Applicants BV].[Application Cohort]
+	parent=Manage Applicants BV
+	x=10,393
+[Manage Applicants BV].[Contact]
+	parent=Manage Applicants BV
+	x=230,393
+[Manage Applicants BV].[Contact Date]
+	parent=Manage Applicants BV
+	x=450,393
+[Manage Applicants BV].[Demographic]
+	parent=Manage Applicants BV
+	x=10,449
+[Manage Applicants BV].[First Contact]
+	parent=Manage Applicants BV
+	x=230,449
+[Manage Applicants BV].[First Contact Date]
+	parent=Manage Applicants BV
+	x=450,449
+[Manage Applicants BV].[Financial Aid Status]
+	parent=Manage Applicants BV
+	x=10,505
+[Manage Applicants BV].[Hold]
+	parent=Manage Applicants BV
+	x=230,505
+[Manage Applicants BV].[Interest]
+	parent=Manage Applicants BV
+	x=450,505
+[Manage Applicants BV].[Latest Application Decision]
+	parent=Manage Applicants BV
+	x=10,561
+[Manage Applicants BV].[Latest Application Decision Date]
+	parent=Manage Applicants BV
+	x=230,561
+[Manage Applicants BV].[Latest Contact]
+	parent=Manage Applicants BV
+	x=450,561
+[Manage Applicants BV].[Latest Contact Date]
+	parent=Manage Applicants BV
+	x=10,617
+[Manage Applicants BV].[Person]
+	parent=Manage Applicants BV
+	x=230,617
+[Manage Applicants BV].[Post Secondary Institution]
+	parent=Manage Applicants BV
+	x=450,617
+[Manage Applicants BV].[Post Secondary School]
+	parent=Manage Applicants BV
+	x=10,673
+[Manage Applicants BV].[Post Secondary School Geographic Region]
+	parent=Manage Applicants BV
+	x=230,673
+[Manage Applicants BV].[Post Secondary School Postal]
+	parent=Manage Applicants BV
+	x=450,673
+[Manage Applicants BV].[Post Secondary School Street Address]
+	parent=Manage Applicants BV
+	x=10,729
+[Manage Applicants BV].[Pre Student Status]
+	parent=Manage Applicants BV
+	x=230,729
+[Manage Applicants BV].[Prospective Student Geographic Region]
+	parent=Manage Applicants BV
+	x=450,729
+[Manage Applicants BV].[Prospective Student Postal]
+	parent=Manage Applicants BV
+	x=10,785
+[Manage Applicants BV].[Prospective Student Street Address]
+	parent=Manage Applicants BV
+	x=230,785
+[Manage Applicants BV].[Prospective Student Withdrawn]
+	parent=Manage Applicants BV
+	x=450,785
+[Manage Applicants BV].[Secondary School]
+	parent=Manage Applicants BV
+	x=10,841
+[Manage Applicants BV].[Secondary School Institution]
+	parent=Manage Applicants BV
+	x=230,841
+[Manage Applicants BV].[Secondary School Address]
+	parent=Manage Applicants BV
+	x=450,841
+[Manage Applicants BV].[Student]
+	parent=Manage Applicants BV
+	x=10,897
+[Manage Applicants BV].[Student Application]
+	parent=Manage Applicants BV
+	x=230,897
+[Manage Applicants BV].[Student Recruiter Information]
+	parent=Manage Applicants BV
+	x=450,897
+[Manage Applicants BV].[Test]
+	parent=Manage Applicants BV
+	x=10,953
+[Manage Applicants BV].[Test Date]
+	parent=Manage Applicants BV
+	x=230,953
+[Manage Applicants BV].[Admission Application Measure]
+	parent=Manage Applicants BV
+	x=450,953
+[Manage Applicants BV].[Application Attribute Measure]
+	parent=Manage Applicants BV
+	x=10,1009
+[Manage Applicants BV].[Application Cohort Measure]
+	parent=Manage Applicants BV
+	x=230,1009
+[Manage Applicants BV].[Application Decision Measure]
+	parent=Manage Applicants BV
+	x=450,1009
+[Manage Applicants BV].[Application Requirement Measure]
+	parent=Manage Applicants BV
+	x=10,1065
+[Manage Applicants BV].[Application Rating Measure]
+	parent=Manage Applicants BV
+	x=230,1065
+[Manage Applicants BV].[Contact Measure]
+	parent=Manage Applicants BV
+	x=450,1065
+[Manage Applicants BV].[Financial Aid Application Measure]
+	parent=Manage Applicants BV
+	x=480,3955
+[Manage Applicants BV].[First Contact Measure]
+	parent=Manage Applicants BV
+	x=10,1121
+[Manage Applicants BV].[Hold Measure]
+	parent=Manage Applicants BV
+	x=230,1121
+[Manage Applicants BV].[Highest Test Score Measure]
+	parent=Manage Applicants BV
+	x=450,1121
+[Manage Applicants BV].[Interest Measure]
+	parent=Manage Applicants BV
+	x=10,1177
+[Manage Applicants BV].[Latest Application Decision Measure]
+	parent=Manage Applicants BV
+	x=230,1177
+[Manage Applicants BV].[Latest Contact Measure]
+	parent=Manage Applicants BV
+	x=450,1177
+[Manage Applicants BV].[Latest Test Score Measure]
+	parent=Manage Applicants BV
+	x=10,1233
+[Manage Applicants BV].[Post Secondary Institution Measure]
+	parent=Manage Applicants BV
+	x=230,1233
+[Manage Applicants BV].[Post Secondary School Measure]
+	parent=Manage Applicants BV
+	x=450,1233
+[Manage Applicants BV].[Prospective Student Measure]
+	parent=Manage Applicants BV
+	x=10,1289
+[Manage Applicants BV].[Secondary School Measure]
+	parent=Manage Applicants BV
+	x=230,1289
+[Manage Applicants BV].[Secondary School Subject Measure]
+	parent=Manage Applicants BV
+	x=450,1289
+[Manage Applicants BV].[Test Measure]
+	parent=Manage Applicants BV
+	x=10,1345
+[Manage Applicants BV]
+	c=758698
+	dx=670,3994
+	expanded=t
+	parent=Business View
+	view=0,0
+	x=10,134
+	zoom=1188
+[Building Blocks - Analyze Enrollment Funnel].[Initial Funnel Status Measure]
+	parent=Building Blocks - Analyze Enrollment Funnel
+	x=10,57
+[Building Blocks - Analyze Enrollment Funnel].[Current Funnel Status Measure]
+	parent=Building Blocks - Analyze Enrollment Funnel
+	x=230,57
+[Building Blocks - Analyze Enrollment Funnel].[Funnel History Status Measure]
+	parent=Building Blocks - Analyze Enrollment Funnel
+	x=10,113
+[Building Blocks - Analyze Enrollment Funnel]
+	c=758698
+	dx=420,152
+	expanded=t
+	parent=Analyze Enrollment Funnel BV
+	x=10,57
+[Analyze Enrollment Funnel BV].[Multi Source]
+	parent=Analyze Enrollment Funnel BV
+	x=470,57
+[Analyze Enrollment Funnel BV].[Academic Time]
+	parent=Analyze Enrollment Funnel BV
+	x=690,57
+[Analyze Enrollment Funnel BV].[Academic Study]
+	parent=Analyze Enrollment Funnel BV
+	x=10,236
+[Analyze Enrollment Funnel BV].[Admission Recruitment Application Date]
+	parent=Analyze Enrollment Funnel BV
+	x=230,236
+[Analyze Enrollment Funnel BV].[Attribute]
+	parent=Analyze Enrollment Funnel BV
+	x=450,236
+[Analyze Enrollment Funnel BV].[Campaign]
+	parent=Analyze Enrollment Funnel BV
+	x=670,236
+[Analyze Enrollment Funnel BV].[Campaign Communication]
+	parent=Analyze Enrollment Funnel BV
+	x=10,292
+[Analyze Enrollment Funnel BV].[Campaign Start Date]
+	parent=Analyze Enrollment Funnel BV
+	x=230,292
+[Analyze Enrollment Funnel BV].[Campaign Status]
+	parent=Analyze Enrollment Funnel BV
+	x=450,292
+[Analyze Enrollment Funnel BV].[Cohort]
+	parent=Analyze Enrollment Funnel BV
+	x=670,292
+[Analyze Enrollment Funnel BV].[Communication]
+	parent=Analyze Enrollment Funnel BV
+	x=10,348
+[Analyze Enrollment Funnel BV].[Communication Sent Date]
+	parent=Analyze Enrollment Funnel BV
+	x=230,348
+[Analyze Enrollment Funnel BV].[Communication Template]
+	parent=Analyze Enrollment Funnel BV
+	x=450,348
+[Analyze Enrollment Funnel BV].[Contact]
+	parent=Analyze Enrollment Funnel BV
+	x=670,348
+[Analyze Enrollment Funnel BV].[Contact Date]
+	parent=Analyze Enrollment Funnel BV
+	x=10,404
+[Analyze Enrollment Funnel BV].[Current Funnel]
+	parent=Analyze Enrollment Funnel BV
+	x=230,404
+[Analyze Enrollment Funnel BV].[Current Funnel Status]
+	parent=Analyze Enrollment Funnel BV
+	x=450,404
+[Analyze Enrollment Funnel BV].[Current Funnel Status Entry Date]
+	parent=Analyze Enrollment Funnel BV
+	x=670,404
+[Analyze Enrollment Funnel BV].[Demographic]
+	parent=Analyze Enrollment Funnel BV
+	x=10,460
+[Analyze Enrollment Funnel BV].[First Contact]
+	parent=Analyze Enrollment Funnel BV
+	x=230,460
+[Analyze Enrollment Funnel BV].[First Contact Date]
+	parent=Analyze Enrollment Funnel BV
+	x=450,460
+[Analyze Enrollment Funnel BV].[First Interaction]
+	parent=Analyze Enrollment Funnel BV
+	x=496,3900
+[Analyze Enrollment Funnel BV].[First Interaction Creator]
+	parent=Analyze Enrollment Funnel BV
+	x=526,3930
+[Analyze Enrollment Funnel BV].[First Interaction Date]
+	parent=Analyze Enrollment Funnel BV
+	x=556,3960
+[Analyze Enrollment Funnel BV].[Financial Aid Status]
+	parent=Analyze Enrollment Funnel BV
+	x=670,460
+[Analyze Enrollment Funnel BV].[Funnel]
+	parent=Analyze Enrollment Funnel BV
+	x=10,516
+[Analyze Enrollment Funnel BV].[Funnel Status]
+	parent=Analyze Enrollment Funnel BV
+	x=230,516
+[Analyze Enrollment Funnel BV].[Funnel Status Entry Date]
+	parent=Analyze Enrollment Funnel BV
+	x=450,516
+[Analyze Enrollment Funnel BV].[Funnel Status Exit Date]
+	parent=Analyze Enrollment Funnel BV
+	x=670,516
+[Analyze Enrollment Funnel BV].[Funnel Student Level]
+	parent=Analyze Enrollment Funnel BV
+	x=10,572
+[Analyze Enrollment Funnel BV].[Initial Funnel]
+	parent=Analyze Enrollment Funnel BV
+	x=230,572
+[Analyze Enrollment Funnel BV].[Initial Funnel Status]
+	parent=Analyze Enrollment Funnel BV
+	x=450,572
+[Analyze Enrollment Funnel BV].[Initial Funnel Status Entry Date]
+	parent=Analyze Enrollment Funnel BV
+	x=670,572
+[Analyze Enrollment Funnel BV].[Initial Funnel Status Exit Date]
+	parent=Analyze Enrollment Funnel BV
+	x=10,628
+[Analyze Enrollment Funnel BV].[Interaction]
+	parent=Analyze Enrollment Funnel BV
+	x=586,3990
+[Analyze Enrollment Funnel BV].[Interaction Creator]
+	parent=Analyze Enrollment Funnel BV
+	x=616,4020
+[Analyze Enrollment Funnel BV].[Interaction Date]
+	parent=Analyze Enrollment Funnel BV
+	x=646,4050
+[Analyze Enrollment Funnel BV].[Interest]
+	parent=Analyze Enrollment Funnel BV
+	x=230,628
+[EDW Snapshot Star Schemas].[Academic Study]
+	parent=EDW Snapshot Star Schemas
+	x=10,113
+[EDW Snapshot Star Schemas].[Account]
+	parent=EDW Snapshot Star Schemas
+	x=230,113
+[EDW Snapshot Star Schemas].[Accounts Receivable]
+	parent=EDW Snapshot Star Schemas
+	x=450,113
+[EDW Snapshot Star Schemas].[Administration]
+	parent=EDW Snapshot Star Schemas
+	x=10,169
+[EDW Snapshot Star Schemas].[Advancement Campaign]
+	parent=EDW Snapshot Star Schemas
+	x=230,169
+[EDW Snapshot Star Schemas].[Chart]
+	parent=EDW Snapshot Star Schemas
+	x=450,169
+[EDW Snapshot Star Schemas].[Cohort]
+	parent=EDW Snapshot Star Schemas
+	x=10,225
+[EDW Snapshot Star Schemas].[Concentration]
+	parent=EDW Snapshot Star Schemas
+	x=230,225
+[EDW Snapshot Star Schemas].[Constituent]
+	parent=EDW Snapshot Star Schemas
+	x=450,225
+[EDW Snapshot Star Schemas].[Contact]
+	parent=EDW Snapshot Star Schemas
+	x=10,281
+[EDW Snapshot Star Schemas].[Course]
+	parent=EDW Snapshot Star Schemas
+	x=230,281
+[EDW Snapshot Star Schemas].[Customer]
+	parent=EDW Snapshot Star Schemas
+	x=450,281
+[Analyze Enrollment Funnel BV].[Latest Application Decision]
+	parent=Analyze Enrollment Funnel BV
+	x=450,628
+[Analyze Enrollment Funnel BV].[Latest Application Decision Date]
+	parent=Analyze Enrollment Funnel BV
+	x=670,628
+[Analyze Enrollment Funnel BV].[Latest Contact]
+	parent=Analyze Enrollment Funnel BV
+	x=10,684
+[Analyze Enrollment Funnel BV].[Latest Contact Date]
+	parent=Analyze Enrollment Funnel BV
+	x=230,684
+[Analyze Enrollment Funnel BV].[Latest Interaction]
+	parent=Analyze Enrollment Funnel BV
+	x=676,4080
+[Analyze Enrollment Funnel BV].[Latest Interaction Creator]
+	parent=Analyze Enrollment Funnel BV
+	x=706,4110
+[Analyze Enrollment Funnel BV].[Latest Interaction Date]
+	parent=Analyze Enrollment Funnel BV
+	x=736,4140
+[Analyze Enrollment Funnel BV].[Person]
+	parent=Analyze Enrollment Funnel BV
+	x=450,684
+[Analyze Enrollment Funnel BV].[Person Campaign Start Date]
+	parent=Analyze Enrollment Funnel BV
+	x=670,684
+[Analyze Enrollment Funnel BV].[Person Campaign Stop Date]
+	parent=Analyze Enrollment Funnel BV
+	x=10,740
+[Analyze Enrollment Funnel BV].[Post Secondary Institution]
+	parent=Analyze Enrollment Funnel BV
+	x=230,740
+[Analyze Enrollment Funnel BV].[Post Secondary School]
+	parent=Analyze Enrollment Funnel BV
+	x=450,740
+[Analyze Enrollment Funnel BV].[Post Secondary School Geographic Region]
+	parent=Analyze Enrollment Funnel BV
+	x=670,740
+[Analyze Enrollment Funnel BV].[Post Secondary School Postal]
+	parent=Analyze Enrollment Funnel BV
+	x=10,796
+[Analyze Enrollment Funnel BV].[Post Secondary School Street Address]
+	parent=Analyze Enrollment Funnel BV
+	x=230,796
+[Analyze Enrollment Funnel BV].[Prospective Student Geographic Region]
+	parent=Analyze Enrollment Funnel BV
+	x=450,796
+[Analyze Enrollment Funnel BV].[Prospective Student Postal]
+	parent=Analyze Enrollment Funnel BV
+	x=670,796
+[Analyze Enrollment Funnel BV].[Prospective Student Street Address]
+	parent=Analyze Enrollment Funnel BV
+	x=10,852
+[Analyze Enrollment Funnel BV].[Recruiter]
+	parent=Analyze Enrollment Funnel BV
+	x=230,852
+[Analyze Enrollment Funnel BV].[Recruiter Demographic]
+	parent=Analyze Enrollment Funnel BV
+	x=450,852
+[Analyze Enrollment Funnel BV].[Recruiter Role]
+	parent=Analyze Enrollment Funnel BV
+	x=670,852
+[Analyze Enrollment Funnel BV].[Secondary School]
+	parent=Analyze Enrollment Funnel BV
+	x=10,908
+[Analyze Enrollment Funnel BV].[Secondary School Institution]
+	parent=Analyze Enrollment Funnel BV
+	x=230,908
+[Analyze Enrollment Funnel BV].[Secondary School Address]
+	parent=Analyze Enrollment Funnel BV
+	x=450,908
+[Analyze Enrollment Funnel BV].[Student]
+	parent=Analyze Enrollment Funnel BV
+	x=670,908
+[Analyze Enrollment Funnel BV].[Test]
+	parent=Analyze Enrollment Funnel BV
+	x=10,964
+[Analyze Enrollment Funnel BV].[Test Date]
+	parent=Analyze Enrollment Funnel BV
+	x=230,964
+[Analyze Enrollment Funnel BV].[Attribute Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=450,964
+[Analyze Enrollment Funnel BV].[Campaign Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=670,964
+[Analyze Enrollment Funnel BV].[Cohort Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=10,1020
+[Analyze Enrollment Funnel BV].[Combined Admissions Record Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=230,1020
+[Analyze Enrollment Funnel BV].[Communication Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=450,1020
+[Analyze Enrollment Funnel BV].[Contact Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=670,1020
+[Analyze Enrollment Funnel BV].[Financial Aid Application Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=766,4170
+[Analyze Enrollment Funnel BV].[First Contact Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=10,1076
+[Analyze Enrollment Funnel BV].[First Interaction Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=796,4200
+[Analyze Enrollment Funnel BV].[Funnel History Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=230,1076
+[Analyze Enrollment Funnel BV].[Highest Test Score Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=450,1076
+[Analyze Enrollment Funnel BV].[Interaction Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=826,4230
+[Analyze Enrollment Funnel BV].[Interest Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=670,1076
+[Analyze Enrollment Funnel BV].[Latest Application Decision Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=10,1132
+[Analyze Enrollment Funnel BV].[Latest Contact Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=230,1132
+[Analyze Enrollment Funnel BV].[Latest Interaction Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=856,4260
+[Analyze Enrollment Funnel BV].[Latest Test Score Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=450,1132
+[Analyze Enrollment Funnel BV].[Post Secondary Institution Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=670,1132
+[Analyze Enrollment Funnel BV].[Post Secondary School Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=10,1188
+[Analyze Enrollment Funnel BV].[Prospective Student Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=230,1188
+[Analyze Enrollment Funnel BV].[Recruiter Assignment Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=450,1188
+[Analyze Enrollment Funnel BV].[Secondary School Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=670,1188
+[Analyze Enrollment Funnel BV].[Test Measure]
+	parent=Analyze Enrollment Funnel BV
+	x=10,1244
+[Analyze Enrollment Funnel BV]
+	c=d8a77d
+	dx=1046,4299
+	expanded=t
+	parent=Business View
+	view=0,0
+	x=24,219
+	zoom=1423
+[Snapshot - Building Blocks].[Institution]
+	parent=Snapshot - Building Blocks
+	x=10,57
+[Snapshot - Building Blocks].[Institution Postal]
+	parent=Snapshot - Building Blocks
+	x=230,57
+[Snapshot - Building Blocks].[Institution Geo Region]
+	parent=Snapshot - Building Blocks
+	x=10,113
+[Snapshot - Building Blocks].[Institution Street Address]
+	parent=Snapshot - Building Blocks
+	x=230,113
+[Snapshot - Building Blocks].[Institution Measure]
+	parent=Snapshot - Building Blocks
+	x=10,169
+[Snapshot - Building Blocks]
+	c=99f7ff
+	dx=420,208
+	expanded=t
+	parent=Business View
+	x=210,81
+[Snapshot - Impact Of Aid On New Enrollment BV].[Multi Source]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,57
+[Snapshot - Impact Of Aid On New Enrollment BV].[ACT Composite Test]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,57
+[Snapshot - Impact Of Aid On New Enrollment BV].[Academic Period Award Status]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,57
+[Snapshot - Impact Of Aid On New Enrollment BV].[Academic Study]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,113
+[Snapshot - Impact Of Aid On New Enrollment BV].[Academic Time]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,113
+[Snapshot - Impact Of Aid On New Enrollment BV].[Admission Recruitment Application Date]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,113
+[Snapshot - Impact Of Aid On New Enrollment BV].[Attribute]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,169
+[Snapshot - Impact Of Aid On New Enrollment BV].[Attribute Group]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,169
+[Snapshot - Impact Of Aid On New Enrollment BV].[Award Academic Period]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,169
+[Snapshot - Impact Of Aid On New Enrollment BV].[Award Status]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,225
+[Snapshot - Impact Of Aid On New Enrollment BV].[Cohort]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,225
+[Snapshot - Impact Of Aid On New Enrollment BV].[Cohort Group]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,225
+[Snapshot - Impact Of Aid On New Enrollment BV].[Demographic]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,281
+[Snapshot - Impact Of Aid On New Enrollment BV].[Event]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,281
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Budget Group]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,281
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Fund]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,337
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Packaging Group]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,337
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Period]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,337
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Status]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,393
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Year]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,393
+[Snapshot - Impact Of Aid On New Enrollment BV].[Latest Application Decision]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,393
+[Snapshot - Impact Of Aid On New Enrollment BV].[Person]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,449
+[Snapshot - Impact Of Aid On New Enrollment BV].[Post Secondary Institution]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,449
+[Snapshot - Impact Of Aid On New Enrollment BV].[Post Secondary School]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,449
+[Snapshot - Impact Of Aid On New Enrollment BV].[Pre Student Status]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,505
+[Snapshot - Impact Of Aid On New Enrollment BV].[Prospective Student Geographic Region]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,505
+[Snapshot - Impact Of Aid On New Enrollment BV].[Prospective Student Postal]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,505
+[Snapshot - Impact Of Aid On New Enrollment BV].[SAT Combined Test]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,561
+[Snapshot - Impact Of Aid On New Enrollment BV].[Secondary School]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,561
+[Snapshot - Impact Of Aid On New Enrollment BV].[Secondary School Institution]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,561
+[Snapshot - Impact Of Aid On New Enrollment BV].[Secondary School Geographic Region]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,617
+[Snapshot - Impact Of Aid On New Enrollment BV].[Secondary School Postal]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,617
+[Snapshot - Impact Of Aid On New Enrollment BV].[Student]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,617
+[Snapshot - Impact Of Aid On New Enrollment BV].[Test]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,673
+[Snapshot - Impact Of Aid On New Enrollment BV].[Test Group]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,673
+[Snapshot - Impact Of Aid On New Enrollment BV].[Admissions Financial Aid Measure]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=450,673
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Award Academic Period Measure]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=10,729
+[Snapshot - Impact Of Aid On New Enrollment BV].[Financial Aid Award Aid Year Measure]
+	parent=Snapshot - Impact Of Aid On New Enrollment BV
+	x=230,729
+[Snapshot - Impact Of Aid On New Enrollment BV]
+	c=758698
+	dx=640,768
+	expanded=t
+	parent=Business View
+	x=910,4509
+[Snapshot - Manage Applicants BV].[Multi Source]
+	parent=Snapshot - Manage Applicants BV
+	x=10,57
+[Snapshot - Manage Applicants BV].[Academic Time]
+	parent=Snapshot - Manage Applicants BV
+	x=230,57
+[Snapshot - Manage Applicants BV].[Academic Study]
+	parent=Snapshot - Manage Applicants BV
+	x=450,57
+[Snapshot - Manage Applicants BV].[Administrator]
+	parent=Snapshot - Manage Applicants BV
+	x=10,113
+[Snapshot - Manage Applicants BV].[Administrator Role]
+	parent=Snapshot - Manage Applicants BV
+	x=230,113
+[Snapshot - Manage Applicants BV].[Application Date]
+	parent=Snapshot - Manage Applicants BV
+	x=450,113
+[Snapshot - Manage Applicants BV].[Application Decision]
+	parent=Snapshot - Manage Applicants BV
+	x=10,169
+[Snapshot - Manage Applicants BV].[Application Decision Date]
+	parent=Snapshot - Manage Applicants BV
+	x=230,169
+[Snapshot - Manage Applicants BV].[Application Fee Received Date]
+	parent=Snapshot - Manage Applicants BV
+	x=450,169
+[Snapshot - Manage Applicants BV].[Application Postal]
+	parent=Snapshot - Manage Applicants BV
+	x=10,225
+[Snapshot - Manage Applicants BV].[Application Rating]
+	parent=Snapshot - Manage Applicants BV
+	x=230,225
+[Snapshot - Manage Applicants BV].[Application Requirement]
+	parent=Snapshot - Manage Applicants BV
+	x=450,225
+[Snapshot - Manage Applicants BV].[Application Requirement First Request Date]
+	parent=Snapshot - Manage Applicants BV
+	x=10,281
+[Snapshot - Manage Applicants BV].[Application Requirement Most Recent Request Date]
+	parent=Snapshot - Manage Applicants BV
+	x=230,281
+[Snapshot - Manage Applicants BV].[Application Requirement Deadline Date]
+	parent=Snapshot - Manage Applicants BV
+	x=450,281
+[Snapshot - Manage Applicants BV].[Application Requirement Received Date]
+	parent=Snapshot - Manage Applicants BV
+	x=10,337
+[Snapshot - Manage Applicants BV].[Application Status Date]
+	parent=Snapshot - Manage Applicants BV
+	x=230,337
+[Snapshot - Manage Applicants BV].[Application Attribute]
+	parent=Snapshot - Manage Applicants BV
+	x=450,337
+[Snapshot - Manage Applicants BV].[Application Cohort]
+	parent=Snapshot - Manage Applicants BV
+	x=10,393
+[Snapshot - Manage Applicants BV].[Contact]
+	parent=Snapshot - Manage Applicants BV
+	x=230,393
+[Snapshot - Manage Applicants BV].[Contact Date]
+	parent=Snapshot - Manage Applicants BV
+	x=450,393
+[Snapshot - Manage Applicants BV].[Demographic]
+	parent=Snapshot - Manage Applicants BV
+	x=10,449
+[Snapshot - Manage Applicants BV].[Event]
+	parent=Snapshot - Manage Applicants BV
+	x=230,449
+[Snapshot - Manage Applicants BV].[Financial Aid Status]
+	parent=Snapshot - Manage Applicants BV
+	x=450,449
+[Snapshot - Manage Applicants BV].[First Contact]
+	parent=Snapshot - Manage Applicants BV
+	x=10,505
+[Snapshot - Manage Applicants BV].[First Contact Date]
+	parent=Snapshot - Manage Applicants BV
+	x=230,505
+[Snapshot - Manage Applicants BV].[Hold]
+	parent=Snapshot - Manage Applicants BV
+	x=450,505
+[Snapshot - Manage Applicants BV].[Interest]
+	parent=Snapshot - Manage Applicants BV
+	x=10,561
+[Snapshot - Manage Applicants BV].[Internal Keys]
+	parent=Snapshot - Manage Applicants BV
+	x=230,561
+[Snapshot - Manage Applicants BV].[Latest Application Decision]
+	parent=Snapshot - Manage Applicants BV
+	x=450,561
+[Snapshot - Manage Applicants BV].[Latest Application Decision Date]
+	parent=Snapshot - Manage Applicants BV
+	x=10,617
+[Snapshot - Manage Applicants BV].[Latest Contact]
+	parent=Snapshot - Manage Applicants BV
+	x=230,617
+[Snapshot - Manage Applicants BV].[Latest Contact Date]
+	parent=Snapshot - Manage Applicants BV
+	x=450,617
+[Snapshot - Manage Applicants BV].[Person]
+	parent=Snapshot - Manage Applicants BV
+	x=10,673
+[Snapshot - Manage Applicants BV].[Post Secondary Institution]
+	parent=Snapshot - Manage Applicants BV
+	x=230,673
+[Snapshot - Manage Applicants BV].[Post Secondary School]
+	parent=Snapshot - Manage Applicants BV
+	x=450,673
+[Snapshot - Manage Applicants BV].[Post Secondary School Geographic Region]
+	parent=Snapshot - Manage Applicants BV
+	x=10,729
+[Snapshot - Manage Applicants BV].[Post Secondary School Postal]
+	parent=Snapshot - Manage Applicants BV
+	x=230,729
+[Snapshot - Manage Applicants BV].[Post Secondary School Street Address]
+	parent=Snapshot - Manage Applicants BV
+	x=450,729
+[Snapshot - Manage Applicants BV].[Pre Student Status]
+	parent=Snapshot - Manage Applicants BV
+	x=10,785
+[Snapshot - Manage Applicants BV].[Prospective Student Geographic Region]
+	parent=Snapshot - Manage Applicants BV
+	x=230,785
+[Snapshot - Manage Applicants BV].[Prospective Student Postal]
+	parent=Snapshot - Manage Applicants BV
+	x=450,785
+[Snapshot - Manage Applicants BV].[Prospective Student Street Address]
+	parent=Snapshot - Manage Applicants BV
+	x=10,841
+[Snapshot - Manage Applicants BV].[Prospective Student Withdrawn]
+	parent=Snapshot - Manage Applicants BV
+	x=230,841
+[Snapshot - Manage Applicants BV].[Secondary School]
+	parent=Snapshot - Manage Applicants BV
+	x=450,841
+[Snapshot - Manage Applicants BV].[Secondary School Institution]
+	parent=Snapshot - Manage Applicants BV
+	x=10,897
+[Snapshot - Manage Applicants BV].[Secondary School Address]
+	parent=Snapshot - Manage Applicants BV
+	x=230,897
+[Snapshot - Manage Applicants BV].[Student]
+	parent=Snapshot - Manage Applicants BV
+	x=450,897
+[Snapshot - Manage Applicants BV].[Student Application]
+	parent=Snapshot - Manage Applicants BV
+	x=10,953
+[Snapshot - Manage Applicants BV].[Student Recruiter Information]
+	parent=Snapshot - Manage Applicants BV
+	x=230,953
+[Snapshot - Manage Applicants BV].[Test]
+	parent=Snapshot - Manage Applicants BV
+	x=450,953
+[Snapshot - Manage Applicants BV].[Test Date]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1009
+[Snapshot - Manage Applicants BV].[Admission Application Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=230,1009
+[Snapshot - Manage Applicants BV].[Application Attribute Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=450,1009
+[Snapshot - Manage Applicants BV].[Application Cohort Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1065
+[Snapshot - Manage Applicants BV].[Application Decision Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=230,1065
+[Snapshot - Manage Applicants BV].[Application Rating Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=450,1065
+[Snapshot - Manage Applicants BV].[Application Requirement Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1121
+[Snapshot - Manage Applicants BV].[Contact Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=230,1121
+[Snapshot - Manage Applicants BV].[Financial Aid Application Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=450,1121
+[Snapshot - Manage Applicants BV].[First Contact Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1177
+[Snapshot - Manage Applicants BV].[Highest Test Score Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=230,1177
+[Snapshot - Manage Applicants BV].[Hold Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=450,1177
+[Snapshot - Manage Applicants BV].[Interest Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1233
+[Snapshot - Manage Applicants BV].[Latest Application Decision Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=230,1233
+[Snapshot - Manage Applicants BV].[Latest Contact Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=450,1233
+[Snapshot - Manage Applicants BV].[Latest Test Score Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1289
+[Snapshot - Manage Applicants BV].[Post Secondary Institution Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=230,1289
+[Snapshot - Manage Applicants BV].[Post Secondary School Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=450,1289
+[Snapshot - Manage Applicants BV].[Prospective Student Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1345
+[Snapshot - Manage Applicants BV].[Secondary School Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=230,1345
+[Snapshot - Manage Applicants BV].[Secondary School Subject Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=450,1345
+[Snapshot - Manage Applicants BV].[Test Measure]
+	parent=Snapshot - Manage Applicants BV
+	x=10,1401
+[Snapshot - Manage Applicants BV]
+	c=73d3ac
+	dx=640,1440
+	expanded=t
+	parent=Business View
+	view=0,0
+	x=240,111
+	zoom=8192
+[Snapshot - Building Blocks - Analyze Enrollment Funnel].[Initial Funnel Status Measure]
+	parent=Snapshot - Building Blocks - Analyze Enrollment Funnel
+	x=10,57
+[Snapshot - Building Blocks - Analyze Enrollment Funnel].[Current Funnel Status Measure]
+	parent=Snapshot - Building Blocks - Analyze Enrollment Funnel
+	x=230,57
+[Snapshot - Building Blocks - Analyze Enrollment Funnel].[Funnel History Status Measure]
+	parent=Snapshot - Building Blocks - Analyze Enrollment Funnel
+	x=10,113
+[Snapshot - Building Blocks - Analyze Enrollment Funnel]
+	c=99f7ff
+	dx=200,28
+	expanded=t
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,57
+[Snapshot - Analyze Enrollment Funnel BV].[Multi Source]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=470,57
+[Snapshot - Analyze Enrollment Funnel BV].[Academic Time]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=690,57
+[Snapshot - Analyze Enrollment Funnel BV].[Academic Study]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,236
+[Snapshot - Analyze Enrollment Funnel BV].[Admission Recruitment Application Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,236
+[Snapshot - Analyze Enrollment Funnel BV].[Attribute]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,236
+[Snapshot - Analyze Enrollment Funnel BV].[Campaign]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,236
+[Snapshot - Analyze Enrollment Funnel BV].[Campaign Communication]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,292
+[Snapshot - Analyze Enrollment Funnel BV].[Campaign Start Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,292
+[Snapshot - Analyze Enrollment Funnel BV].[Campaign Status]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,292
+[Snapshot - Analyze Enrollment Funnel BV].[Cohort]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,292
+[Snapshot - Analyze Enrollment Funnel BV].[Communication]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,348
+[Snapshot - Analyze Enrollment Funnel BV].[Communication Sent Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,348
+[Snapshot - Analyze Enrollment Funnel BV].[Communication Template]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,348
+[Snapshot - Analyze Enrollment Funnel BV].[Contact]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,348
+[Snapshot - Analyze Enrollment Funnel BV].[Contact Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,404
+[Snapshot - Analyze Enrollment Funnel BV].[Current Funnel]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,404
+[Snapshot - Analyze Enrollment Funnel BV].[Current Funnel Status]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,404
+[Snapshot - Analyze Enrollment Funnel BV].[Current Funnel Status Entry Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,404
+[Snapshot - Analyze Enrollment Funnel BV].[Current Funnel Status Exit Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,460
+[Snapshot - Analyze Enrollment Funnel BV].[Demographic]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,460
+[Snapshot - Analyze Enrollment Funnel BV].[Event]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,460
+[Snapshot - Analyze Enrollment Funnel BV].[First Contact]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,460
+[Snapshot - Analyze Enrollment Funnel BV].[First Contact Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,516
+[Snapshot - Analyze Enrollment Funnel BV].[First Interaction]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,516
+[Snapshot - Analyze Enrollment Funnel BV].[First Interaction Creator]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,516
+[Snapshot - Analyze Enrollment Funnel BV].[First Interaction Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,516
+[Snapshot - Analyze Enrollment Funnel BV].[Financial Aid Status]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,572
+[Snapshot - Analyze Enrollment Funnel BV].[Funnel]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,572
+[Snapshot - Analyze Enrollment Funnel BV].[Funnel Status]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,572
+[Snapshot - Analyze Enrollment Funnel BV].[Funnel Status Entry Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,572
+[Snapshot - Analyze Enrollment Funnel BV].[Funnel Status Exit Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,628
+[Snapshot - Analyze Enrollment Funnel BV].[Funnel Student Level]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,628
+[Snapshot - Analyze Enrollment Funnel BV].[Initial Funnel]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,628
+[Snapshot - Analyze Enrollment Funnel BV].[Initial Funnel Status]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,628
+[Snapshot - Analyze Enrollment Funnel BV].[Initial Funnel Status Entry Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,684
+[Snapshot - Analyze Enrollment Funnel BV].[Initial Funnel Status Exit Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,684
+[Snapshot - Analyze Enrollment Funnel BV].[Interaction]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,684
+[Snapshot - Analyze Enrollment Funnel BV].[Interaction Creator]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,684
+[Snapshot - Analyze Enrollment Funnel BV].[Interaction Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,740
+[Snapshot - Analyze Enrollment Funnel BV].[Interest]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,740
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Application Decision]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,740
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Application Decision Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,740
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Contact]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,796
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Contact Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,796
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Interaction]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,796
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Interaction Creator]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,796
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Interaction Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,852
+[Snapshot - Analyze Enrollment Funnel BV].[Person]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,852
+[Snapshot - Analyze Enrollment Funnel BV].[Person Campaign Start Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,852
+[Snapshot - Analyze Enrollment Funnel BV].[Person Campaign Stop Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,852
+[Snapshot - Analyze Enrollment Funnel BV].[Post Secondary Institution]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,908
+[Snapshot - Analyze Enrollment Funnel BV].[Post Secondary School]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,908
+[Snapshot - Analyze Enrollment Funnel BV].[Post Secondary School Geographic Region]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,908
+[Snapshot - Analyze Enrollment Funnel BV].[Post Secondary School Postal]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,908
+[Snapshot - Analyze Enrollment Funnel BV].[Post Secondary School Street Address]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,964
+[Snapshot - Analyze Enrollment Funnel BV].[Prospective Student Geographic Region]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,964
+[Snapshot - Analyze Enrollment Funnel BV].[Prospective Student Postal]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,964
+[Snapshot - Analyze Enrollment Funnel BV].[Prospective Student Street Address]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,964
+[Snapshot - Analyze Enrollment Funnel BV].[Recruiter]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1020
+[Snapshot - Analyze Enrollment Funnel BV].[Recruiter Demographic]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1020
+[Snapshot - Analyze Enrollment Funnel BV].[Recruiter Role]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1020
+[Snapshot - Analyze Enrollment Funnel BV].[Secondary School]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1020
+[Snapshot - Analyze Enrollment Funnel BV].[Secondary School Institution]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1076
+[Snapshot - Analyze Enrollment Funnel BV].[Secondary School Address]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1076
+[Snapshot - Analyze Enrollment Funnel BV].[Student]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1076
+[Snapshot - Analyze Enrollment Funnel BV].[Test]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1076
+[Snapshot - Analyze Enrollment Funnel BV].[Test Date]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1132
+[Snapshot - Analyze Enrollment Funnel BV].[Attribute Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1132
+[Snapshot - Analyze Enrollment Funnel BV].[Campaign Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1132
+[Snapshot - Analyze Enrollment Funnel BV].[Cohort Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1132
+[Snapshot - Analyze Enrollment Funnel BV].[Combined Admissions Record Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1188
+[Snapshot - Analyze Enrollment Funnel BV].[Communication Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1188
+[Snapshot - Analyze Enrollment Funnel BV].[Contact Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1188
+[Snapshot - Analyze Enrollment Funnel BV].[Financial Aid Application Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1188
+[Snapshot - Analyze Enrollment Funnel BV].[First Contact Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1244
+[Snapshot - Analyze Enrollment Funnel BV].[First Interaction Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1244
+[Snapshot - Analyze Enrollment Funnel BV].[Funnel History Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1244
+[Snapshot - Analyze Enrollment Funnel BV].[Highest Test Score Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1244
+[Snapshot - Analyze Enrollment Funnel BV].[Interaction Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1300
+[Snapshot - Analyze Enrollment Funnel BV].[Interest Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1300
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Application Decision Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1300
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Contact Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1300
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Interaction Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1356
+[Snapshot - Analyze Enrollment Funnel BV].[Latest Test Score Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1356
+[Snapshot - Analyze Enrollment Funnel BV].[Post Secondary Institution Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1356
+[Snapshot - Analyze Enrollment Funnel BV].[Post Secondary School Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1356
+[Snapshot - Analyze Enrollment Funnel BV].[Prospective Student Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=10,1412
+[Snapshot - Analyze Enrollment Funnel BV].[Recruiter Assignment Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=230,1412
+[Snapshot - Analyze Enrollment Funnel BV].[Secondary School Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=450,1412
+[Snapshot - Analyze Enrollment Funnel BV].[Test Measure]
+	parent=Snapshot - Analyze Enrollment Funnel BV
+	x=670,1412
+[Snapshot - Analyze Enrollment Funnel BV]
+	c=568ef6
+	dx=200,28
+	expanded=f
+	parent=Business View
+	x=270,141
+[Business View]
+	c=89c6fd
+	dx=16258,11969
+	expanded=t
+	parent=Performance Management
+	view=0,0
+	x=40,183
+	zoom=4386
+[EDW Snapshot Star Schemas].[Multi Source]
+	parent=EDW Snapshot Star Schemas
+	x=10,57
+[EDW Snapshot Star Schemas].[Time]
+	parent=EDW Snapshot Star Schemas
+	x=230,57
+[EDW Snapshot Star Schemas].[Academic Program]
+	parent=EDW Snapshot Star Schemas
+	x=450,57
+[EDW Snapshot Star Schemas].[Demographic]
+	parent=EDW Snapshot Star Schemas
+	x=10,337
+[EDW Snapshot Star Schemas].[Designation]
+	parent=EDW Snapshot Star Schemas
+	x=230,337
+[EDW Snapshot Star Schemas].[Employee]
+	parent=EDW Snapshot Star Schemas
+	x=450,337
+[EDW Snapshot Star Schemas].[Employment History]
+	parent=EDW Snapshot Star Schemas
+	x=10,393
+[EDW Snapshot Star Schemas].[Enrollment Status]
+	parent=EDW Snapshot Star Schemas
+	x=230,393
+[EDW Snapshot Star Schemas].[Financial Aid Fund]
+	parent=EDW Snapshot Star Schemas
+	x=450,393
+[EDW Snapshot Star Schemas].[Financial Aid Status]
+	parent=EDW Snapshot Star Schemas
+	x=10,449
+[EDW Snapshot Star Schemas].[Fund]
+	parent=EDW Snapshot Star Schemas
+	x=230,449
+[EDW Snapshot Star Schemas].[Gift]
+	parent=EDW Snapshot Star Schemas
+	x=450,449
+[EDW Snapshot Star Schemas].[Graduation]
+	parent=EDW Snapshot Star Schemas
+	x=10,505
+[EDW Snapshot Star Schemas].[Grant Demographic]
+	parent=EDW Snapshot Star Schemas
+	x=230,505
+[EDW Snapshot Star Schemas].[Grant Type]
+	parent=EDW Snapshot Star Schemas
+	x=450,505
+[EDW Snapshot Star Schemas].[HR Applicant]
+	parent=EDW Snapshot Star Schemas
+	x=10,561
+[EDW Snapshot Star Schemas].[HR Applicant Status]
+	parent=EDW Snapshot Star Schemas
+	x=230,561
+[EDW Snapshot Star Schemas].[HR Requisition]
+	parent=EDW Snapshot Star Schemas
+	x=450,561
+[EDW Snapshot Star Schemas].[Instructor]
+	parent=EDW Snapshot Star Schemas
+	x=10,617
+[EDW Snapshot Star Schemas].[Job]
+	parent=EDW Snapshot Star Schemas
+	x=230,617
+[EDW Snapshot Star Schemas].[Major]
+	parent=EDW Snapshot Star Schemas
+	x=450,617
+[EDW Snapshot Star Schemas].[Minor]
+	parent=EDW Snapshot Star Schemas
+	x=10,673
+[EDW Snapshot Star Schemas].[Organization]
+	parent=EDW Snapshot Star Schemas
+	x=230,673
+[EDW Snapshot Star Schemas].[Pledge]
+	parent=EDW Snapshot Star Schemas
+	x=450,673
+[EDW Snapshot Star Schemas].[Position]
+	parent=EDW Snapshot Star Schemas
+	x=10,729
+[EDW Snapshot Star Schemas].[Post Secondary Institution]
+	parent=EDW Snapshot Star Schemas
+	x=230,729
+[EDW Snapshot Star Schemas].[Post Secondary School]
+	parent=EDW Snapshot Star Schemas
+	x=450,729
+[EDW Snapshot Star Schemas].[Postal]
+	parent=EDW Snapshot Star Schemas
+	x=10,785
+[EDW Snapshot Star Schemas].[Pre Student]
+	parent=EDW Snapshot Star Schemas
+	x=230,785
+[EDW Snapshot Star Schemas].[Pre Student Status]
+	parent=EDW Snapshot Star Schemas
+	x=450,785
+[EDW Snapshot Star Schemas].[Program]
+	parent=EDW Snapshot Star Schemas
+	x=10,841
+[EDW Snapshot Star Schemas].[Registration]
+	parent=EDW Snapshot Star Schemas
+	x=230,841
+[EDW Snapshot Star Schemas].[Secondary Institution]
+	parent=EDW Snapshot Star Schemas
+	x=450,841
+[EDW Snapshot Star Schemas].[Secondary School]
+	parent=EDW Snapshot Star Schemas
+	x=10,897
+[EDW Snapshot Star Schemas].[Student]
+	parent=EDW Snapshot Star Schemas
+	x=230,897
+[EDW Snapshot Star Schemas].[Student Application]
+	parent=EDW Snapshot Star Schemas
+	x=450,897
+[EDW Snapshot Star Schemas].[Academic Program Course Measure]
+	parent=EDW Snapshot Star Schemas
+	x=10,953
+[EDW Snapshot Star Schemas].[Advancement Gift Measure]
+	parent=EDW Snapshot Star Schemas
+	x=230,953
+[EDW Snapshot Star Schemas].[Course Registration Measure]
+	parent=EDW Snapshot Star Schemas
+	x=450,953
+[EDW Snapshot Star Schemas].[Employee Measure]
+	parent=EDW Snapshot Star Schemas
+	x=10,1009
+[EDW Snapshot Star Schemas].[Employee Degree Measure]
+	parent=EDW Snapshot Star Schemas
+	x=230,1009
+[EDW Snapshot Star Schemas].[Employee Position Measure]
+	parent=EDW Snapshot Star Schemas
+	x=450,1009
+[EDW Snapshot Star Schemas].[Employment Application Measure]
+	parent=EDW Snapshot Star Schemas
+	x=10,1065
+[EDW Snapshot Star Schemas].[Enrollment Measure]
+	parent=EDW Snapshot Star Schemas
+	x=230,1065
+[EDW Snapshot Star Schemas].[Financial Aid Pre Student Measure]
+	parent=EDW Snapshot Star Schemas
+	x=450,1065
+[EDW Snapshot Star Schemas].[Financial Aid Student Measure]
+	parent=EDW Snapshot Star Schemas
+	x=10,1121
+[EDW Snapshot Star Schemas].[General Ledger Measure]
+	parent=EDW Snapshot Star Schemas
+	x=230,1121
+[EDW Snapshot Star Schemas].[Graduation Completion Measure]
+	parent=EDW Snapshot Star Schemas
+	x=450,1121
+[EDW Snapshot Star Schemas].[Grant And Project Measure]
+	parent=EDW Snapshot Star Schemas
+	x=10,1177
+[EDW Snapshot Star Schemas].[Operating Ledger Measure]
+	parent=EDW Snapshot Star Schemas
+	x=230,1177
+[EDW Snapshot Star Schemas].[Receivable Customer Measure]
+	parent=EDW Snapshot Star Schemas
+	x=450,1177
+[EDW Snapshot Star Schemas].[Receivable Revenue Measure]
+	parent=EDW Snapshot Star Schemas
+	x=10,1233
+[EDW Snapshot Star Schemas].[Recruiting And Admission Measure]
+	parent=EDW Snapshot Star Schemas
+	x=230,1233
+[EDW Snapshot Star Schemas]
+	c=568ef6
+	dx=640,1272
+	expanded=t
+	parent=Presentation View
+	view=0,0
+	x=3810,6207
+	zoom=8192
+[Impact Of Aid On New Enrollment].[Multi Source]
+	parent=Impact Of Aid On New Enrollment
+	x=510,122
+[Impact Of Aid On New Enrollment].[Time Filters]
+	c=9bdfc4
+	dx=210,38
+	expanded=t
+	parent=Impact Of Aid On New Enrollment
+	x=10,57
+[Impact Of Aid On New Enrollment].[Financial Aid Time]
+	parent=Impact Of Aid On New Enrollment
+	x=10,187
+[Impact Of Aid On New Enrollment].[Prospective Student Filters]
+	c=89c6fd
+	dx=210,38
+	expanded=t
+	parent=Impact Of Aid On New Enrollment
+	x=260,57
+[Impact Of Aid On New Enrollment].[Prospective Student Headcounts]
+	parent=Impact Of Aid On New Enrollment
+	x=230,187
+[Impact Of Aid On New Enrollment].[Pre Student Status]
+	parent=Impact Of Aid On New Enrollment
+	x=450,187
+[Impact Of Aid On New Enrollment].[Yield Measures]
+	parent=Impact Of Aid On New Enrollment
+	x=10,243
+[Impact Of Aid On New Enrollment].[Financial Aid Filters]
+	c=99f7ff
+	dx=210,38
+	expanded=t
+	parent=Impact Of Aid On New Enrollment
+	x=510,57
+[Impact Of Aid On New Enrollment].[Financial Aid Headcounts And Indicators]
+	parent=Impact Of Aid On New Enrollment
+	x=230,243
+[Impact Of Aid On New Enrollment].[Financial Aid Application]
+	parent=Impact Of Aid On New Enrollment
+	x=450,243
+[Impact Of Aid On New Enrollment].[Financial Aid Percent Of Need Ranges]
+	c=d8a77d
+	dx=210,38
+	expanded=t
+	parent=Impact Of Aid On New Enrollment
+	x=10,122
+[Impact Of Aid On New Enrollment].[Financial Aid Award Filters]
+	c=99b2c7
+	dx=210,38
+	expanded=t
+	parent=Impact Of Aid On New Enrollment
+	x=260,122
+[Impact Of Aid On New Enrollment].[Financial Aid Awards]
+	parent=Impact Of Aid On New Enrollment
+	x=10,299
+[Impact Of Aid On New Enrollment].[Projected Tuition Discounting]
+	parent=Impact Of Aid On New Enrollment
+	x=230,299
+[Impact Of Aid On New Enrollment].[Relevant Admissions Record]
+	parent=Impact Of Aid On New Enrollment
+	x=450,299
+[Impact Of Aid On New Enrollment].[Academic Study]
+	parent=Impact Of Aid On New Enrollment
+	x=10,355
+[Impact Of Aid On New Enrollment].[Demographic]
+	parent=Impact Of Aid On New Enrollment
+	x=230,355
+[Impact Of Aid On New Enrollment].[Person]
+	parent=Impact Of Aid On New Enrollment
+	x=450,355
+[Impact Of Aid On New Enrollment].[Post Secondary School - Highest Degree]
+	parent=Impact Of Aid On New Enrollment
+	x=10,411
+[Impact Of Aid On New Enrollment].[Prospective Student Address]
+	parent=Impact Of Aid On New Enrollment
+	x=230,411
+[Impact Of Aid On New Enrollment].[Secondary School]
+	parent=Impact Of Aid On New Enrollment
+	x=450,411
+[Impact Of Aid On New Enrollment].[Student]
+	parent=Impact Of Aid On New Enrollment
+	x=10,467
+[Impact Of Aid On New Enrollment].[Test]
+	parent=Impact Of Aid On New Enrollment
+	x=230,467
+[Impact Of Aid On New Enrollment].[Internal Keys]
+	parent=Impact Of Aid On New Enrollment
+	x=450,467
+[Impact Of Aid On New Enrollment].[Report Default Selections]
+	parent=Impact Of Aid On New Enrollment
+	x=10,523
+[Impact Of Aid On New Enrollment].[Report Help Text]
+	parent=Impact Of Aid On New Enrollment
+	x=230,523
+[Impact Of Aid On New Enrollment]
+	c=527ca5
+	dx=730,562
+	expanded=t
+	parent=Presentation View
+	view=0,0
+	x=3870,6267
+	zoom=8192
+[Manage Applicants].[Multi Source]
+	parent=Manage Applicants
+	x=260,57
+[Manage Applicants].[Academic Time]
+	parent=Manage Applicants
+	x=480,57
+[Manage Applicants].[Academic Study]
+	parent=Manage Applicants
+	x=10,122
+[Manage Applicants].[Admissions Application]
+	parent=Manage Applicants
+	x=230,122
+[Manage Applicants].[Contact]
+	parent=Manage Applicants
+	x=450,122
+[Manage Applicants].[Demographic]
+	parent=Manage Applicants
+	x=10,178
+[Manage Applicants].[Financial Aid Information]
+	parent=Manage Applicants
+	x=230,178
+[Manage Applicants].[Interest]
+	parent=Manage Applicants
+	x=450,178
+[Manage Applicants].[Internal Keys]
+	parent=Manage Applicants
+	x=10,234
+[Manage Applicants].[Person]
+	parent=Manage Applicants
+	x=230,234
+[Manage Applicants].[Post Secondary School]
+	parent=Manage Applicants
+	x=450,234
+[Manage Applicants].[Pre Student Status]
+	parent=Manage Applicants
+	x=10,290
+[Manage Applicants].[Prospective Student Address]
+	parent=Manage Applicants
+	x=230,290
+[Manage Applicants].[Report Default Selections]
+	parent=Manage Applicants
+	x=450,290
+[Manage Applicants].[Report Help Text]
+	parent=Manage Applicants
+	x=10,346
+[Manage Applicants].[Secondary School]
+	parent=Manage Applicants
+	x=230,346
+[Manage Applicants].[Student]
+	parent=Manage Applicants
+	x=450,346
+[Manage Applicants].[Test]
+	parent=Manage Applicants
+	x=10,402
+[Manage Applicants].[Yield Measures]
+	c=73d3ac
+	dx=210,38
+	expanded=t
+	parent=Manage Applicants
+	x=10,57
+[Manage Applicants]
+	c=73d3ac
+	dx=670,441
+	expanded=t
+	parent=Presentation View
+	view=0,0
+	x=823,804
+	zoom=5557
+[Analyze Enrollment Funnel].[Multi Source]
+	parent=Analyze Enrollment Funnel
+	x=260,122
+[Analyze Enrollment Funnel].[Academic Time]
+	parent=Analyze Enrollment Funnel
+	x=480,122
+[Analyze Enrollment Funnel].[Academic Study]
+	parent=Analyze Enrollment Funnel
+	x=10,187
+[Analyze Enrollment Funnel].[Campaign]
+	parent=Analyze Enrollment Funnel
+	x=230,187
+[Analyze Enrollment Funnel].[Combined Admissions Record]
+	parent=Analyze Enrollment Funnel
+	x=450,187
+[Analyze Enrollment Funnel].[Communications]
+	parent=Analyze Enrollment Funnel
+	x=10,243
+[Analyze Enrollment Funnel].[Contact]
+	parent=Analyze Enrollment Funnel
+	x=230,243
+[Analyze Enrollment Funnel].[Demographic]
+	parent=Analyze Enrollment Funnel
+	x=450,243
+[Analyze Enrollment Funnel].[Financial Aid Information]
+	parent=Analyze Enrollment Funnel
+	x=10,299
+[Analyze Enrollment Funnel].[Financial Aid Percent Of Need Ranges]
+	c=568ef6
+	dx=210,38
+	expanded=t
+	parent=Analyze Enrollment Funnel
+	x=10,57
+[Analyze Enrollment Funnel].[Funnel Status]
+	parent=Analyze Enrollment Funnel
+	x=230,299
+[Analyze Enrollment Funnel].[Interactions]
+	parent=Analyze Enrollment Funnel
+	x=450,299
+[Analyze Enrollment Funnel].[Interest]
+	parent=Analyze Enrollment Funnel
+	x=10,355
+[Analyze Enrollment Funnel].[Internal Keys]
+	parent=Analyze Enrollment Funnel
+	x=230,355
+[Analyze Enrollment Funnel].[Person]
+	parent=Analyze Enrollment Funnel
+	x=450,355
+[Analyze Enrollment Funnel].[Post Secondary School]
+	parent=Analyze Enrollment Funnel
+	x=10,411
+[Analyze Enrollment Funnel].[Prospective Student Address]
+	parent=Analyze Enrollment Funnel
+	x=230,411
+[Analyze Enrollment Funnel].[Recruiter Assigned]
+	parent=Analyze Enrollment Funnel
+	x=450,411
+[Analyze Enrollment Funnel].[Report Default Selections]
+	parent=Analyze Enrollment Funnel
+	x=10,467
+[Analyze Enrollment Funnel].[Report Help Text]
+	parent=Analyze Enrollment Funnel
+	x=230,467
+[Analyze Enrollment Funnel].[Secondary School]
+	parent=Analyze Enrollment Funnel
+	x=450,467
+[Analyze Enrollment Funnel].[Student]
+	parent=Analyze Enrollment Funnel
+	x=10,523
+[Analyze Enrollment Funnel].[Test]
+	parent=Analyze Enrollment Funnel
+	x=230,523
+[Analyze Enrollment Funnel].[Funnel Status Performance Measures]
+	c=9bdfc4
+	dx=210,38
+	expanded=t
+	parent=Analyze Enrollment Funnel
+	x=260,57
+[Analyze Enrollment Funnel].[Initial Percent of Qualifying Headcount]
+	c=9bdfc4
+	dx=210,38
+	expanded=t
+	parent=Analyze Enrollment Funnel
+	view=0,0
+	x=510,57
+	zoom=8192
+[Analyze Enrollment Funnel].[Current Percent of Qualifying Headcount]
+	c=d8a77d
+	dx=210,38
+	expanded=t
+	parent=Analyze Enrollment Funnel
+	x=10,122
+[Analyze Enrollment Funnel]
+	c=89c6fd
+	dx=730,562
+	expanded=t
+	parent=Presentation View
+	view=0,0
+	x=840,114
+	zoom=8959
+[Snapshot - Impact Of Aid On New Enrollment].[Multi Source]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=510,122
+[Snapshot - Impact Of Aid On New Enrollment].[Time Filters]
+	c=9bdfc4
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,57
+[Snapshot - Impact Of Aid On New Enrollment].[Financial Aid Time]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=230,187
+[Snapshot - Impact Of Aid On New Enrollment].[Prospective Student Filters]
+	c=d8a77d
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=260,57
+[Snapshot - Impact Of Aid On New Enrollment].[Prospective Student Headcounts]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=450,187
+[Snapshot - Impact Of Aid On New Enrollment].[Pre Student Status]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,243
+[Snapshot - Impact Of Aid On New Enrollment].[Yield Measures]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=230,243
+[Snapshot - Impact Of Aid On New Enrollment].[Financial Aid Filters]
+	c=89c6fd
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=510,57
+[Snapshot - Impact Of Aid On New Enrollment].[Financial Aid Headcounts And Indicators]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=450,243
+[Snapshot - Impact Of Aid On New Enrollment].[Financial Aid Application]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,299
+[Snapshot - Impact Of Aid On New Enrollment].[Financial Aid Percent Of Need Ranges]
+	c=99b2c7
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,122
+[Snapshot - Impact Of Aid On New Enrollment].[Financial Aid Award Filters]
+	c=bf8cbc
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=260,122
+[Snapshot - Impact Of Aid On New Enrollment].[Financial Aid Awards]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=230,299
+[Snapshot - Impact Of Aid On New Enrollment].[Projected Tuition Discounting]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=450,299
+[Snapshot - Impact Of Aid On New Enrollment].[Relevant Admissions Record]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,355
+[Snapshot - Impact Of Aid On New Enrollment].[Academic Study]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=230,355
+[Snapshot - Impact Of Aid On New Enrollment].[Demographic]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=450,355
+[Snapshot - Impact Of Aid On New Enrollment].[Person]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,411
+[Snapshot - Impact Of Aid On New Enrollment].[Post Secondary School - Highest Degree]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=230,411
+[Snapshot - Impact Of Aid On New Enrollment].[Prospective Student Address]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=450,411
+[Snapshot - Impact Of Aid On New Enrollment].[Secondary School]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,467
+[Snapshot - Impact Of Aid On New Enrollment].[Student]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=230,467
+[Snapshot - Impact Of Aid On New Enrollment].[Test]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=450,467
+[Snapshot - Impact Of Aid On New Enrollment].[Internal Keys]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,523
+[Snapshot - Impact Of Aid On New Enrollment].[Report Default Selections]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=230,523
+[Snapshot - Impact Of Aid On New Enrollment].[Report Help Text]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=450,523
+[Snapshot - Impact Of Aid On New Enrollment]
+	c=527ca5
+	dx=730,562
+	expanded=t
+	parent=Presentation View
+	view=0,0
+	x=11,6405
+	zoom=8192
+[Snapshot - Manage Applicants].[Multi Source]
+	parent=Snapshot - Manage Applicants
+	x=10,57
+[Snapshot - Manage Applicants].[Academic Time]
+	parent=Snapshot - Manage Applicants
+	x=230,57
+[Snapshot - Manage Applicants].[Academic Study]
+	parent=Snapshot - Manage Applicants
+	x=450,57
+[Snapshot - Manage Applicants].[Admissions Application]
+	parent=Snapshot - Manage Applicants
+	x=10,113
+[Snapshot - Manage Applicants].[Contact]
+	parent=Snapshot - Manage Applicants
+	x=230,113
+[Snapshot - Manage Applicants].[Demographic]
+	parent=Snapshot - Manage Applicants
+	x=450,113
+[Snapshot - Manage Applicants].[Event]
+	parent=Snapshot - Manage Applicants
+	x=10,169
+[Snapshot - Manage Applicants].[Financial Aid Information]
+	parent=Snapshot - Manage Applicants
+	x=230,169
+[Snapshot - Manage Applicants].[Interest]
+	parent=Snapshot - Manage Applicants
+	x=450,169
+[Snapshot - Manage Applicants].[Internal Keys]
+	parent=Snapshot - Manage Applicants
+	x=10,225
+[Snapshot - Manage Applicants].[Person]
+	parent=Snapshot - Manage Applicants
+	x=230,225
+[Snapshot - Manage Applicants].[Post Secondary School]
+	parent=Snapshot - Manage Applicants
+	x=450,225
+[Snapshot - Manage Applicants].[Pre Student Status]
+	parent=Snapshot - Manage Applicants
+	x=10,281
+[Snapshot - Manage Applicants].[Prospective Student Address]
+	parent=Snapshot - Manage Applicants
+	x=230,281
+[Snapshot - Manage Applicants].[Report Default Selections]
+	parent=Snapshot - Manage Applicants
+	x=450,281
+[Snapshot - Manage Applicants].[Report Help Text]
+	parent=Snapshot - Manage Applicants
+	x=10,337
+[Snapshot - Manage Applicants].[Secondary School]
+	parent=Snapshot - Manage Applicants
+	x=230,337
+[Snapshot - Manage Applicants].[Student]
+	parent=Snapshot - Manage Applicants
+	x=450,337
+[Snapshot - Manage Applicants].[Test]
+	parent=Snapshot - Manage Applicants
+	x=10,393
+[Snapshot - Manage Applicants]
+	c=9bdfc4
+	dx=640,432
+	expanded=t
+	parent=Presentation View
+	view=0,0
+	x=593,525
+	zoom=8192
+[Snapshot - Analyze Enrollment Funnel].[Multi Source]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=260,122
+[Snapshot - Analyze Enrollment Funnel].[Academic Time]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=480,122
+[Snapshot - Analyze Enrollment Funnel].[Academic Study]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,187
+[Snapshot - Analyze Enrollment Funnel].[Campaign]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=230,187
+[Snapshot - Analyze Enrollment Funnel].[Combined Admissions Record]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=450,187
+[Snapshot - Analyze Enrollment Funnel].[Communications]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,243
+[Snapshot - Analyze Enrollment Funnel].[Contact]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=230,243
+[Snapshot - Analyze Enrollment Funnel].[Demographic]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=450,243
+[Snapshot - Analyze Enrollment Funnel].[Event]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,299
+[Snapshot - Analyze Enrollment Funnel].[Financial Aid Information]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=230,299
+[Snapshot - Analyze Enrollment Funnel].[Financial Aid Percent Of Need Ranges]
+	c=9bdfc4
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,57
+[Snapshot - Analyze Enrollment Funnel].[Funnel Status]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=450,299
+[Snapshot - Analyze Enrollment Funnel].[Interactions]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,355
+[Snapshot - Analyze Enrollment Funnel].[Interest]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=230,355
+[Snapshot - Analyze Enrollment Funnel].[Internal Keys]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=450,355
+[Snapshot - Analyze Enrollment Funnel].[Person]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,411
+[Snapshot - Analyze Enrollment Funnel].[Post Secondary School]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=230,411
+[Snapshot - Analyze Enrollment Funnel].[Prospective Student Address]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=450,411
+[Snapshot - Analyze Enrollment Funnel].[Recruiter Assigned]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,467
+[Snapshot - Analyze Enrollment Funnel].[Report Default Selections]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=230,467
+[Snapshot - Analyze Enrollment Funnel].[Report Help Text]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=450,467
+[Snapshot - Analyze Enrollment Funnel].[Secondary School]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,523
+[Snapshot - Analyze Enrollment Funnel].[Student]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=230,523
+[Snapshot - Analyze Enrollment Funnel].[Test]
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=450,523
+[Snapshot - Analyze Enrollment Funnel].[Funnel Status Performance Measures]
+	c=89c6fd
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=260,57
+[Snapshot - Analyze Enrollment Funnel].[Initial Percent of Qualifying Headcount]
+	c=99b2c7
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=510,57
+[Snapshot - Analyze Enrollment Funnel].[Current Percent of Qualifying Headcount]
+	c=bf8cbc
+	dx=210,38
+	expanded=t
+	parent=Snapshot - Analyze Enrollment Funnel
+	x=10,122
+[Snapshot - Analyze Enrollment Funnel]
+	c=d8a77d
+	dx=730,562
+	expanded=t
+	parent=Presentation View
+	view=0,0
+	x=593,57
+	zoom=8192
+[Presentation View]
+	c=99f7ff
+	dx=4610,7489
+	expanded=t
+	parent=Performance Management
+	view=0,0
+	x=3292,57
+	zoom=790
+[Performance Management]
+	c=9bdfc4
+	dx=16308,26466
+	expanded=t
+	parent=sghe_pm
+	view=807,3154
+	x=10,57
+	zoom=8192
+[].[dataSources]
+	view=0,0
+	zoom=8192
+[].[parameterMaps].[_env]
+	parent=Parameter Maps
+	x=10,57
+[].[parameterMaps].[_governor]
+	parent=Parameter Maps
+	x=230,57
+[].[parameterMaps]
+	view=0,0
+	zoom=8192
+[].[packages]
+	view=0,0
+	zoom=8192
+[]
+	font=Arial Narrow
+	lod=0
+	tc=323232
+	view=0,0
+	viewStyle=2
+	zoom=8192
+[Snapshot - Impact Of Aid On New Enrollment].[Event]
+	parent=Snapshot - Impact Of Aid On New Enrollment
+	x=10,187

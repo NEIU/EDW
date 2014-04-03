@@ -1,0 +1,47 @@
+Transformer(8.4.6024.0)  Thu Jun 23 08:35:02 2011
+
+LogFileDirectory=C:\edw80101u\cognos\edw\logs\
+ModelSaveDirectory=C:\edw80101u\cognos\edw\transformer_models\win\
+DataSourceDirectory=..\data\
+CubeSaveDirectory=C:\edw80101u\cognos\edw\cubes\
+DataWorkDirectory=..\temp\
+ModelWorkDirectory=C:\edw80101u\cognos\edw\work\
+MaxTransactionNum=2000000
+Product locale: English (en)
+Run locale: English (United States) (en-us)
+
+Thu 23 Jun 2011 8:35:13 AM	4	0000AF57	Start cube update.
+Thu 23 Jun 2011 8:35:13 AM	4	0000AF57	Initializing categories.
+Thu 23 Jun 2011 8:35:13 AM	4	0000AF57	Timing, INITIALIZING CATEGORIES,00:00:00
+Thu 23 Jun 2011 8:35:13 AM	4	0000AF57	Start processing data source 'EDW Academic Program Course~1'.
+Thu 23 Jun 2011 8:35:13 AM	4	0000AF57	Reading source data.
+Thu 23 Jun 2011 8:35:48 AM	4	0000AF57	Timing, OPEN DATA SOURCE,00:00:35
+Thu 23 Jun 2011 8:36:20 AM	4	0000AF57	End processing 89981 records from data source 'EDW Academic Program Course~1'.
+Thu 23 Jun 2011 8:36:20 AM	4	0000AF57	Timing, READ DATA SOURCE,00:01:07
+Thu 23 Jun 2011 8:36:20 AM	4	0000AF57	Marking categories used.
+Thu 23 Jun 2011 8:36:20 AM	4	0000AF57	Timing, MARKING CATEGORIES USED,00:00:00
+Thu 23 Jun 2011 8:36:20 AM	4	0000AF57	Updating category status.
+Thu 23 Jun 2011 8:36:20 AM	4	0000AF57	Processing the work file.
+Thu 23 Jun 2011 8:36:22 AM	4	000001F9	Processing cube 'WFT_ACADEMIC_PROGRAM_COURSE' at location C:\edw80101u\cognos\edw\cubes\WFT_ACADEMIC_PROGRAM_COURSE_BUILD.mdc
+Thu 23 Jun 2011 8:36:22 AM	4	0000AF57	Timing, UPDATE CATEGORY AND PROCESS WORK FILE,00:00:02
+Thu 23 Jun 2011 8:36:22 AM	4	000001F9	Start metadata update of cube 'WFT_ACADEMIC_PROGRAM_COURSE'.
+Thu 23 Jun 2011 8:36:22 AM	4	0000AF57	Marking categories needed.
+Thu 23 Jun 2011 8:36:22 AM	4	0000AF57	Updating the PowerCube metadata.
+Thu 23 Jun 2011 8:36:24 AM	4	000001F9	End metadata update of cube 'WFT_ACADEMIC_PROGRAM_COURSE'.  24911 categories were added to the cube.
+Thu 23 Jun 2011 8:36:24 AM	4	0000AF57	Timing, METADATA,00:00:02
+Thu 23 Jun 2011 8:36:24 AM	4	000001F9	Start update of cube 'WFT_ACADEMIC_PROGRAM_COURSE'.
+Thu 23 Jun 2011 8:36:24 AM	4	000001F9	--- Performing Pass 0 with 89981 rows and 41294 categories remaining.
+Thu 23 Jun 2011 8:36:24 AM	4	000001F9	Start Write leaving 41294 categories remaining.
+Thu 23 Jun 2011 8:36:24 AM	4	0000AF57	Updating the PowerCube data.
+Thu 23 Jun 2011 8:36:24 AM	4	0000AF57	Updating the PowerCube data.
+Thu 23 Jun 2011 8:36:30 AM	4	0000AF57	Performing DataBase Commit at record number 89982.
+Thu 23 Jun 2011 8:36:30 AM	4	000001F9	End Write leaving 41294 categories remaining..
+Thu 23 Jun 2011 8:36:30 AM	4	0000AF57	Timing, CUBE UPDATE,00:00:06
+Thu 23 Jun 2011 8:36:30 AM	4	0000AF57	Committing PowerCube(s).
+Thu 23 Jun 2011 8:36:33 AM	4	0000AF57	Timing, CUBE COMMIT,00:00:03
+Thu 23 Jun 2011 8:36:33 AM	4	0000AF57	Updating the PowerCube with optimized metadata.
+Thu 23 Jun 2011 8:36:33 AM	4	0000AF57	Start update of cube 'C:\edw80101u\cognos\edw\cubes\WFT_ACADEMIC_PROGRAM_COURSE_BUILD.mdc' with optimized metadata.
+Thu 23 Jun 2011 8:36:35 AM	4	0000AF57	End update of cube 'C:\edw80101u\cognos\edw\cubes\WFT_ACADEMIC_PROGRAM_COURSE_BUILD.mdc' with optimized metadata.
+Thu 23 Jun 2011 8:36:35 AM	4	0000AF57	End cube update.
+Thu 23 Jun 2011 8:36:35 AM	4	0000AF57	Timing, TOTAL TIME (CREATE CUBE),00:01:22
+Transformer  Thu Jun 23 08:36:46 2011

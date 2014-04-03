@@ -1,0 +1,259 @@
+***** AUDIT TRAIL: 1.0 *****
+Initial Release of the models.
+
+***** AUDIT TRAIL: 1.1 *****
+General:
+10/04/2004      RLZ     Updated all models to generate correct metadata of decimal fields in Cognos model file by pointing to Oracle version 9.2.0.5.
+
+WFT_ADVANCEMENT_GIFT.mdl
+09/27/2004      RLZ     Changed definition of "Average Gift Amount" to SUM(GIFT_AMOUNT)/COUNT(Distinct Gift_Nnumber)
+10/21/2004      RLZ     Redefined table "WDT_DEMOGRAPHIC" in order to make unix version working.
+10/26/2004      RLZ     Added "FISCAL YEAR" dimension.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC" and "WFV_ADVANCEMENT_GIFT".
+
+WFT_COURSE_REGISTRATION.mdl
+10/21/2004      RLZ     Redefined table "WDT_ACADEMIC_STUDY" in order to make unix version working.
+10/25/2004      RLZ     Removed dimension "Course Organization".
+11/03/2004      RLZ     Clean up categories in model file.
+11/04/2004	RLZ	Added Course Identification, Course Number and Course Division to the view.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC", "WDT_ACADEMIC_STUDY" and "WFV_COURSE_REGISTRATION".
+
+WFT_EMPLOYEE.mdl
+10/21/2004      RLZ     Redefined table "WDT_DEMOGRAPHIC" in order to make unix version working.
+10/27/2004      RLZ     Remove measure "Ytd Total Earnings" and "Average Ytd Total Earnings"
+                        Added measures "TOTAL EARNINGS", "REGULAR EARNINGS","OVERTIME EARNINGS","OTHER EARNINGS","EMPLOYER DEDUCTION AMOUNT","EMPLOYEE DEDUCTION AMOUNT"
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC" and "WFV_EMPLOYEE".
+11/16/2004      RLZ	Added dimension "Calendar Month".
+
+WFT_EMPLOYEE_DEGREE.mdl
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC" and "WFV_EMPLOYEE_DEGREE".
+
+WFT_EMPLOYEE_POSITION.mdl
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC" and "WFV_EMPLOYEE_POSITION".
+
+WFT_EMPLOYMENT_APPLICATION.mdl
+10/21/2004      RLZ     Redefined table "WDT_DEMOGRAPHIC" in order to make unix version working.
+10/25/2004      RLZ     Removed all folders in measures.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC" and "WFV_EMPLOYMENT_APPLICATION".
+11/16/2004      RLZ	Added dimension "Calendar Month".
+
+WFT_ENROLLMENT.mdl
+09/24/2004      RLZ     Corrected definition for "Term GPA"
+10/25/2004      RLZ     Removed all folders in measures.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/10/2004	MAC	Model consistancy and format corrections post EDW 1.1 Freeze.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC", "WDT_ACADEMIC_STUDY" and "WFV_ENROLLMENT".
+06/22/2005      RLZ	Change dimension "Academic Period" to "Academic Period Type".
+
+WFT_FINANCIAL_AID_PRE_STUDENT.mdl
+10/25/2004      RLZ     Removed all folders in measures.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/10/2004	MAC	Model consistancy and format corrections post EDW 1.1 Freeze.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC" and "WFV_FINANCIAL_AID_PRE_STUDENT".
+
+WFT_FINANCIAL_AID_STUDENT.mdl
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+C
+WFT_GENERAL_LEDGER.mdl
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+
+WFT_GENERAL_LEDGER_EVENT
+09/13/2004      RLZ	Reset output scale from 2 to 0 in order to get correct output for "WFT_GENERAL_LEDGER_EVENT"
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+
+WFT_GRADUATION_COMPLETION.mdl
+10/21/2004      RLZ     Redefined table "WDT_ACADEMIC_STUDY" in order to make unix version working.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC", "WDT_ACADEMIC_STUDY" and "WFV_GRADUATION_COMPLETION".
+
+WFT_GRANT_AND_PROJECT.mdl
+10/21/2004      RLZ     Redefined table "WDT_ACCOUNT" in order to make unix version working.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/10/2004      RLZ     changed to "GRAND_TYPE" as source for "Grand Type" dimensions. 
+
+WFT_OPERATING_LEDGER.mdl
+10/21/2004      RLZ     Redefined table "WDT_ACCOUNT" in order to make unix version working.
+10/25/2004      RLZ     Added "Fiscal Year Adopted Budget", "Fiscal Year Budget Adjustments" and "Fiscal Year Total Budget" measures.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+
+WFT_RECEIVABLE_CUSTOMER.mdl
+09/14/2004      RLZ 	Redefine "Average Balance" and "Average Amount Due" measures as Sum(Blance)/Customer Count
+10/21/2004      RLZ     Redefined table "WDT_ACADEMIC_STUDY" in order to make unix version working.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+11/16/2004      RLZ	Redefined data sources "WDT_ACADEMIC_STUDY" and "WFV_RECEIVABLE_CUSTOMER".
+
+WFT_RECEIVABLE_REVENUE.mdl
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.
+
+WFT_RECRUITING_AND_ADMISSION.mdl
+09/23/2004      RLZ	Added addtional 2 levels for all category counts measures since the number of categories exceeded 65,536 max number.
+10/25/2004      RLZ     Removed all folders in measures.
+10/26/2004      RLZ     Added "ACADEMIC_PERCENTILE_RANGE" and "ADMISSIONS_POPULATION" dimensions.
+10/26/2004      RLZ     Added "Nation Admit" dimensions including "Nation Admit"/"State Province Admit"/"County Admit" hierachy.
+11/04/2004      MAC	Made minor adjustments to column names, formats or and sequences.                       
+11/16/2004      RLZ	Redefined data sources "WDT_DEMOGRAPHIC", "WDT_ACADEMIC_STUDY" and "WFV_RECRUITING_AND_ADMISSION".
+11/17/2004      RLZ	Added all tests dimensions.
+11/18/2004      RLZ	Added all test score ranage as a second level in each test dimension.
+
+
+
+***** AUDIT TRAIL: 1.2 *****
+
+WFT_ADVANCEMENT_GIFT.mdl
+08/30/2005      LRL	Added dimensions "Multi Source", "Active Constituent Ind", "Primary Disability", "Veteran Type", "Nation of Citizenship", "Visa Type", "Pledge Payment Ind", "Giving Toward Goal Ind", and "Match Ind".
+08/30/2005      RLZ	Removed absolute path of data source "WDT_Multi_Source". 
+09/02/2005      RLZ	Added auxiliary_actual_value and auxiliary_value
+                        Removed gift_auxiliary_amount
+                        Make "Multi Source" as first dimension.
+                   
+WFT_EMPLOYEE.mdl
+08/22/2005      RLZ	Added measures "Annual Salary", "Years Of Service", "YTD Employer Deduction Amount" "YTD Employee Deduction Amount", "Average YTD Employer Deduction Amount", "Average YTD Employee Deduction Amount".
+                        Added dimension "Annual Salary Range".
+08/27/2005      RLZ	Added dimension "Multi Source". 
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+09/07/2005      RLZ	Added dimensions 
+                        WDT_DEMOGRAPHIC.PRIMARY_DISABILITY
+                        WDT_DEMOGRAPHIC.VETERAN_TYPE
+                        WDT_DEMOGRAPHIC.NATION_OF_CITIZENSHIP
+                        WDT_DEMOGRAPHIC.VISA_TYPE
+                        WDT_EMPLOYEE.ACTIVE_POSITION_IND
+                        WDT_EMPLOYEE.FACULTY_STAFF_IND
+
+WFT_EMPLOYEE_DEGREE.mdl
+08/22/2005      RLZ	Added dimensions "Post Secondary Major", "Age Range", "Years Of Service Range" and "Annual Salary Range".
+08/27/2005      RLZ	Added dimension "Multi Source". 
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+09/07/2005      RLZ	Added dimensions 
+                        WDT_DEMOGRAPHIC.PRIMARY_DISABILITY
+                        WDT_DEMOGRAPHIC.VETERAN_TYPE
+                        WDT_DEMOGRAPHIC.NATION_OF_CITIZENSHIP
+                        WDT_DEMOGRAPHIC.VISA_TYPE
+                        WDT_EMPLOYEE.ACTIVE_POSITION_IND
+
+
+WFT_EMPLOYEE_POSITION.mdl
+08/22/2005      RLZ	Added dimensions "Age Range", "Primary Disability", "Veteran Type", "Nation of Citizenship", "Visa Type", "Years of Service Range", "Annual Salary Range", "Tenure", "Faculty Member Category", "Active Position Ind", "Position", "Position Contract Type", "Position Campus", "Position EEO Skill", "Program Classification" and "Appointment Percentage"
+                        Added measures "YTD Regular Earnings", "YTD Overtime Earnings", "YTD Other Earnings", "YTD Employer Deduction Amount", "YTD Employee Deduction Amount" and average of each. 
+08/27/2005      RLZ	Added dimension "Multi Source". 
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+
+WFT_EMPLOYMENT_APPLICATION.mdl
+08/23/2005      RLZ	Added dimensions "Post Secondary Degree", "Post Secondary Major", "Secondary School", "Secondary Diploma", "Position", "Position Status", "Position Contract Type", "Position Campus", "Position EEO Skill", "Program Classification", "Appointment Percentage",  "Age Range", "Nation of Citizenship", "Days Requisition Open", "Intend Employee Time Status", "Requisition Status", "Minimum Degree Level", "Salary Midpoint", "Current Employee Ind", "Source", "Employer Name", "Employer Industrial Type"  
+08/27/2005      RLZ	Added dimension "Multi Source". 
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+
+WFT_ENROLLMENT.mdl
+08/30/2005      LRL	Added dimensions "Multi Source", "Primary Disability", "Veteran Type", "Nation of Citizenship", "Visa Type", and "Program Classification".
+08/30/2005      RLZ	Removed absolute path of data source "WDT_Multi_Source". 
+08/31/2005      RLZ	Updated data source "WDT_ENROLLMENT_STATUS". 
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+09/07/2005      RLZ	Added dimension "Enrolled Ind, Registered Ind, Academic Outcome Enrolled Ind".
+09/08/2005      RLZ	Added "Program classification/major" hierarchy
+09/22/2005      RLZ	Changed dimension name "Program classification" to "Major Program Classification"
+
+WFT_FINANCIAL_AID_STUDENT.mdl
+09/22/2005      RLZ	Changed dimension name "Program classification" to "Major Program Classification"
+
+
+WFT_GENERAL_LEDGER.mdl
+08/23/2005      RLZ	Added dimensions "Account Pool", "Internal Account Type", "Fund Pool".
+08/27/2005      RLZ	Added dimension "Multi Source". 
+08/31/2005      RLZ	Updated "Chart of Accounts" dimension source with "Chart of Accounts" column
+                        Updated "Fund" dimension source with "Fund" column
+                        Updated "Account" dimension source with "Account" column
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+                           
+
+WFT_GENERAL_LEDGER_EVENT.mdl
+08/23/2005      RLZ	Added dimensions "Account Pool", "Internal Account Type", "Fund Pool".
+08/27/2005      RLZ	Added dimension "Multi Source". 
+08/31/2005      RLZ	Updated "Chart of Accounts" dimension source with "Chart of Accounts" column
+                        Updated "Fund" dimension source with "Fund" column
+                        Updated "Account" dimension source with "Account" column
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+
+WFT_GRADUATION_COMPLETION.mdl
+08/30/2005      LRL	Added dimensions "Multi Source", "Primary Disability", "Veteran Type", "Nation of Citizenship", "Visa Type", "Student Population", Student Classification", "Residency", "Residency Ind", "Housing Ind", "Program Classification", "Graduation Campus", and "Outcome Graduation Date".
+08/30/2005      RLZ	Removed absolute path of data source "WDT_Multi_Source". 
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+09/07/2005      RLZ	Added "Program classification/major" hierarchy
+
+WFT_GRANT_AND_PROJECT.mdl
+08/31/2005      RLZ	Updated "Chart of Accounts" dimension source with "Chart of Accounts" column
+                        Updated "Fund" dimension source with "Fund" column
+                        Updated "Account" dimension source with "Account" column
+                        Updated "PROGRAM" dimension source with "Program" column
+                        Updated "Organization" dimension source with "Organization Code" column
+
+WFT_OPERATING_LEDGER.mdl
+08/31/2005      RLZ	Updated "Chart of Accounts" dimension source with "Chart of Accounts" column
+                        Updated "Fund" dimension source with "Fund" column
+                        Updated "Account" dimension source with "Account" column
+                        Updated "PROGRAM" dimension source with "Program" column
+                        Updated "Organization" dimension source with "Organization Code" column
+
+WFT_RECEIVABLE_CUSTOMER.mdl
+08/30/2005      LRL	Added dimensions "Multi Source", "Delinquency", "NSF Count", "Collection Ind", and "Program Classification".
+08/30/2005      RLZ	Removed absolute path of data source "WDT_Multi_Source". 
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+09/07/2005      RLZ	Added "Program classification/major, Category/detail code" hierarchies.
+09/22/2005      RLZ	Changed dimension name "Program classification" to "Major Program Classification"
+
+WFT_RECEIVABLE_REVENUE.mdl
+08/30/2005      LRL	Added dimension "Multi Source".
+08/30/2005      RLZ	Removed absolute path of data source "WDT_Multi_Source". 
+08/31/2005      RLZ	Updated "Chart of Accounts" dimension source with "Chart of Accounts" column
+                        Updated "Fund" dimension source with "Fund" column
+                        Updated "Account" dimension source with "Account" column
+                        Updated "PROGRAM" dimension source with "Program" column
+                        Updated "Organization" dimension source with "Organization Code" column
+09/02/2005      RLZ	Make "Multi Source" as first dimension.
+
+WFT_RECRUITING_AND_ADMISSION.mdl
+09/07/2005      RLZ	Added dimensions "State Province Admit, County Admit".
+09/22/2005      RLZ	Changed dimension name "Program classification" to "Major Program Classification"
+
+
+***** AUDIT TRAIL: 1.3 *****
+
+06/20/2006      RLZ	Changed datasource definition in each model file.     
+06/27/2006      RLZ     Reset measures output scale to 0.
+06/28/2006      RLZ     Remove all Alternate Drill-Down Path.
+
+WFT_ADVANCEMENT_GIFT.mdl
+06/27/2006      RLZ     Remove measures Auxiliary Fields (all value fields and average fields, 4 total)
+                        Added caculated fields in WFV_ADVANCEMENT_GIFT
+                                Pledge_Code (if ( "Gift Number" = '0000000' ) then ( "Pledge Number" ) else NULL  )
+                                Gift_Code (if ( "Gift Number" <> '0000000' ) then ( "Gift Number" ) else NULL )
+                        Added new measures: Pledge Count (count of distinct pledge numbers)
+                        Modify measures:
+                        Average Original Pledge Amount - change calculation to be Original Pledge Amount/Pledge Count
+                        Average Outstanding Pledge Amount - change calculation to be Outstanding Pledge Amount/Pledge Count
+06/28/2006      RLZ     Remove measure Average Outstanding Pledge Amount
+06/30/2006      RLZ     Modify Donor Count definition (select distinct Donor_Code)
+                        added Donor_Code ( if ( "Gift Number" <> '0000000' ) then ( "entity uid" ) else NULL )
+
+***** AUDIT TRAIL: 1.4 *****
+
+
+09/11/2006      RLZ	Suppress all levels under "Not For Used ..." dimensions in WFT_RECRUITING_AND_ADMISSION.mdl.
+03/28/2007      RLZ	Added new Dimension "Latest Event Indicator" to every model.
+04/06/2007      RLZ	Added new Cube "WFT_ACADEMIC_PROGRAM_COURSE.mdl".
+04/06/2007      RLZ	Renamed Cognos views to "WCV..." instead of "WFV". WCV stands for Warehouse Cognos View.
+04/10/2007      RLZ	Changed "Verteran Type" in order.
+04/12/2007      RLZ	Set all indicator dimensions in decending order.
+04/12/2007      RLZ	Added LD to Residency dimension in Graduation and Completion.
+04/12/2007      RLZ	Sorted "Academic Period Type" by "Academic Period".
+04/12/2007      RLZ	Added "Academic Period Type", "Academic Year/Academic Period" dimensions in WFT_FINANCIAL_AID_PRE_STUDENT.mdl and WFT_FINANCIAL_AID_STUDENT.mdl.
+04/12/2007      RLZ	Removed "Event" dimensions in WFT_GENERAL_LEDGER.mdl.
+
+
+
+***** AUDIT TRAIL END *****
+

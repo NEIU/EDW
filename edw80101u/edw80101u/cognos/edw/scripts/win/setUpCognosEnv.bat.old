@@ -1,0 +1,35 @@
+rem
+rem AUDIT TRAIL: 1.1
+rem 1. JEH        05/21/2008   Initail version.
+rem
+rem AUDIT TRAIL END
+rem
+rem FILE NAME..: setUpCognosEnvironment
+rem PRODUCT....: INFORMATION ACCESS
+rem USAGE......: Script for defining environment variables needed by Cognos scripts
+rem
+rem COPYRIGHT..: Copyright (c) SCT Corporation 2004.  All rights reserved.
+rem
+rem -----------------------------------------------------------
+rem Set up Cognos Transformer env vars.
+rem -----------------------------------------------------------
+rem
+rem Please fill out the follow variables:
+rem a TNSNAME.ora entry is needed for EDW to reference the EDW server 
+rem The next three varaiables are LDAP authentication related (NOT EDW DB)
+SET DATABASE_NAME=sunds
+SET DATABASE_USERNAME=cognos
+SET DATABASE_PASSWORD=Bright*989
+rem The root directory of the edw80100 code tree
+SET EDW_ROOT_DIR=C:\edw80101u
+rem The area the build cubes will be published
+SET TRANSFORMER_CUBE_DIR=%EDW_ROOT_DIR%\cognos\edw\cubes
+rem The root directory of the cognos binaries
+SET COGNOS_ROOT_DIR=C:\Program Files\cognos\c841
+rem
+rem Advance settings
+SET TRANSFORMER_LOG_DIR=%EDW_ROOT_DIR%\cognos\edw\logs
+SET TRANSFORMER_WORK_DIR=%EDW_ROOT_DIR%\cognos\edw\work
+SET TRANSFORMER_MODEL_DIR=%EDW_ROOT_DIR%\cognos\edw\transformer_models\win
+SET TRANSFORMER_SCRIPTS_DIR=%EDW_ROOT_DIR%\cognos\edw\scripts\win
+SET TRANSFORMER_DATA_DIR=%EDW_ROOT_DIR%\cognos\edw\iqd

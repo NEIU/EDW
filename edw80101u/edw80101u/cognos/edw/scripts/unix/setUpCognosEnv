@@ -1,0 +1,43 @@
+#!/bin/sh
+#
+# AUDIT TRAIL: 8.0
+# 1. JEH        05/15/2008   Initail version.
+#
+# AUDIT TRAIL END
+#
+# FILE NAME..: setUpCognosEnvironment
+# PRODUCT....: INFORMATION ACCESS
+# USAGE......: Script for defining environment variables needed by Cognos scripts
+#
+# COPYRIGHT..: Copyright (c) SCT Corporation 2004.  All rights reserved.
+#
+#-----------------------------------------------------------
+# Set up Cognos Transformer env vars.
+#-----------------------------------------------------------
+
+DATABASE_NAME=EDW
+DATABASE_USERNAME=edwmgr
+DATABASE_PASSWORD=u_pick_it
+# The root directory of the edw80100 code tree
+EDW_ROOT_DIR=/u01/install/edw80100u
+# The area the build cubes will be published
+TRANSFORMER_CUBE_DIR=$EDW_ROOT_DIR/cognos/edw/cubes
+# The root directory of the cognos binaries
+COGNOS_ROOT_DIR=/u01/cognos/c83
+#
+# Advance settings
+TRANSFORMER_LOG_DIR=$EDW_ROOT_DIR/cognos/edw/logs
+TRANSFORMER_WORK_DIR=$EDW_ROOT_DIR/cognos/edw/work
+TRANSFORMER_MODEL_DIR=$EDW_ROOT_DIR/cognos/edw/transformer_models/unix
+TRANSFORMER_SCRIPTS_DIR=$EDW_ROOT_DIR/cognos/edw/scripts/unix
+
+export DATABASE_NAME
+export DATABASE_USERNAME
+export DATABASE_PASSWORD
+export TRANSFORMER_ROOT_DIR
+export TRANSFORMER_LOG_DIR
+export TRANSFORMER_CUBE_DIR
+export TRANSFORMER_WORK_DIR
+export TRANSFORMER_MODEL_DIR
+export TRANSFORMER_SCRIPTS_DIR
+export COGNOS_ROOT_DIR

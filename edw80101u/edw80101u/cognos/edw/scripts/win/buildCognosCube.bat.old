@@ -1,0 +1,90 @@
+@echo off
+rem
+rem AUDIT TRAIL: 1.0
+rem 1. JEH  05/10/2008      Initial Version
+rem
+rem AUDIT TRAIL: 8.1.1
+rem 1. Remove -l option which can cause issues with Cognos 8.4.     SPC 21-OCT-2009
+rem
+rem AUDIT TRAIL END
+rem
+rem FILE NAME..: buildCognosCube.bat
+rem PRODUCT....: INFORMATION ACCESS
+rem USAGE......: Script for building Cognos cubes
+rem
+rem COPYRIGHT..: Copyright (c) SCT Corporation 2004.  All rights reserved.
+rem
+rem -----------------------------------------------------------
+rem  Program to automate generate COGNOS cube file.
+rem  Parameters:   model name
+rem -----------------------------------------------------------
+
+SET MODEL_NAME=%1
+
+rem -----------------------------------------------------------
+rem  Check for model name to build
+rem -----------------------------------------------------------
+
+IF NOT "%MODEL_NAME%"=="" GOTO GOT_MODEL
+ECHO No Model Name to Build supplied - please try again.
+GOTO THE_END
+
+:GOT_MODEL
+
+rem -----------------------------------------------------------
+rem  Set up Cognos Transformer env vars.
+rem -----------------------------------------------------------
+
+call setUpCognosEnv.bat
+
+rem --------------------------------------------------------------------------
+rem  Check for old version of temporary version of CUBE.
+rem --------------------------------------------------------------------------
+
+IF NOT EXIST "%TRANSFORMER_CUBE_DIR%\%MODEL_NAME%_BUILD.mdc" GOTO BUILD_CUBE
+ECHO ... Old temporary (_BUILD) version of cube exists but should not. Remove this file before building cube.
+GOTO THE_END
+
+:BUILD_CUBE
+rem --------------------------------------------------------------------------
+rem Now build or refresh cubes
+rem --------------------------------------------------------------------------
+
+rem --------------------------------------------------------------------------
+rem Create the driver MDL file
+rem --------------------------------------------------------------------------
+ECHO OpenMDL "Models\%MODEL_NAME%.MDL" > build_%MODEL_NAME%.MDL
+ECHO CreateFiles >> build_%MODEL_NAME%.MDL
+cd %COGNOS_ROOT_DIR%\bin
+ECHO Loading Cube: %MODEL_NAME% ...
+
+"%COGNOS_ROOT_DIR%\bin\cogtr" -n2 -r4 "-l%DATABASE_NAME%=%DATABASE_USERNAME%/%DATABASE_PASSWORD%" -dLogFileName=build_%MODEL_NAME%.log -dLogFileDirectory=%TRANSFORMER_LOG_DIR% -dModelSaveDirectory=%TRANSFORMER_MODEL_DIR% -dCubeSaveDirectory=%TRANSFORMER_CUBE_DIR% -dModelWorkDirectory=%TRANSFORMER_WORK_DIR% "%TRANSFORMER_MODEL_DIR%\%MODEL_NAME%.MDL"
+rem "%COGNOS_ROOT_DIR%\bin\cogtr" -n2 -r4 -dLogFileName=build_%MODEL_NAME%.log -dLogFileDirectory=%TRANSFORMER_LOG_DIR% -dModelSaveDirectory=%TRANSFORMER_MODEL_DIR% -dCubeSaveDirectory=%TRANSFORMER_CUBE_DIR% -dModelWorkDirectory=%TRANSFORMER_WORK_DIR% "%TRANSFORMER_MODEL_DIR%\%MODEL_NAME%.MDL"
+
+rem --------------------------------------------------------------------------
+rem Check whether the cube build was successful. If not, stop processing
+rem --------------------------------------------------------------------------
+
+IF EXIST "%TRANSFORMER_CUBE_DIR%\%MODEL_NAME%_BUILD.mdc" GOTO BUILD_OK
+ECHO Error building cube: %MODEL_NAME% - cube not found.
+@ECHO ON
+TYPE %TRANSFORMER_LOG_DIR%\build_%MODEL_NAME%.log
+GOTO THE_END
+
+:BUILD_OK
+
+rem --------------------------------------------------------------------------
+rem Get rid of the temporary MDL file
+rem --------------------------------------------------------------------------
+IF EXIST build_%MODEL_NAME%.MDL DEL build_%MODEL_NAME%.MDL
+
+
+rem --------------------------------------------------------------------------
+rem Refomat cube in order to compatable with Cognos 8
+rem --------------------------------------------------------------------------
+"%COGNOS_ROOT_DIR%\bin\pcoptimizer.exe" "%TRANSFORMER_CUBE_DIR%\%MODEL_NAME%_BUILD.mdc"
+
+ECHO Cube build succesful for cube: %MODEL_NAME%
+
+:THE_END
+cd %TRANSFORMER_SCRIPTS_DIR%
